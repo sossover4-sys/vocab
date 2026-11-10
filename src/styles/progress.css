@@ -1,0 +1,76 @@
+.big-number strong {
+  font-size: 2.4rem;
+}
+
+.stack-bar {
+  display: flex;
+  direction: ltr;
+  height: 14px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--surface-2);
+  margin: 8px 0;
+}
+
+.stack-bar div {
+  flex-basis: 0;
+  transition: flex-grow 0.4s;
+}
+
+.stack-bar .green {
+  background: var(--green);
+}
+.stack-bar .yellow {
+  background: var(--yellow);
+}
+.stack-bar .red {
+  background: var(--red);
+}
+.stack-bar .new {
+  background: var(--surface-2);
+}
+
+.small {
+  font-size: 0.88rem;
+  margin: 6px 0;
+}
+
+.color-tabs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  margin: 16px 0 8px;
+}
+
+.color-tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60px;
+  justify-content: center;
+  border-radius: var(--radius);
+  border: 2px solid transparent;
+  background: var(--surface);
+  font-size: 0.8rem;
+}
+
+.color-tab strong {
+  font-size: 1.2rem;
+}
+
+.color-tab.red {
+  background: var(--red-soft);
+}
+.color-tab.yellow {
+  background: var(--yellow-soft);
+}
+.color-tab.green {
+  background: var(--green-soft);
+}
+.color-tab.new {
+  background: var(--surface-2);
+}
+
+.color-tab.active {
+  border-color: var(--text);
+}

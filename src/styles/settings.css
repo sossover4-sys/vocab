@@ -1,0 +1,59 @@
+.settings-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.setting-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.setting-row input[type='range'] {
+  flex: 1;
+  max-width: 200px;
+}
+
+.voice-row select {
+  flex: 1;
+  min-width: 0;
+}
+
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stepper button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  font-size: 1.3rem;
+}
+
+.stepper strong {
+  min-width: 2ch;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.btn-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-row .btn {
+  flex: 1;
+}
+
+.btn.danger {
+  color: var(--red);
+  border-color: var(--red);
+  background: none;
+}

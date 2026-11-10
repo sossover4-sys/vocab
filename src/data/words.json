@@ -1,0 +1,13311 @@
+[
+ {
+  "id": "abbreviate",
+  "en": "abbreviate",
+  "isVerb": false,
+  "he": [
+   "לקצר"
+  ]
+ },
+ {
+  "id": "abdomen",
+  "en": "abdomen",
+  "isVerb": false,
+  "he": [
+   "בטן"
+  ]
+ },
+ {
+  "id": "abolish",
+  "en": "abolish",
+  "isVerb": false,
+  "he": [
+   "לבטל"
+  ]
+ },
+ {
+  "id": "absorb",
+  "en": "absorb",
+  "isVerb": false,
+  "he": [
+   "לקלוט",
+   "לספוג",
+   "להתעמק"
+  ]
+ },
+ {
+  "id": "absorbent",
+  "en": "absorbent",
+  "isVerb": false,
+  "he": [
+   "בעל כושר ספיגה"
+  ]
+ },
+ {
+  "id": "account",
+  "en": "account",
+  "isVerb": false,
+  "he": [
+   "חשבון"
+  ]
+ },
+ {
+  "id": "admit into",
+  "en": "admit into",
+  "isVerb": true,
+  "he": [
+   "להכניס"
+  ]
+ },
+ {
+  "id": "admittance",
+  "en": "admittance",
+  "isVerb": false,
+  "he": [
+   "הכנסה"
+  ]
+ },
+ {
+  "id": "ambiguity",
+  "en": "ambiguity",
+  "isVerb": false,
+  "he": [
+   "דו משמעות"
+  ]
+ },
+ {
+  "id": "appeal",
+  "en": "appeal",
+  "isVerb": true,
+  "he": [
+   "לבקש"
+  ]
+ },
+ {
+  "id": "approval",
+  "en": "approval",
+  "isVerb": false,
+  "he": [
+   "אישור"
+  ]
+ },
+ {
+  "id": "argument",
+  "en": "argument",
+  "isVerb": false,
+  "he": [
+   "טענה"
+  ]
+ },
+ {
+  "id": "arouse",
+  "en": "arouse",
+  "isVerb": true,
+  "he": [
+   "לעורר"
+  ]
+ },
+ {
+  "id": "assertively",
+  "en": "assertively",
+  "isVerb": false,
+  "he": [
+   "בביטחון"
+  ]
+ },
+ {
+  "id": "bother",
+  "en": "bother",
+  "isVerb": true,
+  "he": [
+   "להפריע"
+  ]
+ },
+ {
+  "id": "candidly",
+  "en": "candidly",
+  "isVerb": false,
+  "he": [
+   "בכנות"
+  ]
+ },
+ {
+  "id": "consideration",
+  "en": "consideration",
+  "isVerb": false,
+  "he": [
+   "עיון"
+  ]
+ },
+ {
+  "id": "consolation",
+  "en": "consolation",
+  "isVerb": false,
+  "he": [
+   "נחמה"
+  ]
+ },
+ {
+  "id": "contradiction",
+  "en": "contradiction",
+  "isVerb": false,
+  "he": [
+   "ניגוד"
+  ]
+ },
+ {
+  "id": "critique",
+  "en": "critique",
+  "isVerb": true,
+  "he": [
+   "לבקר"
+  ]
+ },
+ {
+  "id": "crossroads",
+  "en": "crossroads",
+  "isVerb": false,
+  "he": [
+   "צומת"
+  ]
+ },
+ {
+  "id": "dedication",
+  "en": "dedication",
+  "isVerb": false,
+  "he": [
+   "הקדשה"
+  ]
+ },
+ {
+  "id": "deduction",
+  "en": "deduction",
+  "isVerb": false,
+  "he": [
+   "מסקנה"
+  ]
+ },
+ {
+  "id": "deeply",
+  "en": "deeply",
+  "isVerb": false,
+  "he": [
+   "באופן מעמיק"
+  ]
+ },
+ {
+  "id": "definitely",
+  "en": "definitely",
+  "isVerb": false,
+  "he": [
+   "בהחלט"
+  ]
+ },
+ {
+  "id": "deliberation",
+  "en": "deliberation",
+  "isVerb": false,
+  "he": [
+   "דיון"
+  ]
+ },
+ {
+  "id": "deliberative",
+  "en": "deliberative",
+  "isVerb": false,
+  "he": [
+   "דיוני"
+  ]
+ },
+ {
+  "id": "detection",
+  "en": "detection",
+  "isVerb": false,
+  "he": [
+   "גילוי"
+  ]
+ },
+ {
+  "id": "distraction",
+  "en": "distraction",
+  "isVerb": false,
+  "he": [
+   "הסחת דעת"
+  ]
+ },
+ {
+  "id": "efficiency",
+  "en": "efficiency",
+  "isVerb": false,
+  "he": [
+   "יעילות"
+  ]
+ },
+ {
+  "id": "enlighten",
+  "en": "enlighten",
+  "isVerb": true,
+  "he": [
+   "להסביר"
+  ]
+ },
+ {
+  "id": "ensure",
+  "en": "ensure",
+  "isVerb": true,
+  "he": [
+   "להבטיח"
+  ]
+ },
+ {
+  "id": "evolve",
+  "en": "evolve",
+  "isVerb": true,
+  "he": [
+   "לפתח"
+  ]
+ },
+ {
+  "id": "examination",
+  "en": "examination",
+  "isVerb": false,
+  "he": [
+   "בחינה"
+  ]
+ },
+ {
+  "id": "expansion",
+  "en": "expansion",
+  "isVerb": false,
+  "he": [
+   "התרחבות"
+  ]
+ },
+ {
+  "id": "expectancy",
+  "en": "expectancy",
+  "isVerb": false,
+  "he": [
+   "ציפייה"
+  ]
+ },
+ {
+  "id": "factor",
+  "en": "factor",
+  "isVerb": false,
+  "he": [
+   "גורם"
+  ]
+ },
+ {
+  "id": "farther",
+  "en": "farther",
+  "isVerb": false,
+  "he": [
+   "יותר רחוק"
+  ]
+ },
+ {
+  "id": "formation",
+  "en": "formation",
+  "isVerb": false,
+  "he": [
+   "מבנה"
+  ]
+ },
+ {
+  "id": "foundation",
+  "en": "foundation",
+  "isVerb": false,
+  "he": [
+   "יסוד"
+  ]
+ },
+ {
+  "id": "generate",
+  "en": "generate",
+  "isVerb": true,
+  "he": [
+   "לייצר"
+  ]
+ },
+ {
+  "id": "horrify",
+  "en": "horrify",
+  "isVerb": true,
+  "he": [
+   "להפחיד"
+  ]
+ },
+ {
+  "id": "insistence",
+  "en": "insistence",
+  "isVerb": false,
+  "he": [
+   "התעקשות"
+  ]
+ },
+ {
+  "id": "inspect",
+  "en": "inspect",
+  "isVerb": true,
+  "he": [
+   "לבדוק"
+  ]
+ },
+ {
+  "id": "interpretation",
+  "en": "interpretation",
+  "isVerb": false,
+  "he": [
+   "פרשנות"
+  ]
+ },
+ {
+  "id": "intriguing",
+  "en": "intriguing",
+  "isVerb": false,
+  "he": [
+   "מעניין"
+  ]
+ },
+ {
+  "id": "mixture",
+  "en": "mixture",
+  "isVerb": false,
+  "he": [
+   "תערובת"
+  ]
+ },
+ {
+  "id": "modification",
+  "en": "modification",
+  "isVerb": false,
+  "he": [
+   "השתנות"
+  ]
+ },
+ {
+  "id": "purity",
+  "en": "purity",
+  "isVerb": false,
+  "he": [
+   "טוהר"
+  ]
+ },
+ {
+  "id": "recommendation",
+  "en": "recommendation",
+  "isVerb": false,
+  "he": [
+   "המלצה"
+  ]
+ },
+ {
+  "id": "regional",
+  "en": "regional",
+  "isVerb": false,
+  "he": [
+   "אזורי"
+  ]
+ },
+ {
+  "id": "relief",
+  "en": "relief",
+  "isVerb": false,
+  "he": [
+   "רווחה"
+  ]
+ },
+ {
+  "id": "repetition",
+  "en": "repetition",
+  "isVerb": false,
+  "he": [
+   "חזרה"
+  ]
+ },
+ {
+  "id": "replacement",
+  "en": "replacement",
+  "isVerb": false,
+  "he": [
+   "חלופה"
+  ]
+ },
+ {
+  "id": "representative",
+  "en": "representative",
+  "isVerb": false,
+  "he": [
+   "ייצוגי"
+  ]
+ },
+ {
+  "id": "reproduce",
+  "en": "reproduce",
+  "isVerb": false,
+  "he": [
+   "להתרבות",
+   "לשחזר",
+   "לשכפל"
+  ]
+ },
+ {
+  "id": "requirement",
+  "en": "requirement",
+  "isVerb": false,
+  "he": [
+   "דרישה"
+  ]
+ },
+ {
+  "id": "rhythm",
+  "en": "rhythm",
+  "isVerb": false,
+  "he": [
+   "קצב"
+  ]
+ },
+ {
+  "id": "sensitivity",
+  "en": "sensitivity",
+  "isVerb": false,
+  "he": [
+   "רגישות"
+  ]
+ },
+ {
+  "id": "shrewd",
+  "en": "shrewd",
+  "isVerb": false,
+  "he": [
+   "חכם"
+  ]
+ },
+ {
+  "id": "supposition",
+  "en": "supposition",
+  "isVerb": false,
+  "he": [
+   "הנחה"
+  ]
+ },
+ {
+  "id": "task",
+  "en": "task",
+  "isVerb": false,
+  "he": [
+   "מטלה"
+  ]
+ },
+ {
+  "id": "tolerance",
+  "en": "tolerance",
+  "isVerb": false,
+  "he": [
+   "סיבולת"
+  ]
+ },
+ {
+  "id": "valuate",
+  "en": "valuate",
+  "isVerb": true,
+  "he": [
+   "לאמוד"
+  ]
+ },
+ {
+  "id": "verdict",
+  "en": "verdict",
+  "isVerb": false,
+  "he": [
+   "פסק דין"
+  ]
+ },
+ {
+  "id": "verifiable",
+  "en": "verifiable",
+  "isVerb": false,
+  "he": [
+   "בר אימות"
+  ]
+ },
+ {
+  "id": "within",
+  "en": "within",
+  "isVerb": false,
+  "he": [
+   "בפנים"
+  ]
+ },
+ {
+  "id": "zip",
+  "en": "zip",
+  "isVerb": false,
+  "he": [
+   "רוכסן",
+   "זמזום"
+  ]
+ },
+ {
+  "id": "accessible",
+  "en": "accessible",
+  "isVerb": false,
+  "he": [
+   "נגיש"
+  ]
+ },
+ {
+  "id": "accidental",
+  "en": "accidental",
+  "isVerb": false,
+  "he": [
+   "מקרי"
+  ]
+ },
+ {
+  "id": "accompaniment",
+  "en": "accompaniment",
+  "isVerb": false,
+  "he": [
+   "ליווי"
+  ]
+ },
+ {
+  "id": "adherence",
+  "en": "adherence",
+  "isVerb": false,
+  "he": [
+   "היצמדות"
+  ]
+ },
+ {
+  "id": "agglomeration",
+  "en": "agglomeration",
+  "isVerb": false,
+  "he": [
+   "ערימה"
+  ]
+ },
+ {
+  "id": "aim",
+  "en": "aim",
+  "isVerb": false,
+  "he": [
+   "תכלית"
+  ]
+ },
+ {
+  "id": "allowable",
+  "en": "allowable",
+  "isVerb": false,
+  "he": [
+   "חוקי"
+  ]
+ },
+ {
+  "id": "anguish",
+  "en": "anguish",
+  "isVerb": true,
+  "he": [
+   "ייסורים",
+   "סבל"
+  ]
+ },
+ {
+  "id": "annex",
+  "en": "annex",
+  "isVerb": true,
+  "he": [
+   "לצרף"
+  ]
+ },
+ {
+  "id": "ascertain",
+  "en": "ascertain",
+  "isVerb": true,
+  "he": [
+   "לוודא"
+  ]
+ },
+ {
+  "id": "assertion",
+  "en": "assertion",
+  "isVerb": false,
+  "he": [
+   "טענה"
+  ]
+ },
+ {
+  "id": "audacious",
+  "en": "audacious",
+  "isVerb": false,
+  "he": [
+   "נועז"
+  ]
+ },
+ {
+  "id": "authoritative",
+  "en": "authoritative",
+  "isVerb": false,
+  "he": [
+   "מהימן"
+  ]
+ },
+ {
+  "id": "avaricious",
+  "en": "avaricious",
+  "isVerb": false,
+  "he": [
+   "חמדן"
+  ]
+ },
+ {
+  "id": "awe",
+  "en": "awe",
+  "isVerb": true,
+  "he": [
+   "לעורר יראת כבוד"
+  ]
+ },
+ {
+  "id": "axis",
+  "en": "axis",
+  "isVerb": false,
+  "he": [
+   "ציר"
+  ]
+ },
+ {
+  "id": "bait",
+  "en": "bait",
+  "isVerb": false,
+  "he": [
+   "פיתיון"
+  ]
+ },
+ {
+  "id": "belief",
+  "en": "belief",
+  "isVerb": false,
+  "he": [
+   "אמונה"
+  ]
+ },
+ {
+  "id": "bestow",
+  "en": "bestow",
+  "isVerb": true,
+  "he": [
+   "להעניק"
+  ]
+ },
+ {
+  "id": "bridle",
+  "en": "bridle",
+  "isVerb": true,
+  "he": [
+   "לרסן"
+  ]
+ },
+ {
+  "id": "brutish",
+  "en": "brutish",
+  "isVerb": false,
+  "he": [
+   "בהמי"
+  ]
+ },
+ {
+  "id": "composition",
+  "en": "composition",
+  "isVerb": false,
+  "he": [
+   "חיבור"
+  ]
+ },
+ {
+  "id": "confidential",
+  "en": "confidential",
+  "isVerb": false,
+  "he": [
+   "חסוי"
+  ]
+ },
+ {
+  "id": "conquer",
+  "en": "conquer",
+  "isVerb": true,
+  "he": [
+   "לכבוש"
+  ]
+ },
+ {
+  "id": "conquest",
+  "en": "conquest",
+  "isVerb": false,
+  "he": [
+   "כיבוש"
+  ]
+ },
+ {
+  "id": "constitution",
+  "en": "constitution",
+  "isVerb": false,
+  "he": [
+   "חוקה"
+  ]
+ },
+ {
+  "id": "deducible",
+  "en": "deducible",
+  "isVerb": false,
+  "he": [
+   "ניתן להסקה"
+  ]
+ },
+ {
+  "id": "derivation",
+  "en": "derivation",
+  "isVerb": false,
+  "he": [
+   "גזירה"
+  ]
+ },
+ {
+  "id": "destiny",
+  "en": "destiny",
+  "isVerb": false,
+  "he": [
+   "גורל"
+  ]
+ },
+ {
+  "id": "devotion",
+  "en": "devotion",
+  "isVerb": false,
+  "he": [
+   "התמסרות",
+   "דבקות",
+   "נאמנות",
+   "הקדשה"
+  ]
+ },
+ {
+  "id": "dictation",
+  "en": "dictation",
+  "isVerb": false,
+  "he": [
+   "תכתיב"
+  ]
+ },
+ {
+  "id": "diversion",
+  "en": "diversion",
+  "isVerb": false,
+  "he": [
+   "הטיה",
+   "בידור",
+   "שעשוע",
+   "הסחה"
+  ]
+ },
+ {
+  "id": "durable",
+  "en": "durable",
+  "isVerb": false,
+  "he": [
+   "יציב",
+   "מתמשך"
+  ]
+ },
+ {
+  "id": "emergent",
+  "en": "emergent",
+  "isVerb": false,
+  "he": [
+   "מגיח"
+  ]
+ },
+ {
+  "id": "enlightened",
+  "en": "enlightened",
+  "isVerb": false,
+  "he": [
+   "נאור"
+  ]
+ },
+ {
+  "id": "essential",
+  "en": "essential",
+  "isVerb": false,
+  "he": [
+   "חיוני",
+   "נחוץ",
+   "הכרחי",
+   "מהותי"
+  ]
+ },
+ {
+  "id": "fleet",
+  "en": "fleet",
+  "isVerb": false,
+  "he": [
+   "מהיר"
+  ]
+ },
+ {
+  "id": "germ",
+  "en": "germ",
+  "isVerb": false,
+  "he": [
+   "ראשית",
+   "חיידק"
+  ]
+ },
+ {
+  "id": "characteristic",
+  "en": "characteristic",
+  "isVerb": false,
+  "he": [
+   "מובהק",
+   "מאפיין"
+  ]
+ },
+ {
+  "id": "complaisance",
+  "en": "complaisance",
+  "isVerb": false,
+  "he": [
+   "נכונות לרצות אחרים",
+   "אדיבות"
+  ]
+ },
+ {
+  "id": "discrepancy",
+  "en": "discrepancy",
+  "isVerb": false,
+  "he": [
+   "שוני",
+   "אי התאמה"
+  ]
+ },
+ {
+  "id": "dispensable",
+  "en": "dispensable",
+  "isVerb": false,
+  "he": [
+   "שאפשר לוותר עליו"
+  ]
+ },
+ {
+  "id": "distortion",
+  "en": "distortion",
+  "isVerb": false,
+  "he": [
+   "סילוף"
+  ]
+ },
+ {
+  "id": "distribution",
+  "en": "distribution",
+  "isVerb": false,
+  "he": [
+   "תפוצה"
+  ]
+ },
+ {
+  "id": "domestic",
+  "en": "domestic",
+  "isVerb": false,
+  "he": [
+   "ביתי",
+   "מקומי"
+  ]
+ },
+ {
+  "id": "employment",
+  "en": "employment",
+  "isVerb": false,
+  "he": [
+   "עיסוק"
+  ]
+ },
+ {
+  "id": "eruption",
+  "en": "eruption",
+  "isVerb": false,
+  "he": [
+   "התפרצות"
+  ]
+ },
+ {
+  "id": "eulogy",
+  "en": "eulogy",
+  "isVerb": false,
+  "he": [
+   "הספד"
+  ]
+ },
+ {
+  "id": "eventual",
+  "en": "eventual",
+  "isVerb": false,
+  "he": [
+   "סופי"
+  ]
+ },
+ {
+  "id": "extensive",
+  "en": "extensive",
+  "isVerb": false,
+  "he": [
+   "מקיף"
+  ]
+ },
+ {
+  "id": "fascination",
+  "en": "fascination",
+  "isVerb": false,
+  "he": [
+   "משיכה"
+  ]
+ },
+ {
+  "id": "fiction",
+  "en": "fiction",
+  "isVerb": false,
+  "he": [
+   "בדיה"
+  ]
+ },
+ {
+  "id": "foreseeable",
+  "en": "foreseeable",
+  "isVerb": false,
+  "he": [
+   "צפוי מראש"
+  ]
+ },
+ {
+  "id": "fracture",
+  "en": "fracture",
+  "isVerb": true,
+  "he": [
+   "להישבר"
+  ]
+ },
+ {
+  "id": "generous",
+  "en": "generous",
+  "isVerb": false,
+  "he": [
+   "נדיב"
+  ]
+ },
+ {
+  "id": "glare",
+  "en": "glare",
+  "isVerb": true,
+  "he": [
+   "להביט בזעם"
+  ]
+ },
+ {
+  "id": "imply",
+  "en": "imply",
+  "isVerb": true,
+  "he": [
+   "לרמוז"
+  ]
+ },
+ {
+  "id": "inanimate",
+  "en": "inanimate",
+  "isVerb": false,
+  "he": [
+   "דומם"
+  ]
+ },
+ {
+  "id": "incidental",
+  "en": "incidental",
+  "isVerb": false,
+  "he": [
+   "מקרי"
+  ]
+ },
+ {
+  "id": "inclusion",
+  "en": "inclusion",
+  "isVerb": false,
+  "he": [
+   "הכללה",
+   "שיתוף"
+  ]
+ },
+ {
+  "id": "industrialize",
+  "en": "industrialize",
+  "isVerb": true,
+  "he": [
+   "לתעש"
+  ]
+ },
+ {
+  "id": "intrigue",
+  "en": "intrigue",
+  "isVerb": true,
+  "he": [
+   "לסקרן"
+  ]
+ },
+ {
+  "id": "intrigued",
+  "en": "intrigued",
+  "isVerb": false,
+  "he": [
+   "מסוקרן"
+  ]
+ },
+ {
+  "id": "kernel",
+  "en": "kernel",
+  "isVerb": false,
+  "he": [
+   "עיקר"
+  ]
+ },
+ {
+  "id": "languid",
+  "en": "languid",
+  "isVerb": false,
+  "he": [
+   "נרפה"
+  ]
+ },
+ {
+  "id": "languish",
+  "en": "languish",
+  "isVerb": true,
+  "he": [
+   "להיחלש",
+   "להינמק"
+  ]
+ },
+ {
+  "id": "languor",
+  "en": "languor",
+  "isVerb": false,
+  "he": [
+   "כבדות"
+  ]
+ },
+ {
+  "id": "legislate",
+  "en": "legislate",
+  "isVerb": true,
+  "he": [
+   "לחוקק"
+  ]
+ },
+ {
+  "id": "livelihood",
+  "en": "livelihood",
+  "isVerb": false,
+  "he": [
+   "מחיה"
+  ]
+ },
+ {
+  "id": "masterpiece",
+  "en": "masterpiece",
+  "isVerb": false,
+  "he": [
+   "יצירת מופת"
+  ]
+ },
+ {
+  "id": "memorize",
+  "en": "memorize",
+  "isVerb": true,
+  "he": [
+   "לשנן"
+  ]
+ },
+ {
+  "id": "modest",
+  "en": "modest",
+  "isVerb": false,
+  "he": [
+   "צנוע"
+  ]
+ },
+ {
+  "id": "neat",
+  "en": "neat",
+  "isVerb": false,
+  "he": [
+   "נקי"
+  ]
+ },
+ {
+  "id": "municipality",
+  "en": "municipality",
+  "isVerb": false,
+  "he": [
+   "עירייה"
+  ]
+ },
+ {
+  "id": "rebellious",
+  "en": "rebellious",
+  "isVerb": false,
+  "he": [
+   "מרדני"
+  ]
+ },
+ {
+  "id": "vessel",
+  "en": "vessel",
+  "isVerb": false,
+  "he": [
+   "כלי שייט"
+  ]
+ },
+ {
+  "id": "halt",
+  "en": "halt",
+  "isVerb": false,
+  "he": [
+   "לעצור"
+  ]
+ },
+ {
+  "id": "daydream",
+  "en": "daydream",
+  "isVerb": false,
+  "he": [
+   "חלום בהקיץ"
+  ]
+ },
+ {
+  "id": "thorough",
+  "en": "thorough",
+  "isVerb": false,
+  "he": [
+   "יסודי"
+  ]
+ },
+ {
+  "id": "distinguish",
+  "en": "distinguish",
+  "isVerb": false,
+  "he": [
+   "להבדיל"
+  ]
+ },
+ {
+  "id": "overlook",
+  "en": "overlook",
+  "isVerb": false,
+  "he": [
+   "להתעלם"
+  ]
+ },
+ {
+  "id": "contemplation",
+  "en": "contemplation",
+  "isVerb": false,
+  "he": [
+   "התבוננות"
+  ]
+ },
+ {
+  "id": "finite",
+  "en": "finite",
+  "isVerb": false,
+  "he": [
+   "סופי"
+  ]
+ },
+ {
+  "id": "preamble",
+  "en": "preamble",
+  "isVerb": false,
+  "he": [
+   "מבוא",
+   "הקדמה"
+  ]
+ },
+ {
+  "id": "condominium",
+  "en": "condominium",
+  "isVerb": false,
+  "he": [
+   "בית דירות"
+  ]
+ },
+ {
+  "id": "versatile",
+  "en": "versatile",
+  "isVerb": false,
+  "he": [
+   "מגוון"
+  ]
+ },
+ {
+  "id": "velocity",
+  "en": "velocity",
+  "isVerb": false,
+  "he": [
+   "מהירות"
+  ]
+ },
+ {
+  "id": "prominent",
+  "en": "prominent",
+  "isVerb": false,
+  "he": [
+   "בולט"
+  ]
+ },
+ {
+  "id": "blank",
+  "en": "blank",
+  "isVerb": false,
+  "he": [
+   "ריק"
+  ]
+ },
+ {
+  "id": "tilt",
+  "en": "tilt",
+  "isVerb": false,
+  "he": [
+   "הטיה"
+  ]
+ },
+ {
+  "id": "demonstrate",
+  "en": "demonstrate",
+  "isVerb": false,
+  "he": [
+   "להפגין",
+   "להמחיש"
+  ]
+ },
+ {
+  "id": "rodent",
+  "en": "rodent",
+  "isVerb": false,
+  "he": [
+   "מכרסם"
+  ]
+ },
+ {
+  "id": "nocturnal",
+  "en": "nocturnal",
+  "isVerb": false,
+  "he": [
+   "לילי"
+  ]
+ },
+ {
+  "id": "abstract",
+  "en": "abstract",
+  "isVerb": false,
+  "he": [
+   "מופשט"
+  ]
+ },
+ {
+  "id": "adapt",
+  "en": "adapt",
+  "isVerb": false,
+  "he": [
+   "להסתגל"
+  ]
+ },
+ {
+  "id": "adopt",
+  "en": "adopt",
+  "isVerb": false,
+  "he": [
+   "אימץ"
+  ]
+ },
+ {
+  "id": "odd",
+  "en": "odd",
+  "isVerb": false,
+  "he": [
+   "מוזר"
+  ]
+ },
+ {
+  "id": "insight",
+  "en": "insight",
+  "isVerb": false,
+  "he": [
+   "תובנה"
+  ]
+ },
+ {
+  "id": "threshold",
+  "en": "threshold",
+  "isVerb": false,
+  "he": [
+   "סף",
+   "גבול"
+  ]
+ },
+ {
+  "id": "neglect",
+  "en": "neglect",
+  "isVerb": false,
+  "he": [
+   "הזנחה"
+  ]
+ },
+ {
+  "id": "nod",
+  "en": "nod",
+  "isVerb": false,
+  "he": [
+   "הנהן"
+  ]
+ },
+ {
+  "id": "node",
+  "en": "node",
+  "isVerb": false,
+  "he": [
+   "חוליה"
+  ]
+ },
+ {
+  "id": "illustration",
+  "en": "illustration",
+  "isVerb": false,
+  "he": [
+   "איור"
+  ]
+ },
+ {
+  "id": "hazard",
+  "en": "hazard",
+  "isVerb": false,
+  "he": [
+   "סכנה"
+  ]
+ },
+ {
+  "id": "felony",
+  "en": "felony",
+  "isVerb": false,
+  "he": [
+   "פשע",
+   "עבירה"
+  ]
+ },
+ {
+  "id": "dignify",
+  "en": "dignify",
+  "isVerb": false,
+  "he": [
+   "לכבד"
+  ]
+ },
+ {
+  "id": "immunity",
+  "en": "immunity",
+  "isVerb": false,
+  "he": [
+   "חסינות"
+  ]
+ },
+ {
+  "id": "manner",
+  "en": "manner",
+  "isVerb": false,
+  "he": [
+   "אופן",
+   "התנהגות"
+  ]
+ },
+ {
+  "id": "subtraction",
+  "en": "subtraction",
+  "isVerb": false,
+  "he": [
+   "חיסור"
+  ]
+ },
+ {
+  "id": "density",
+  "en": "density",
+  "isVerb": false,
+  "he": [
+   "צפיפות"
+  ]
+ },
+ {
+  "id": "calibration",
+  "en": "calibration",
+  "isVerb": false,
+  "he": [
+   "כיול"
+  ]
+ },
+ {
+  "id": "resistant",
+  "en": "resistant",
+  "isVerb": false,
+  "he": [
+   "עמיד",
+   "חסין"
+  ]
+ },
+ {
+  "id": "shrink",
+  "en": "shrink",
+  "isVerb": false,
+  "he": [
+   "לצמק",
+   "לכוץ"
+  ]
+ },
+ {
+  "id": "vacant",
+  "en": "vacant",
+  "isVerb": false,
+  "he": [
+   "פנוי"
+  ]
+ },
+ {
+  "id": "conduct",
+  "en": "conduct",
+  "isVerb": false,
+  "he": [
+   "התנהגות",
+   "ניהל",
+   "הוביל",
+   "ניצח"
+  ]
+ },
+ {
+  "id": "flutter",
+  "en": "flutter",
+  "isVerb": false,
+  "he": [
+   "מרפרף",
+   "עצבנות",
+   "התרגשות"
+  ]
+ },
+ {
+  "id": "flatter",
+  "en": "flatter",
+  "isVerb": false,
+  "he": [
+   "מחמיא"
+  ]
+ },
+ {
+  "id": "yawn",
+  "en": "yawn",
+  "isVerb": false,
+  "he": [
+   "פיהוק"
+  ]
+ },
+ {
+  "id": "pillar",
+  "en": "pillar",
+  "isVerb": false,
+  "he": [
+   "עמוד"
+  ]
+ },
+ {
+  "id": "terrain",
+  "en": "terrain",
+  "isVerb": false,
+  "he": [
+   "שטח"
+  ]
+ },
+ {
+  "id": "altitude",
+  "en": "altitude",
+  "isVerb": false,
+  "he": [
+   "גובה"
+  ]
+ },
+ {
+  "id": "assert",
+  "en": "assert",
+  "isVerb": false,
+  "he": [
+   "לטעון"
+  ]
+ },
+ {
+  "id": "merge",
+  "en": "merge",
+  "isVerb": false,
+  "he": [
+   "להתמזג"
+  ]
+ },
+ {
+  "id": "treaty",
+  "en": "treaty",
+  "isVerb": false,
+  "he": [
+   "חוזה"
+  ]
+ },
+ {
+  "id": "convention",
+  "en": "convention",
+  "isVerb": false,
+  "he": [
+   "ועידה",
+   "כנס"
+  ]
+ },
+ {
+  "id": "horn",
+  "en": "horn",
+  "isVerb": false,
+  "he": [
+   "צופר",
+   "קרן"
+  ]
+ },
+ {
+  "id": "vary",
+  "en": "vary",
+  "isVerb": false,
+  "he": [
+   "להשתנות"
+  ]
+ },
+ {
+  "id": "chief",
+  "en": "chief",
+  "isVerb": false,
+  "he": [
+   "מנהיג"
+  ]
+ },
+ {
+  "id": "margin",
+  "en": "margin",
+  "isVerb": false,
+  "he": [
+   "שוליים"
+  ]
+ },
+ {
+  "id": "tribe",
+  "en": "tribe",
+  "isVerb": false,
+  "he": [
+   "שבט"
+  ]
+ },
+ {
+  "id": "firm",
+  "en": "firm",
+  "isVerb": false,
+  "he": [
+   "חברה"
+  ]
+ },
+ {
+  "id": "establishment",
+  "en": "establishment",
+  "isVerb": false,
+  "he": [
+   "הקמה",
+   "ממסד"
+  ]
+ },
+ {
+  "id": "sip",
+  "en": "sip",
+  "isVerb": false,
+  "he": [
+   "לגימה"
+  ]
+ },
+ {
+  "id": "comprehensive",
+  "en": "comprehensive",
+  "isVerb": false,
+  "he": [
+   "מקיף"
+  ]
+ },
+ {
+  "id": "gear",
+  "en": "gear",
+  "isVerb": false,
+  "he": [
+   "גלגל שיניים"
+  ]
+ },
+ {
+  "id": "assimilated",
+  "en": "assimilated",
+  "isVerb": false,
+  "he": [
+   "נטמע"
+  ]
+ },
+ {
+  "id": "goofy",
+  "en": "goofy",
+  "isVerb": false,
+  "he": [
+   "טיפשי"
+  ]
+ },
+ {
+  "id": "pot",
+  "en": "pot",
+  "isVerb": false,
+  "he": [
+   "סיר"
+  ]
+ },
+ {
+  "id": "violating",
+  "en": "violating",
+  "isVerb": false,
+  "he": [
+   "מפר"
+  ]
+ },
+ {
+  "id": "inhibition",
+  "en": "inhibition",
+  "isVerb": false,
+  "he": [
+   "מעצור"
+  ]
+ },
+ {
+  "id": "altogether",
+  "en": "altogether",
+  "isVerb": false,
+  "he": [
+   "לגמרי",
+   "בסה\"כ"
+  ]
+ },
+ {
+  "id": "enigma",
+  "en": "enigma",
+  "isVerb": false,
+  "he": [
+   "חידה"
+  ]
+ },
+ {
+  "id": "restrictive",
+  "en": "restrictive",
+  "isVerb": false,
+  "he": [
+   "מגביל"
+  ]
+ },
+ {
+  "id": "vertical",
+  "en": "vertical",
+  "isVerb": false,
+  "he": [
+   "אנכי"
+  ]
+ },
+ {
+  "id": "commodity",
+  "en": "commodity",
+  "isVerb": false,
+  "he": [
+   "סחורה"
+  ]
+ },
+ {
+  "id": "secular",
+  "en": "secular",
+  "isVerb": false,
+  "he": [
+   "חילוני"
+  ]
+ },
+ {
+  "id": "integral",
+  "en": "integral",
+  "isVerb": false,
+  "he": [
+   "בלתי נפרד"
+  ]
+ },
+ {
+  "id": "plunder",
+  "en": "plunder",
+  "isVerb": false,
+  "he": [
+   "בזז",
+   "שלל"
+  ]
+ },
+ {
+  "id": "amused",
+  "en": "amused",
+  "isVerb": false,
+  "he": [
+   "משועשע"
+  ]
+ },
+ {
+  "id": "blend",
+  "en": "blend",
+  "isVerb": false,
+  "he": [
+   "תערובת"
+  ]
+ },
+ {
+  "id": "crude",
+  "en": "crude",
+  "isVerb": false,
+  "he": [
+   "גס"
+  ]
+ },
+ {
+  "id": "swarm",
+  "en": "swarm",
+  "isVerb": false,
+  "he": [
+   "נחיל"
+  ]
+ },
+ {
+  "id": "patch",
+  "en": "patch",
+  "isVerb": false,
+  "he": [
+   "תיקון תוכנה",
+   "טלאי"
+  ]
+ },
+ {
+  "id": "sealed",
+  "en": "sealed",
+  "isVerb": false,
+  "he": [
+   "אטום"
+  ]
+ },
+ {
+  "id": "manufacturer",
+  "en": "manufacturer",
+  "isVerb": false,
+  "he": [
+   "יצרן"
+  ]
+ },
+ {
+  "id": "puzzled",
+  "en": "puzzled",
+  "isVerb": false,
+  "he": [
+   "מבולבל"
+  ]
+ },
+ {
+  "id": "tribute",
+  "en": "tribute",
+  "isVerb": false,
+  "he": [
+   "מחווה"
+  ]
+ },
+ {
+  "id": "vintage",
+  "en": "vintage",
+  "isVerb": false,
+  "he": [
+   "בציר"
+  ]
+ },
+ {
+  "id": "engage",
+  "en": "engage",
+  "isVerb": false,
+  "he": [
+   "לחתור למגע",
+   "התחייב"
+  ]
+ },
+ {
+  "id": "pursuit",
+  "en": "pursuit",
+  "isVerb": false,
+  "he": [
+   "רדיפה"
+  ]
+ },
+ {
+  "id": "maintain",
+  "en": "maintain",
+  "isVerb": false,
+  "he": [
+   "לתחזק"
+  ]
+ },
+ {
+  "id": "retrieve",
+  "en": "retrieve",
+  "isVerb": false,
+  "he": [
+   "להחזיר"
+  ]
+ },
+ {
+  "id": "misfortune",
+  "en": "misfortune",
+  "isVerb": false,
+  "he": [
+   "חוסר מזל"
+  ]
+ },
+ {
+  "id": "inherit",
+  "en": "inherit",
+  "isVerb": false,
+  "he": [
+   "לרשת"
+  ]
+ },
+ {
+  "id": "breed",
+  "en": "breed",
+  "isVerb": false,
+  "he": [
+   "גזע",
+   "סוג",
+   "זן",
+   "הוליד",
+   "גדל",
+   "יצר",
+   "גרם"
+  ]
+ },
+ {
+  "id": "evident",
+  "en": "evident",
+  "isVerb": false,
+  "he": [
+   "ניכר"
+  ]
+ },
+ {
+  "id": "fee",
+  "en": "fee",
+  "isVerb": false,
+  "he": [
+   "תשלום"
+  ]
+ },
+ {
+  "id": "numb",
+  "en": "numb",
+  "isVerb": false,
+  "he": [
+   "אדיש",
+   "רדום",
+   "חסר תחושה"
+  ]
+ },
+ {
+  "id": "commission",
+  "en": "commission",
+  "isVerb": false,
+  "he": [
+   "עמלה"
+  ]
+ },
+ {
+  "id": "conserve",
+  "en": "conserve",
+  "isVerb": false,
+  "he": [
+   "לחסוך",
+   "לשמר"
+  ]
+ },
+ {
+  "id": "herbal",
+  "en": "herbal",
+  "isVerb": false,
+  "he": [
+   "עשבי",
+   "צמחי"
+  ]
+ },
+ {
+  "id": "designated",
+  "en": "designated",
+  "isVerb": false,
+  "he": [
+   "ייעודי"
+  ]
+ },
+ {
+  "id": "voyage",
+  "en": "voyage",
+  "isVerb": false,
+  "he": [
+   "הפלגה",
+   "מסע"
+  ]
+ },
+ {
+  "id": "intimidate",
+  "en": "intimidate",
+  "isVerb": false,
+  "he": [
+   "להפחיד"
+  ]
+ },
+ {
+  "id": "emphasis",
+  "en": "emphasis",
+  "isVerb": false,
+  "he": [
+   "הדגשה"
+  ]
+ },
+ {
+  "id": "remedy",
+  "en": "remedy",
+  "isVerb": false,
+  "he": [
+   "תרופה"
+  ]
+ },
+ {
+  "id": "volume",
+  "en": "volume",
+  "isVerb": false,
+  "he": [
+   "כרך",
+   "נפח"
+  ]
+ },
+ {
+  "id": "means",
+  "en": "means",
+  "isVerb": false,
+  "he": [
+   "אמצעים"
+  ]
+ },
+ {
+  "id": "friction",
+  "en": "friction",
+  "isVerb": false,
+  "he": [
+   "חיכוך"
+  ]
+ },
+ {
+  "id": "equivalent",
+  "en": "equivalent",
+  "isVerb": false,
+  "he": [
+   "שווה ערך"
+  ]
+ },
+ {
+  "id": "fatigue",
+  "en": "fatigue",
+  "isVerb": false,
+  "he": [
+   "עייפות"
+  ]
+ },
+ {
+  "id": "ferocity",
+  "en": "ferocity",
+  "isVerb": false,
+  "he": [
+   "אכזריות"
+  ]
+ },
+ {
+  "id": "diminish",
+  "en": "diminish",
+  "isVerb": false,
+  "he": [
+   "הפחית",
+   "צמצם",
+   "הקטין"
+  ]
+ },
+ {
+  "id": "edition",
+  "en": "edition",
+  "isVerb": false,
+  "he": [
+   "מהדורה"
+  ]
+ },
+ {
+  "id": "tremble",
+  "en": "tremble",
+  "isVerb": false,
+  "he": [
+   "לרעוד"
+  ]
+ },
+ {
+  "id": "measures",
+  "en": "measures",
+  "isVerb": false,
+  "he": [
+   "אמצעים"
+  ]
+ },
+ {
+  "id": "compose",
+  "en": "compose",
+  "isVerb": false,
+  "he": [
+   "לחבר",
+   "להלחין"
+  ]
+ },
+ {
+  "id": "accomplice",
+  "en": "accomplice",
+  "isVerb": false,
+  "he": [
+   "שותף לדבר עבירה"
+  ]
+ },
+ {
+  "id": "oversight",
+  "en": "oversight",
+  "isVerb": false,
+  "he": [
+   "פיקוח"
+  ]
+ },
+ {
+  "id": "banish",
+  "en": "banish",
+  "isVerb": false,
+  "he": [
+   "להגלות"
+  ]
+ },
+ {
+  "id": "hollow",
+  "en": "hollow",
+  "isVerb": false,
+  "he": [
+   "חלול"
+  ]
+ },
+ {
+  "id": "precaution",
+  "en": "precaution",
+  "isVerb": false,
+  "he": [
+   "אמצעי זהירות"
+  ]
+ },
+ {
+  "id": "tide",
+  "en": "tide",
+  "isVerb": false,
+  "he": [
+   "גאות"
+  ]
+ },
+ {
+  "id": "postage",
+  "en": "postage",
+  "isVerb": false,
+  "he": [
+   "דמי משלוח",
+   "דמי דואר"
+  ]
+ },
+ {
+  "id": "advertisement",
+  "en": "advertisement",
+  "isVerb": false,
+  "he": [
+   "פרסומת",
+   "כרזה",
+   "מודעה"
+  ]
+ },
+ {
+  "id": "artifact",
+  "en": "artifact",
+  "isVerb": false,
+  "he": [
+   "חפץ מלאכותי"
+  ]
+ },
+ {
+  "id": "blossom",
+  "en": "blossom",
+  "isVerb": false,
+  "he": [
+   "פריחה"
+  ]
+ },
+ {
+  "id": "merchant",
+  "en": "merchant",
+  "isVerb": false,
+  "he": [
+   "סוחר"
+  ]
+ },
+ {
+  "id": "prosperous",
+  "en": "prosperous",
+  "isVerb": false,
+  "he": [
+   "משגשג",
+   "מצליח"
+  ]
+ },
+ {
+  "id": "seashore",
+  "en": "seashore",
+  "isVerb": false,
+  "he": [
+   "חוף ים"
+  ]
+ },
+ {
+  "id": "seal",
+  "en": "seal",
+  "isVerb": false,
+  "he": [
+   "חותם"
+  ]
+ },
+ {
+  "id": "province",
+  "en": "province",
+  "isVerb": false,
+  "he": [
+   "מחוז"
+  ]
+ },
+ {
+  "id": "erroneously",
+  "en": "erroneously",
+  "isVerb": false,
+  "he": [
+   "בטעות"
+  ]
+ },
+ {
+  "id": "persuade",
+  "en": "persuade",
+  "isVerb": false,
+  "he": [
+   "לשכנע"
+  ]
+ },
+ {
+  "id": "dismiss",
+  "en": "dismiss",
+  "isVerb": false,
+  "he": [
+   "לשחרר",
+   "לפטר"
+  ]
+ },
+ {
+  "id": "squeak",
+  "en": "squeak",
+  "isVerb": false,
+  "he": [
+   "חריקה"
+  ]
+ },
+ {
+  "id": "flesh",
+  "en": "flesh",
+  "isVerb": false,
+  "he": [
+   "בשר"
+  ]
+ },
+ {
+  "id": "twist",
+  "en": "twist",
+  "isVerb": false,
+  "he": [
+   "פיתול",
+   "סיבוב"
+  ]
+ },
+ {
+  "id": "fabric",
+  "en": "fabric",
+  "isVerb": false,
+  "he": [
+   "בד"
+  ]
+ },
+ {
+  "id": "grasp",
+  "en": "grasp",
+  "isVerb": false,
+  "he": [
+   "תפיסה",
+   "אחיזה"
+  ]
+ },
+ {
+  "id": "irritation",
+  "en": "irritation",
+  "isVerb": false,
+  "he": [
+   "גירוי",
+   "הרגזה"
+  ]
+ },
+ {
+  "id": "resentment",
+  "en": "resentment",
+  "isVerb": false,
+  "he": [
+   "טינה"
+  ]
+ },
+ {
+  "id": "tempt",
+  "en": "tempt",
+  "isVerb": false,
+  "he": [
+   "לפתות"
+  ]
+ },
+ {
+  "id": "trace",
+  "en": "trace",
+  "isVerb": false,
+  "he": [
+   "עקבות"
+  ]
+ },
+ {
+  "id": "despair",
+  "en": "despair",
+  "isVerb": false,
+  "he": [
+   "ייאוש"
+  ]
+ },
+ {
+  "id": "outline",
+  "en": "outline",
+  "isVerb": false,
+  "he": [
+   "מתווה"
+  ]
+ },
+ {
+  "id": "particle",
+  "en": "particle",
+  "isVerb": false,
+  "he": [
+   "חלקיק"
+  ]
+ },
+ {
+  "id": "satellite",
+  "en": "satellite",
+  "isVerb": false,
+  "he": [
+   "לוויין"
+  ]
+ },
+ {
+  "id": "grin",
+  "en": "grin",
+  "isVerb": false,
+  "he": [
+   "לגחך"
+  ]
+ },
+ {
+  "id": "adolescent",
+  "en": "adolescent",
+  "isVerb": false,
+  "he": [
+   "מתבגר"
+  ]
+ },
+ {
+  "id": "well",
+  "en": "well",
+  "isVerb": false,
+  "he": [
+   "באר",
+   "מעיין"
+  ]
+ },
+ {
+  "id": "simultaneously",
+  "en": "simultaneously",
+  "isVerb": false,
+  "he": [
+   "בו זמנית"
+  ]
+ },
+ {
+  "id": "pile",
+  "en": "pile",
+  "isVerb": false,
+  "he": [
+   "ערימה"
+  ]
+ },
+ {
+  "id": "deceptive",
+  "en": "deceptive",
+  "isVerb": false,
+  "he": [
+   "מטעה"
+  ]
+ },
+ {
+  "id": "extinguish",
+  "en": "extinguish",
+  "isVerb": false,
+  "he": [
+   "כיבה",
+   "חיסל"
+  ]
+ },
+ {
+  "id": "turbulence",
+  "en": "turbulence",
+  "isVerb": false,
+  "he": [
+   "מערבולת"
+  ]
+ },
+ {
+  "id": "conversion",
+  "en": "conversion",
+  "isVerb": false,
+  "he": [
+   "החלפה"
+  ]
+ },
+ {
+  "id": "stumble",
+  "en": "stumble",
+  "isVerb": false,
+  "he": [
+   "למעוד"
+  ]
+ },
+ {
+  "id": "prospect",
+  "en": "prospect",
+  "isVerb": false,
+  "he": [
+   "סיכוי"
+  ]
+ },
+ {
+  "id": "vast",
+  "en": "vast",
+  "isVerb": false,
+  "he": [
+   "עצום"
+  ]
+ },
+ {
+  "id": "dwelling",
+  "en": "dwelling",
+  "isVerb": false,
+  "he": [
+   "מגורים"
+  ]
+ },
+ {
+  "id": "fraud",
+  "en": "fraud",
+  "isVerb": false,
+  "he": [
+   "הונאה"
+  ]
+ },
+ {
+  "id": "assemble",
+  "en": "assemble",
+  "isVerb": false,
+  "he": [
+   "להרכיב"
+  ]
+ },
+ {
+  "id": "reluctant",
+  "en": "reluctant",
+  "isVerb": false,
+  "he": [
+   "מסויג",
+   "לא מעוניין"
+  ]
+ },
+ {
+  "id": "thrive",
+  "en": "thrive",
+  "isVerb": false,
+  "he": [
+   "לשגשג"
+  ]
+ },
+ {
+  "id": "explicit",
+  "en": "explicit",
+  "isVerb": false,
+  "he": [
+   "בוטה",
+   "מפורש"
+  ]
+ },
+ {
+  "id": "implicit",
+  "en": "implicit",
+  "isVerb": false,
+  "he": [
+   "משתמע",
+   "מרומז"
+  ]
+ },
+ {
+  "id": "crumble",
+  "en": "crumble",
+  "isVerb": false,
+  "he": [
+   "להתפורר"
+  ]
+ },
+ {
+  "id": "vicious",
+  "en": "vicious",
+  "isVerb": false,
+  "he": [
+   "מרושע",
+   "אכזרי"
+  ]
+ },
+ {
+  "id": "restraint",
+  "en": "restraint",
+  "isVerb": false,
+  "he": [
+   "איפוק"
+  ]
+ },
+ {
+  "id": "tranquil",
+  "en": "tranquil",
+  "isVerb": false,
+  "he": [
+   "שלווה"
+  ]
+ },
+ {
+  "id": "cortex",
+  "en": "cortex",
+  "isVerb": false,
+  "he": [
+   "קליפה"
+  ]
+ },
+ {
+  "id": "compassion",
+  "en": "compassion",
+  "isVerb": false,
+  "he": [
+   "חמלה"
+  ]
+ },
+ {
+  "id": "retained",
+  "en": "retained",
+  "isVerb": false,
+  "he": [
+   "שמור"
+  ]
+ },
+ {
+  "id": "odyssey",
+  "en": "odyssey",
+  "isVerb": false,
+  "he": [
+   "מסע רצוף של קשיים ותלאות"
+  ]
+ },
+ {
+  "id": "resent",
+  "en": "resent",
+  "isVerb": false,
+  "he": [
+   "להתרעם"
+  ]
+ },
+ {
+  "id": "raid",
+  "en": "raid",
+  "isVerb": false,
+  "he": [
+   "פשיטה"
+  ]
+ },
+ {
+  "id": "prejudice",
+  "en": "prejudice",
+  "isVerb": false,
+  "he": [
+   "דעה קדומה"
+  ]
+ },
+ {
+  "id": "inject",
+  "en": "inject",
+  "isVerb": false,
+  "he": [
+   "להזריק"
+  ]
+ },
+ {
+  "id": "adorn",
+  "en": "adorn",
+  "isVerb": false,
+  "he": [
+   "לקשט"
+  ]
+ },
+ {
+  "id": "grant",
+  "en": "grant",
+  "isVerb": false,
+  "he": [
+   "מענק"
+  ]
+ },
+ {
+  "id": "solitude",
+  "en": "solitude",
+  "isVerb": false,
+  "he": [
+   "בדידות"
+  ]
+ },
+ {
+  "id": "omit",
+  "en": "omit",
+  "isVerb": false,
+  "he": [
+   "להשמיט"
+  ]
+ },
+ {
+  "id": "whip",
+  "en": "whip",
+  "isVerb": false,
+  "he": [
+   "שוט"
+  ]
+ },
+ {
+  "id": "regal",
+  "en": "regal",
+  "isVerb": false,
+  "he": [
+   "מלכותי"
+  ]
+ },
+ {
+  "id": "narrative",
+  "en": "narrative",
+  "isVerb": false,
+  "he": [
+   "עלילה"
+  ]
+ },
+ {
+  "id": "harness",
+  "en": "harness",
+  "isVerb": false,
+  "he": [
+   "לרתום"
+  ]
+ },
+ {
+  "id": "portion",
+  "en": "portion",
+  "isVerb": false,
+  "he": [
+   "מנה"
+  ]
+ },
+ {
+  "id": "inhale",
+  "en": "inhale",
+  "isVerb": false,
+  "he": [
+   "שאף",
+   "אכל מהר מאוד"
+  ]
+ },
+ {
+  "id": "casualty",
+  "en": "casualty",
+  "isVerb": false,
+  "he": [
+   "נפגע",
+   "אסון"
+  ]
+ },
+ {
+  "id": "quarrel",
+  "en": "quarrel",
+  "isVerb": false,
+  "he": [
+   "מריבה"
+  ]
+ },
+ {
+  "id": "exaggerate",
+  "en": "exaggerate",
+  "isVerb": false,
+  "he": [
+   "להגזים"
+  ]
+ },
+ {
+  "id": "equilibrium",
+  "en": "equilibrium",
+  "isVerb": false,
+  "he": [
+   "שיווי משקל"
+  ]
+ },
+ {
+  "id": "adjective",
+  "en": "adjective",
+  "isVerb": false,
+  "he": [
+   "שם תואר"
+  ]
+ },
+ {
+  "id": "ripe",
+  "en": "ripe",
+  "isVerb": false,
+  "he": [
+   "בשל",
+   "מפותח",
+   "בוגר"
+  ]
+ },
+ {
+  "id": "knot",
+  "en": "knot",
+  "isVerb": false,
+  "he": [
+   "קשר"
+  ]
+ },
+ {
+  "id": "fluctuate",
+  "en": "fluctuate",
+  "isVerb": false,
+  "he": [
+   "להתנדנד"
+  ]
+ },
+ {
+  "id": "embellish",
+  "en": "embellish",
+  "isVerb": false,
+  "he": [
+   "לקשט"
+  ]
+ },
+ {
+  "id": "pretension",
+  "en": "pretension",
+  "isVerb": false,
+  "he": [
+   "יומרה"
+  ]
+ },
+ {
+  "id": "digest",
+  "en": "digest",
+  "isVerb": false,
+  "he": [
+   "לעכל"
+  ]
+ },
+ {
+  "id": "blouse",
+  "en": "blouse",
+  "isVerb": false,
+  "he": [
+   "חולצה"
+  ]
+ },
+ {
+  "id": "casual",
+  "en": "casual",
+  "isVerb": false,
+  "he": [
+   "מקרי"
+  ]
+ },
+ {
+  "id": "ascend",
+  "en": "ascend",
+  "isVerb": false,
+  "he": [
+   "לעלות"
+  ]
+ },
+ {
+  "id": "component",
+  "en": "component",
+  "isVerb": false,
+  "he": [
+   "רכיב"
+  ]
+ },
+ {
+  "id": "delight",
+  "en": "delight",
+  "isVerb": false,
+  "he": [
+   "תענוג"
+  ]
+ },
+ {
+  "id": "pledge",
+  "en": "pledge",
+  "isVerb": false,
+  "he": [
+   "התחייב",
+   "התחייבות"
+  ]
+ },
+ {
+  "id": "wrap",
+  "en": "wrap",
+  "isVerb": false,
+  "he": [
+   "עטיפה"
+  ]
+ },
+ {
+  "id": "improvise",
+  "en": "improvise",
+  "isVerb": false,
+  "he": [
+   "לאלתר"
+  ]
+ },
+ {
+  "id": "innumerable",
+  "en": "innumerable",
+  "isVerb": false,
+  "he": [
+   "עצום",
+   "אסטרונומי",
+   "לא ניתן לספירה"
+  ]
+ },
+ {
+  "id": "insufficient",
+  "en": "insufficient",
+  "isVerb": false,
+  "he": [
+   "לא מספיק"
+  ]
+ },
+ {
+  "id": "liberate",
+  "en": "liberate",
+  "isVerb": false,
+  "he": [
+   "לשחרר"
+  ]
+ },
+ {
+  "id": "provoke",
+  "en": "provoke",
+  "isVerb": false,
+  "he": [
+   "להתגרות"
+  ]
+ },
+ {
+  "id": "recite",
+  "en": "recite",
+  "isVerb": false,
+  "he": [
+   "לדקלם"
+  ]
+ },
+ {
+  "id": "jubilant",
+  "en": "jubilant",
+  "isVerb": false,
+  "he": [
+   "צוהל"
+  ]
+ },
+ {
+  "id": "affluent",
+  "en": "affluent",
+  "isVerb": false,
+  "he": [
+   "אמיד",
+   "שופע"
+  ]
+ },
+ {
+  "id": "bold",
+  "en": "bold",
+  "isVerb": false,
+  "he": [
+   "נועז",
+   "אמיץ",
+   "בולט",
+   "מודגש"
+  ]
+ },
+ {
+  "id": "tray",
+  "en": "tray",
+  "isVerb": false,
+  "he": [
+   "מגש"
+  ]
+ },
+ {
+  "id": "hibernate",
+  "en": "hibernate",
+  "isVerb": false,
+  "he": [
+   "לישון שנת חורף"
+  ]
+ },
+ {
+  "id": "obsolete",
+  "en": "obsolete",
+  "isVerb": false,
+  "he": [
+   "מיושן"
+  ]
+ },
+ {
+  "id": "migrate",
+  "en": "migrate",
+  "isVerb": false,
+  "he": [
+   "לנדוד",
+   "להגר"
+  ]
+ },
+ {
+  "id": "edict",
+  "en": "edict",
+  "isVerb": false,
+  "he": [
+   "צו"
+  ]
+ },
+ {
+  "id": "nourishing",
+  "en": "nourishing",
+  "isVerb": false,
+  "he": [
+   "מזין"
+  ]
+ },
+ {
+  "id": "flaw",
+  "en": "flaw",
+  "isVerb": false,
+  "he": [
+   "פגם"
+  ]
+ },
+ {
+  "id": "captivity",
+  "en": "captivity",
+  "isVerb": false,
+  "he": [
+   "שבי"
+  ]
+ },
+ {
+  "id": "limp",
+  "en": "limp",
+  "isVerb": false,
+  "he": [
+   "צליעה"
+  ]
+ },
+ {
+  "id": "orientation",
+  "en": "orientation",
+  "isVerb": false,
+  "he": [
+   "נטייה",
+   "התמצאות"
+  ]
+ },
+ {
+  "id": "load",
+  "en": "load",
+  "isVerb": false,
+  "he": [
+   "עומס"
+  ]
+ },
+ {
+  "id": "immaculate",
+  "en": "immaculate",
+  "isVerb": false,
+  "he": [
+   "נקי",
+   "טהור",
+   "מושלם"
+  ]
+ },
+ {
+  "id": "reinforce",
+  "en": "reinforce",
+  "isVerb": false,
+  "he": [
+   "לחזק"
+  ]
+ },
+ {
+  "id": "stale",
+  "en": "stale",
+  "isVerb": false,
+  "he": [
+   "מעופש"
+  ]
+ },
+ {
+  "id": "expel",
+  "en": "expel",
+  "isVerb": false,
+  "he": [
+   "לגרש",
+   "להרחיק",
+   "להוציא",
+   "להשעות",
+   "לפלוט"
+  ]
+ },
+ {
+  "id": "trim",
+  "en": "trim",
+  "isVerb": false,
+  "he": [
+   "לקצץ"
+  ]
+ },
+ {
+  "id": "ray",
+  "en": "ray",
+  "isVerb": false,
+  "he": [
+   "קרן אור"
+  ]
+ },
+ {
+  "id": "flakes",
+  "en": "flakes",
+  "isVerb": false,
+  "he": [
+   "פתיתים"
+  ]
+ },
+ {
+  "id": "mock",
+  "en": "mock",
+  "isVerb": false,
+  "he": [
+   "לעג",
+   "חיקה"
+  ]
+ },
+ {
+  "id": "specimen",
+  "en": "specimen",
+  "isVerb": false,
+  "he": [
+   "דגימה"
+  ]
+ },
+ {
+  "id": "reputation",
+  "en": "reputation",
+  "isVerb": false,
+  "he": [
+   "תדמית",
+   "מוניטין"
+  ]
+ },
+ {
+  "id": "prey",
+  "en": "prey",
+  "isVerb": false,
+  "he": [
+   "טרף"
+  ]
+ },
+ {
+  "id": "drill",
+  "en": "drill",
+  "isVerb": false,
+  "he": [
+   "קדח",
+   "מקדחה",
+   "תרגיל"
+  ]
+ },
+ {
+  "id": "banquet",
+  "en": "banquet",
+  "isVerb": false,
+  "he": [
+   "משתה"
+  ]
+ },
+ {
+  "id": "condensed",
+  "en": "condensed",
+  "isVerb": false,
+  "he": [
+   "דחוס",
+   "מרוכז"
+  ]
+ },
+ {
+  "id": "jeopardize",
+  "en": "jeopardize",
+  "isVerb": false,
+  "he": [
+   "לסכן"
+  ]
+ },
+ {
+  "id": "partition",
+  "en": "partition",
+  "isVerb": false,
+  "he": [
+   "מחיצה",
+   "חלוקה"
+  ]
+ },
+ {
+  "id": "obligation",
+  "en": "obligation",
+  "isVerb": false,
+  "he": [
+   "חובה",
+   "התחייבות",
+   "מחויבות"
+  ]
+ },
+ {
+  "id": "rash",
+  "en": "rash",
+  "isVerb": false,
+  "he": [
+   "פריחת עור",
+   "נמהר"
+  ]
+ },
+ {
+  "id": "utility",
+  "en": "utility",
+  "isVerb": false,
+  "he": [
+   "שירות ציבורי (מים, חשמל)",
+   "שימושית"
+  ]
+ },
+ {
+  "id": "maneuver",
+  "en": "maneuver",
+  "isVerb": false,
+  "he": [
+   "תמרון",
+   "תרגיל"
+  ]
+ },
+ {
+  "id": "rural",
+  "en": "rural",
+  "isVerb": false,
+  "he": [
+   "כפרי"
+  ]
+ },
+ {
+  "id": "emphatic",
+  "en": "emphatic",
+  "isVerb": false,
+  "he": [
+   "מודגש"
+  ]
+ },
+ {
+  "id": "elevation",
+  "en": "elevation",
+  "isVerb": false,
+  "he": [
+   "הגבהה"
+  ]
+ },
+ {
+  "id": "rustic",
+  "en": "rustic",
+  "isVerb": false,
+  "he": [
+   "כפרי"
+  ]
+ },
+ {
+  "id": "attributed",
+  "en": "attributed",
+  "isVerb": false,
+  "he": [
+   "מיוחס"
+  ]
+ },
+ {
+  "id": "utmost",
+  "en": "utmost",
+  "isVerb": false,
+  "he": [
+   "מרבי"
+  ]
+ },
+ {
+  "id": "contaminated",
+  "en": "contaminated",
+  "isVerb": false,
+  "he": [
+   "מזוהם"
+  ]
+ },
+ {
+  "id": "forecast",
+  "en": "forecast",
+  "isVerb": false,
+  "he": [
+   "תחזית"
+  ]
+ },
+ {
+  "id": "certified",
+  "en": "certified",
+  "isVerb": false,
+  "he": [
+   "מוסמך"
+  ]
+ },
+ {
+  "id": "adorned",
+  "en": "adorned",
+  "isVerb": false,
+  "he": [
+   "מעוטר",
+   "מקושט"
+  ]
+ },
+ {
+  "id": "radiant",
+  "en": "radiant",
+  "isVerb": false,
+  "he": [
+   "קורן",
+   "זוהר"
+  ]
+ },
+ {
+  "id": "prized",
+  "en": "prized",
+  "isVerb": false,
+  "he": [
+   "מוערך"
+  ]
+ },
+ {
+  "id": "suction",
+  "en": "suction",
+  "isVerb": false,
+  "he": [
+   "יניקה"
+  ]
+ },
+ {
+  "id": "credible",
+  "en": "credible",
+  "isVerb": false,
+  "he": [
+   "אמין"
+  ]
+ },
+ {
+  "id": "jury",
+  "en": "jury",
+  "isVerb": false,
+  "he": [
+   "חבר המושבעים"
+  ]
+ },
+ {
+  "id": "transparency",
+  "en": "transparency",
+  "isVerb": false,
+  "he": [
+   "שקיפות"
+  ]
+ },
+ {
+  "id": "adversity",
+  "en": "adversity",
+  "isVerb": false,
+  "he": [
+   "מצוקה",
+   "צרה",
+   "מזל רע"
+  ]
+ },
+ {
+  "id": "resentful",
+  "en": "resentful",
+  "isVerb": false,
+  "he": [
+   "רגוז",
+   "כעוס"
+  ]
+ },
+ {
+  "id": "command",
+  "en": "command",
+  "isVerb": false,
+  "he": [
+   "פיקד",
+   "פקודה"
+  ]
+ },
+ {
+  "id": "portable",
+  "en": "portable",
+  "isVerb": false,
+  "he": [
+   "נייד"
+  ]
+ },
+ {
+  "id": "indulge",
+  "en": "indulge",
+  "isVerb": false,
+  "he": [
+   "לענג",
+   "לפנק"
+  ]
+ },
+ {
+  "id": "sacred",
+  "en": "sacred",
+  "isVerb": false,
+  "he": [
+   "קדוש"
+  ]
+ },
+ {
+  "id": "volatility",
+  "en": "volatility",
+  "isVerb": false,
+  "he": [
+   "אי יציבות",
+   "הפכפכנות",
+   "תנודתיות"
+  ]
+ },
+ {
+  "id": "rotate",
+  "en": "rotate",
+  "isVerb": false,
+  "he": [
+   "להתחלף",
+   "להסתובב"
+  ]
+ },
+ {
+  "id": "integrate",
+  "en": "integrate",
+  "isVerb": false,
+  "he": [
+   "לשלב",
+   "לתכלל"
+  ]
+ },
+ {
+  "id": "vivid",
+  "en": "vivid",
+  "isVerb": false,
+  "he": [
+   "שופע",
+   "חד",
+   "בהיר",
+   "צבעוני"
+  ]
+ },
+ {
+  "id": "cursor",
+  "en": "cursor",
+  "isVerb": false,
+  "he": [
+   "סמן"
+  ]
+ },
+ {
+  "id": "equation",
+  "en": "equation",
+  "isVerb": false,
+  "he": [
+   "משוואה"
+  ]
+ },
+ {
+  "id": "decay",
+  "en": "decay",
+  "isVerb": false,
+  "he": [
+   "ריקבון"
+  ]
+ },
+ {
+  "id": "grace",
+  "en": "grace",
+  "isVerb": false,
+  "he": [
+   "כיבד",
+   "קישט",
+   "חסד",
+   "חן"
+  ]
+ },
+ {
+  "id": "encountered",
+  "en": "encountered",
+  "isVerb": false,
+  "he": [
+   "נתקל",
+   "נפגש במקרה"
+  ]
+ },
+ {
+  "id": "mutant",
+  "en": "mutant",
+  "isVerb": false,
+  "he": [
+   "שעבר מוטציה",
+   "בעל חיים"
+  ]
+ },
+ {
+  "id": "regulate",
+  "en": "regulate",
+  "isVerb": false,
+  "he": [
+   "לווסת",
+   "להסדיר"
+  ]
+ },
+ {
+  "id": "sphere",
+  "en": "sphere",
+  "isVerb": false,
+  "he": [
+   "כדור",
+   "כיפת השמיים"
+  ]
+ },
+ {
+  "id": "bias",
+  "en": "bias",
+  "isVerb": false,
+  "he": [
+   "הטיה",
+   "משוא פנים"
+  ]
+ },
+ {
+  "id": "chairman",
+  "en": "chairman",
+  "isVerb": false,
+  "he": [
+   "יו\"ר"
+  ]
+ },
+ {
+  "id": "devour",
+  "en": "devour",
+  "isVerb": false,
+  "he": [
+   "לטרוף"
+  ]
+ },
+ {
+  "id": "associate",
+  "en": "associate",
+  "isVerb": false,
+  "he": [
+   "חבר",
+   "שותף",
+   "זוטר"
+  ]
+ },
+ {
+  "id": "astonished",
+  "en": "astonished",
+  "isVerb": false,
+  "he": [
+   "נדהם"
+  ]
+ },
+ {
+  "id": "escalated",
+  "en": "escalated",
+  "isVerb": false,
+  "he": [
+   "הסלים"
+  ]
+ },
+ {
+  "id": "primate",
+  "en": "primate",
+  "isVerb": false,
+  "he": [
+   "יונק השייך לסדרת הפרימאטים"
+  ]
+ },
+ {
+  "id": "constrain",
+  "en": "constrain",
+  "isVerb": false,
+  "he": [
+   "לאלץ",
+   "להגביל"
+  ]
+ },
+ {
+  "id": "magnify",
+  "en": "magnify",
+  "isVerb": false,
+  "he": [
+   "להגדיל",
+   "לפאר"
+  ]
+ },
+ {
+  "id": "fooled",
+  "en": "fooled",
+  "isVerb": false,
+  "he": [
+   "שיטה ב",
+   "עבד על (מישהו)"
+  ]
+ },
+ {
+  "id": "lice",
+  "en": "lice",
+  "isVerb": false,
+  "he": [
+   "כינים"
+  ]
+ },
+ {
+  "id": "pace",
+  "en": "pace",
+  "isVerb": false,
+  "he": [
+   "קצב",
+   "צעד"
+  ]
+ },
+ {
+  "id": "amid",
+  "en": "amid",
+  "isVerb": false,
+  "he": [
+   "בקרב"
+  ]
+ },
+ {
+  "id": "albeit",
+  "en": "albeit",
+  "isVerb": false,
+  "he": [
+   "אך על פי ש"
+  ]
+ },
+ {
+  "id": "vice versa",
+  "en": "vice versa",
+  "isVerb": false,
+  "he": [
+   "להיפך"
+  ]
+ },
+ {
+  "id": "whereas",
+  "en": "whereas",
+  "isVerb": false,
+  "he": [
+   "בעוד ש"
+  ]
+ },
+ {
+  "id": "i.e.",
+  "en": "i.e.",
+  "isVerb": false,
+  "he": [
+   "כלומר"
+  ]
+ },
+ {
+  "id": "coach",
+  "en": "coach",
+  "isVerb": false,
+  "he": [
+   "מאמן",
+   "קרון נוסעים",
+   "כרכרה",
+   "מחלקת תיירים במטוס"
+  ]
+ },
+ {
+  "id": "due",
+  "en": "due",
+  "isVerb": false,
+  "he": [
+   "בשל",
+   "צריך להיעשות",
+   "זמנו הגיע"
+  ]
+ },
+ {
+  "id": "impartial",
+  "en": "impartial",
+  "isVerb": false,
+  "he": [
+   "אובייקטיבי",
+   "ללא צד"
+  ]
+ },
+ {
+  "id": "abrupt",
+  "en": "abrupt",
+  "isVerb": false,
+  "he": [
+   "פתאומי"
+  ]
+ },
+ {
+  "id": "administer",
+  "en": "administer",
+  "isVerb": false,
+  "he": [
+   "לנהל",
+   "לפקח",
+   "לתת",
+   "לחלק"
+  ]
+ },
+ {
+  "id": "by no means",
+  "en": "by no means",
+  "isVerb": false,
+  "he": [
+   "ללא ספק",
+   "בשום אופן"
+  ]
+ },
+ {
+  "id": "colony",
+  "en": "colony",
+  "isVerb": false,
+  "he": [
+   "מושבה"
+  ]
+ },
+ {
+  "id": "conclusively",
+  "en": "conclusively",
+  "isVerb": false,
+  "he": [
+   "סופית",
+   "באופן החלטי"
+  ]
+ },
+ {
+  "id": "officiate",
+  "en": "officiate",
+  "isVerb": false,
+  "he": [
+   "לכהן",
+   "לערוך"
+  ]
+ },
+ {
+  "id": "priority",
+  "en": "priority",
+  "isVerb": false,
+  "he": [
+   "עדיפות"
+  ]
+ },
+ {
+  "id": "spacious",
+  "en": "spacious",
+  "isVerb": false,
+  "he": [
+   "מרווח"
+  ]
+ },
+ {
+  "id": "uphold",
+  "en": "uphold",
+  "isVerb": false,
+  "he": [
+   "להחזיק",
+   "לתמוך",
+   "לדגול"
+  ]
+ },
+ {
+  "id": "wilderness",
+  "en": "wilderness",
+  "isVerb": false,
+  "he": [
+   "ערבה",
+   "שממה"
+  ]
+ },
+ {
+  "id": "anticipate",
+  "en": "anticipate",
+  "isVerb": false,
+  "he": [
+   "לצפות"
+  ]
+ },
+ {
+  "id": "commence",
+  "en": "commence",
+  "isVerb": false,
+  "he": [
+   "להתחיל"
+  ]
+ },
+ {
+  "id": "conference",
+  "en": "conference",
+  "isVerb": false,
+  "he": [
+   "ועידה"
+  ]
+ },
+ {
+  "id": "contemporary",
+  "en": "contemporary",
+  "isVerb": false,
+  "he": [
+   "עכשווי"
+  ]
+ },
+ {
+  "id": "convey",
+  "en": "convey",
+  "isVerb": false,
+  "he": [
+   "מסר",
+   "העביר"
+  ]
+ },
+ {
+  "id": "custom",
+  "en": "custom",
+  "isVerb": false,
+  "he": [
+   "מנהג",
+   "מותאם אישית"
+  ]
+ },
+ {
+  "id": "deficiency",
+  "en": "deficiency",
+  "isVerb": false,
+  "he": [
+   "מחסור"
+  ]
+ },
+ {
+  "id": "imminent",
+  "en": "imminent",
+  "isVerb": false,
+  "he": [
+   "ממשמש ובא"
+  ]
+ },
+ {
+  "id": "impartially",
+  "en": "impartially",
+  "isVerb": false,
+  "he": [
+   "באופן הוגן",
+   "ללא אפליה"
+  ]
+ },
+ {
+  "id": "moderate",
+  "en": "moderate",
+  "isVerb": false,
+  "he": [
+   "לתווך",
+   "לפשר",
+   "מתון"
+  ]
+ },
+ {
+  "id": "internal",
+  "en": "internal",
+  "isVerb": false,
+  "he": [
+   "פנימי"
+  ]
+ },
+ {
+  "id": "predecessors",
+  "en": "predecessors",
+  "isVerb": false,
+  "he": [
+   "קודמים"
+  ]
+ },
+ {
+  "id": "soar",
+  "en": "soar",
+  "isVerb": false,
+  "he": [
+   "המריא"
+  ]
+ },
+ {
+  "id": "column",
+  "en": "column",
+  "isVerb": false,
+  "he": [
+   "עמודה",
+   "תור",
+   "עמוד"
+  ]
+ },
+ {
+  "id": "swift",
+  "en": "swift",
+  "isVerb": false,
+  "he": [
+   "מהיר"
+  ]
+ },
+ {
+  "id": "dialect",
+  "en": "dialect",
+  "isVerb": false,
+  "he": [
+   "ניב",
+   "ביטוי"
+  ]
+ },
+ {
+  "id": "difference",
+  "en": "difference",
+  "isVerb": false,
+  "he": [
+   "הבדל",
+   "ויכוח",
+   "הפרש"
+  ]
+ },
+ {
+  "id": "fasten",
+  "en": "fasten",
+  "isVerb": false,
+  "he": [
+   "הידק",
+   "כפתר"
+  ]
+ },
+ {
+  "id": "fine",
+  "en": "fine",
+  "isVerb": false,
+  "he": [
+   "בסדר",
+   "טהור",
+   "דק",
+   "קטן",
+   "קנס"
+  ]
+ },
+ {
+  "id": "institute",
+  "en": "institute",
+  "isVerb": false,
+  "he": [
+   "מכון",
+   "מוסד",
+   "לכונן"
+  ]
+ },
+ {
+  "id": "irrigation",
+  "en": "irrigation",
+  "isVerb": false,
+  "he": [
+   "השקיה",
+   "שטיפה"
+  ]
+ },
+ {
+  "id": "station",
+  "en": "station",
+  "isVerb": false,
+  "he": [
+   "תחנה",
+   "מעמד",
+   "מיקם"
+  ]
+ },
+ {
+  "id": "tormented",
+  "en": "tormented",
+  "isVerb": false,
+  "he": [
+   "עינה",
+   "יסר"
+  ]
+ },
+ {
+  "id": "underlies",
+  "en": "underlies",
+  "isVerb": false,
+  "he": [
+   "הונח ביסוד",
+   "נמצא מתחת למשהו"
+  ]
+ },
+ {
+  "id": "absurd",
+  "en": "absurd",
+  "isVerb": false,
+  "he": [
+   "מגוחך",
+   "לא סביר"
+  ]
+ },
+ {
+  "id": "amass",
+  "en": "amass",
+  "isVerb": false,
+  "he": [
+   "צבר",
+   "ערם"
+  ]
+ },
+ {
+  "id": "audit",
+  "en": "audit",
+  "isVerb": false,
+  "he": [
+   "ביקורת ספרים (ספרי חשבונות)"
+  ]
+ },
+ {
+  "id": "aspiration",
+  "en": "aspiration",
+  "isVerb": false,
+  "he": [
+   "שאיפה",
+   "חלום"
+  ]
+ },
+ {
+  "id": "circulate",
+  "en": "circulate",
+  "isVerb": false,
+  "he": [
+   "נע במחזוריות",
+   "הפיץ"
+  ]
+ },
+ {
+  "id": "condemned",
+  "en": "condemned",
+  "isVerb": false,
+  "he": [
+   "גינה",
+   "הרשיע",
+   "דן"
+  ]
+ },
+ {
+  "id": "conceive",
+  "en": "conceive",
+  "isVerb": false,
+  "he": [
+   "הרהר",
+   "הגה",
+   "יצר"
+  ]
+ },
+ {
+  "id": "content",
+  "en": "content",
+  "isVerb": false,
+  "he": [
+   "תוכן",
+   "שביעות רצון",
+   "סיפוק"
+  ]
+ },
+ {
+  "id": "coordination",
+  "en": "coordination",
+  "isVerb": false,
+  "he": [
+   "קואורדינציה",
+   "תיאום"
+  ]
+ },
+ {
+  "id": "crave",
+  "en": "crave",
+  "isVerb": false,
+  "he": [
+   "השתוקק"
+  ]
+ },
+ {
+  "id": "cuisine",
+  "en": "cuisine",
+  "isVerb": false,
+  "he": [
+   "מטבח",
+   "בישול",
+   "סגנון בישול"
+  ]
+ },
+ {
+  "id": "equates",
+  "en": "equates",
+  "isVerb": false,
+  "he": [
+   "השווה",
+   "התאים"
+  ]
+ },
+ {
+  "id": "emblem",
+  "en": "emblem",
+  "isVerb": false,
+  "he": [
+   "סמל"
+  ]
+ },
+ {
+  "id": "forerunner",
+  "en": "forerunner",
+  "isVerb": false,
+  "he": [
+   "שליח",
+   "מבשר"
+  ]
+ },
+ {
+  "id": "evoke",
+  "en": "evoke",
+  "isVerb": false,
+  "he": [
+   "עורר",
+   "העלה"
+  ]
+ },
+ {
+  "id": "heredity",
+  "en": "heredity",
+  "isVerb": false,
+  "he": [
+   "תורשה"
+  ]
+ },
+ {
+  "id": "immense",
+  "en": "immense",
+  "isVerb": false,
+  "he": [
+   "מצוין",
+   "עצום"
+  ]
+ },
+ {
+  "id": "innate",
+  "en": "innate",
+  "isVerb": false,
+  "he": [
+   "מולד"
+  ]
+ },
+ {
+  "id": "intersection",
+  "en": "intersection",
+  "isVerb": false,
+  "he": [
+   "צומת",
+   "הצטלבות"
+  ]
+ },
+ {
+  "id": "malnutrition",
+  "en": "malnutrition",
+  "isVerb": false,
+  "he": [
+   "תת תזונה"
+  ]
+ },
+ {
+  "id": "rampage",
+  "en": "rampage",
+  "isVerb": false,
+  "he": [
+   "השתוללות"
+  ]
+ },
+ {
+  "id": "orient",
+  "en": "orient",
+  "isVerb": false,
+  "he": [
+   "להתמצא"
+  ]
+ },
+ {
+  "id": "pretext",
+  "en": "pretext",
+  "isVerb": false,
+  "he": [
+   "אמתלה"
+  ]
+ },
+ {
+  "id": "penned",
+  "en": "penned",
+  "isVerb": false,
+  "he": [
+   "כלא במכלאה",
+   "כתב"
+  ]
+ },
+ {
+  "id": "poacher",
+  "en": "poacher",
+  "isVerb": false,
+  "he": [
+   "צייד בלי רישיון",
+   "לא מורשה"
+  ]
+ },
+ {
+  "id": "rudimentary",
+  "en": "rudimentary",
+  "isVerb": false,
+  "he": [
+   "בסיסי",
+   "יסודי"
+  ]
+ },
+ {
+  "id": "seek",
+  "en": "seek",
+  "isVerb": false,
+  "he": [
+   "לחפש",
+   "לבקש"
+  ]
+ },
+ {
+  "id": "steam",
+  "en": "steam",
+  "isVerb": false,
+  "he": [
+   "אדים",
+   "קיטור",
+   "אנרגיה"
+  ]
+ },
+ {
+  "id": "stride",
+  "en": "stride",
+  "isVerb": false,
+  "he": [
+   "צעד"
+  ]
+ },
+ {
+  "id": "strife",
+  "en": "strife",
+  "isVerb": false,
+  "he": [
+   "ריב",
+   "מאבק"
+  ]
+ },
+ {
+  "id": "wickedly",
+  "en": "wickedly",
+  "isVerb": false,
+  "he": [
+   "ברשעות",
+   "בזדון"
+  ]
+ },
+ {
+  "id": "alienation",
+  "en": "alienation",
+  "isVerb": false,
+  "he": [
+   "ניכור",
+   "זרות"
+  ]
+ },
+ {
+  "id": "annihilate",
+  "en": "annihilate",
+  "isVerb": false,
+  "he": [
+   "השמיד"
+  ]
+ },
+ {
+  "id": "apparatus",
+  "en": "apparatus",
+  "isVerb": false,
+  "he": [
+   "מנגנון",
+   "כלי",
+   "מכשיר"
+  ]
+ },
+ {
+  "id": "auction",
+  "en": "auction",
+  "isVerb": false,
+  "he": [
+   "מכירה פומבית",
+   "מכרז"
+  ]
+ },
+ {
+  "id": "cattle",
+  "en": "cattle",
+  "isVerb": false,
+  "he": [
+   "בקר"
+  ]
+ },
+ {
+  "id": "combat",
+  "en": "combat",
+  "isVerb": false,
+  "he": [
+   "קרב",
+   "מאבק",
+   "נלחם"
+  ]
+ },
+ {
+  "id": "congregate",
+  "en": "congregate",
+  "isVerb": false,
+  "he": [
+   "לאסוף קהל",
+   "להתאסף"
+  ]
+ },
+ {
+  "id": "contagious",
+  "en": "contagious",
+  "isVerb": false,
+  "he": [
+   "מידבק"
+  ]
+ },
+ {
+  "id": "incompetence",
+  "en": "incompetence",
+  "isVerb": false,
+  "he": [
+   "חוסר יכולת",
+   "אי כשירות"
+  ]
+ },
+ {
+  "id": "incorporate",
+  "en": "incorporate",
+  "isVerb": false,
+  "he": [
+   "לכלול",
+   "לשלב",
+   "לאגד"
+  ]
+ },
+ {
+  "id": "playwright",
+  "en": "playwright",
+  "isVerb": false,
+  "he": [
+   "מחזאי"
+  ]
+ },
+ {
+  "id": "recollection",
+  "en": "recollection",
+  "isVerb": false,
+  "he": [
+   "זיכרון"
+  ]
+ },
+ {
+  "id": "recur",
+  "en": "recur",
+  "isVerb": false,
+  "he": [
+   "קרה שוב"
+  ]
+ },
+ {
+  "id": "ornament",
+  "en": "ornament",
+  "isVerb": false,
+  "he": [
+   "קישוט"
+  ]
+ },
+ {
+  "id": "march",
+  "en": "march",
+  "isVerb": false,
+  "he": [
+   "לצעוד"
+  ]
+ },
+ {
+  "id": "martial",
+  "en": "martial",
+  "isVerb": false,
+  "he": [
+   "צבאי",
+   "קרבי"
+  ]
+ },
+ {
+  "id": "council",
+  "en": "council",
+  "isVerb": false,
+  "he": [
+   "מועצה"
+  ]
+ },
+ {
+  "id": "chariot",
+  "en": "chariot",
+  "isVerb": false,
+  "he": [
+   "מרכבה"
+  ]
+ },
+ {
+  "id": "delegate",
+  "en": "delegate",
+  "isVerb": false,
+  "he": [
+   "נציג",
+   "האציל (סמכות)"
+  ]
+ },
+ {
+  "id": "disciple",
+  "en": "disciple",
+  "isVerb": false,
+  "he": [
+   "תלמיד"
+  ]
+ },
+ {
+  "id": "discipline",
+  "en": "discipline",
+  "isVerb": false,
+  "he": [
+   "משמעת",
+   "תרגול",
+   "העניש",
+   "תחום של מחקר או ידע"
+  ]
+ },
+ {
+  "id": "discontent",
+  "en": "discontent",
+  "isVerb": false,
+  "he": [
+   "לא מרוצה"
+  ]
+ },
+ {
+  "id": "disparage",
+  "en": "disparage",
+  "isVerb": false,
+  "he": [
+   "לזלזל"
+  ]
+ },
+ {
+  "id": "drought",
+  "en": "drought",
+  "isVerb": false,
+  "he": [
+   "בצורת",
+   "מחסור"
+  ]
+ },
+ {
+  "id": "dynasty",
+  "en": "dynasty",
+  "isVerb": false,
+  "he": [
+   "שושלת"
+  ]
+ },
+ {
+  "id": "enforce",
+  "en": "enforce",
+  "isVerb": false,
+  "he": [
+   "אכף",
+   "כפה",
+   "הכתיב"
+  ]
+ },
+ {
+  "id": "equator",
+  "en": "equator",
+  "isVerb": false,
+  "he": [
+   "קו המשווה"
+  ]
+ },
+ {
+  "id": "allowance",
+  "en": "allowance",
+  "isVerb": false,
+  "he": [
+   "קצבה",
+   "הנחה",
+   "זיכוי",
+   "ויתור",
+   "אישור"
+  ]
+ },
+ {
+  "id": "amputation",
+  "en": "amputation",
+  "isVerb": false,
+  "he": [
+   "קטיעה"
+  ]
+ },
+ {
+  "id": "anesthesia",
+  "en": "anesthesia",
+  "isVerb": false,
+  "he": [
+   "הרדמה"
+  ]
+ },
+ {
+  "id": "ark",
+  "en": "ark",
+  "isVerb": false,
+  "he": [
+   "תיבה"
+  ]
+ },
+ {
+  "id": "atrocity",
+  "en": "atrocity",
+  "isVerb": false,
+  "he": [
+   "זוועה"
+  ]
+ },
+ {
+  "id": "bashful",
+  "en": "bashful",
+  "isVerb": false,
+  "he": [
+   "בישן"
+  ]
+ },
+ {
+  "id": "deflate",
+  "en": "deflate",
+  "isVerb": false,
+  "he": [
+   "הוציא אוויר מ"
+  ]
+ },
+ {
+  "id": "disparagement",
+  "en": "disparagement",
+  "isVerb": false,
+  "he": [
+   "זלזול"
+  ]
+ },
+ {
+  "id": "fetus",
+  "en": "fetus",
+  "isVerb": false,
+  "he": [
+   "עובר (ברחם)"
+  ]
+ },
+ {
+  "id": "fiber",
+  "en": "fiber",
+  "isVerb": false,
+  "he": [
+   "סיב"
+  ]
+ },
+ {
+  "id": "gasoline",
+  "en": "gasoline",
+  "isVerb": false,
+  "he": [
+   "בנזין"
+  ]
+ },
+ {
+  "id": "genus",
+  "en": "genus",
+  "isVerb": false,
+  "he": [
+   "סוג",
+   "מין"
+  ]
+ },
+ {
+  "id": "goblet",
+  "en": "goblet",
+  "isVerb": false,
+  "he": [
+   "גביע"
+  ]
+ },
+ {
+  "id": "infancy",
+  "en": "infancy",
+  "isVerb": false,
+  "he": [
+   "ינקות",
+   "תקופת החיים הראשונה"
+  ]
+ },
+ {
+  "id": "leisure",
+  "en": "leisure",
+  "isVerb": false,
+  "he": [
+   "פנאי"
+  ]
+ },
+ {
+  "id": "luminous",
+  "en": "luminous",
+  "isVerb": false,
+  "he": [
+   "זוהר",
+   "בוהק"
+  ]
+ },
+ {
+  "id": "masculine",
+  "en": "masculine",
+  "isVerb": false,
+  "he": [
+   "גברי"
+  ]
+ },
+ {
+  "id": "meticulous",
+  "en": "meticulous",
+  "isVerb": false,
+  "he": [
+   "קפדן"
+  ]
+ },
+ {
+  "id": "monarch",
+  "en": "monarch",
+  "isVerb": false,
+  "he": [
+   "מלך"
+  ]
+ },
+ {
+  "id": "lackluster",
+  "en": "lackluster",
+  "isVerb": false,
+  "he": [
+   "חסר ברק",
+   "דהוי",
+   "משעמם"
+  ]
+ },
+ {
+  "id": "grief",
+  "en": "grief",
+  "isVerb": false,
+  "he": [
+   "יגון",
+   "צער"
+  ]
+ },
+ {
+  "id": "petroleum",
+  "en": "petroleum",
+  "isVerb": false,
+  "he": [
+   "נפט"
+  ]
+ },
+ {
+  "id": "portrait",
+  "en": "portrait",
+  "isVerb": false,
+  "he": [
+   "דיוקן"
+  ]
+ },
+ {
+  "id": "posterity",
+  "en": "posterity",
+  "isVerb": false,
+  "he": [
+   "הדורות הבאים"
+  ]
+ },
+ {
+  "id": "preside",
+  "en": "preside",
+  "isVerb": false,
+  "he": [
+   "ניהל",
+   "הנהיג"
+  ]
+ },
+ {
+  "id": "probation",
+  "en": "probation",
+  "isVerb": false,
+  "he": [
+   "תקופת מבחן"
+  ]
+ },
+ {
+  "id": "prolific",
+  "en": "prolific",
+  "isVerb": false,
+  "he": [
+   "פורה",
+   "שופע"
+  ]
+ },
+ {
+  "id": "recall",
+  "en": "recall",
+  "isVerb": false,
+  "he": [
+   "נזכר",
+   "החזיר"
+  ]
+ },
+ {
+  "id": "prolong",
+  "en": "prolong",
+  "isVerb": false,
+  "he": [
+   "האריך",
+   "מתמשך"
+  ]
+ },
+ {
+  "id": "rim",
+  "en": "rim",
+  "isVerb": false,
+  "he": [
+   "שפה",
+   "שוליים"
+  ]
+ },
+ {
+  "id": "rub",
+  "en": "rub",
+  "isVerb": false,
+  "he": [
+   "לשפשף",
+   "למרוח"
+  ]
+ },
+ {
+  "id": "saw",
+  "en": "saw",
+  "isVerb": false,
+  "he": [
+   "פתגם",
+   "מסור",
+   "ראה"
+  ]
+ },
+ {
+  "id": "segment",
+  "en": "segment",
+  "isVerb": false,
+  "he": [
+   "מקטע",
+   "חלק"
+  ]
+ },
+ {
+  "id": "shell",
+  "en": "shell",
+  "isVerb": false,
+  "he": [
+   "קונכייה",
+   "קליפה",
+   "פיצח",
+   "פגז"
+  ]
+ },
+ {
+  "id": "slaughter",
+  "en": "slaughter",
+  "isVerb": false,
+  "he": [
+   "לשחוט",
+   "לטבוח",
+   "לחסל"
+  ]
+ },
+ {
+  "id": "solitary",
+  "en": "solitary",
+  "isVerb": false,
+  "he": [
+   "בודד"
+  ]
+ },
+ {
+  "id": "spike",
+  "en": "spike",
+  "isVerb": false,
+  "he": [
+   "יתד",
+   "עלייה חדה בגודלו או בשיעורו של משהו"
+  ]
+ },
+ {
+  "id": "stubborn",
+  "en": "stubborn",
+  "isVerb": false,
+  "he": [
+   "עקשן"
+  ]
+ },
+ {
+  "id": "testify",
+  "en": "testify",
+  "isVerb": false,
+  "he": [
+   "להעיד"
+  ]
+ },
+ {
+  "id": "timber",
+  "en": "timber",
+  "isVerb": false,
+  "he": [
+   "עץ",
+   "קורה"
+  ]
+ },
+ {
+  "id": "trait",
+  "en": "trait",
+  "isVerb": false,
+  "he": [
+   "תכונה"
+  ]
+ },
+ {
+  "id": "tranquilize",
+  "en": "tranquilize",
+  "isVerb": false,
+  "he": [
+   "להרגיע",
+   "להרדים"
+  ]
+ },
+ {
+  "id": "transcend",
+  "en": "transcend",
+  "isVerb": false,
+  "he": [
+   "להתעלות"
+  ]
+ },
+ {
+  "id": "transition",
+  "en": "transition",
+  "isVerb": false,
+  "he": [
+   "שינוי",
+   "מעבר"
+  ]
+ },
+ {
+  "id": "abhor",
+  "en": "abhor",
+  "isVerb": false,
+  "he": [
+   "לשנוא",
+   "לתעב"
+  ]
+ },
+ {
+  "id": "apathetic",
+  "en": "apathetic",
+  "isVerb": false,
+  "he": [
+   "אדיש"
+  ]
+ },
+ {
+  "id": "apathy",
+  "en": "apathy",
+  "isVerb": false,
+  "he": [
+   "אפתיה",
+   "אדישות"
+  ]
+ },
+ {
+  "id": "appease",
+  "en": "appease",
+  "isVerb": false,
+  "he": [
+   "לפייס"
+  ]
+ },
+ {
+  "id": "applaud",
+  "en": "applaud",
+  "isVerb": false,
+  "he": [
+   "מחא כפיים",
+   "הריע"
+  ]
+ },
+ {
+  "id": "attorney",
+  "en": "attorney",
+  "isVerb": false,
+  "he": [
+   "עורך דין"
+  ]
+ },
+ {
+  "id": "barn",
+  "en": "barn",
+  "isVerb": false,
+  "he": [
+   "אסם"
+  ]
+ },
+ {
+  "id": "burglar",
+  "en": "burglar",
+  "isVerb": false,
+  "he": [
+   "פורץ",
+   "גנב"
+  ]
+ },
+ {
+  "id": "cloak",
+  "en": "cloak",
+  "isVerb": false,
+  "he": [
+   "מסווה",
+   "גלימה",
+   "לחפות"
+  ]
+ },
+ {
+  "id": "coma",
+  "en": "coma",
+  "isVerb": false,
+  "he": [
+   "תרדמת"
+  ]
+ },
+ {
+  "id": "cosmopolitan",
+  "en": "cosmopolitan",
+  "isVerb": false,
+  "he": [
+   "אוניברסלי",
+   "אזרח העולם"
+  ]
+ },
+ {
+  "id": "cough",
+  "en": "cough",
+  "isVerb": false,
+  "he": [
+   "להשתעל"
+  ]
+ },
+ {
+  "id": "curtain",
+  "en": "curtain",
+  "isVerb": false,
+  "he": [
+   "מסך",
+   "וילון"
+  ]
+ },
+ {
+  "id": "dagger",
+  "en": "dagger",
+  "isVerb": false,
+  "he": [
+   "פגיון"
+  ]
+ },
+ {
+  "id": "dairy",
+  "en": "dairy",
+  "isVerb": false,
+  "he": [
+   "מחלבה"
+  ]
+ },
+ {
+  "id": "dandy",
+  "en": "dandy",
+  "isVerb": false,
+  "he": [
+   "גנדרני"
+  ]
+ },
+ {
+  "id": "dim",
+  "en": "dim",
+  "isVerb": false,
+  "he": [
+   "עמעם"
+  ]
+ },
+ {
+  "id": "disarmament",
+  "en": "disarmament",
+  "isVerb": false,
+  "he": [
+   "פירוק מנשק"
+  ]
+ },
+ {
+  "id": "discord",
+  "en": "discord",
+  "isVerb": false,
+  "he": [
+   "סכסוך",
+   "מחלוקת",
+   "להתנגש"
+  ]
+ },
+ {
+  "id": "disgust",
+  "en": "disgust",
+  "isVerb": false,
+  "he": [
+   "גועל",
+   "להגעיל"
+  ]
+ },
+ {
+  "id": "drench",
+  "en": "drench",
+  "isVerb": false,
+  "he": [
+   "הרטיב",
+   "השרה",
+   "הטביל",
+   "הספיג"
+  ]
+ },
+ {
+  "id": "dump",
+  "en": "dump",
+  "isVerb": false,
+  "he": [
+   "זבל",
+   "זרק",
+   "מזבלה"
+  ]
+ },
+ {
+  "id": "dye",
+  "en": "dye",
+  "isVerb": false,
+  "he": [
+   "צבע",
+   "לצבוע"
+  ]
+ },
+ {
+  "id": "eccentric",
+  "en": "eccentric",
+  "isVerb": false,
+  "he": [
+   "מוזר",
+   "חריג"
+  ]
+ },
+ {
+  "id": "elastic",
+  "en": "elastic",
+  "isVerb": false,
+  "he": [
+   "גמיש",
+   "אלסטי",
+   "גומיה"
+  ]
+ },
+ {
+  "id": "elderly",
+  "en": "elderly",
+  "isVerb": false,
+  "he": [
+   "זקן",
+   "קשיש"
+  ]
+ },
+ {
+  "id": "enchant",
+  "en": "enchant",
+  "isVerb": false,
+  "he": [
+   "הקסים",
+   "כישף"
+  ]
+ },
+ {
+  "id": "embalm",
+  "en": "embalm",
+  "isVerb": false,
+  "he": [
+   "לחנוט",
+   "לשמר"
+  ]
+ },
+ {
+  "id": "enthusiasm",
+  "en": "enthusiasm",
+  "isVerb": false,
+  "he": [
+   "התלהבות"
+  ]
+ },
+ {
+  "id": "flip",
+  "en": "flip",
+  "isVerb": false,
+  "he": [
+   "זרק",
+   "העיף",
+   "הפך",
+   "סלטה"
+  ]
+ },
+ {
+  "id": "fungus",
+  "en": "fungus",
+  "isVerb": false,
+  "he": [
+   "פטרת"
+  ]
+ },
+ {
+  "id": "fury",
+  "en": "fury",
+  "isVerb": false,
+  "he": [
+   "זעם",
+   "אלימות"
+  ]
+ },
+ {
+  "id": "glitch",
+  "en": "glitch",
+  "isVerb": false,
+  "he": [
+   "תקלה",
+   "הפרעה",
+   "שיבוש"
+  ]
+ },
+ {
+  "id": "hike",
+  "en": "hike",
+  "isVerb": false,
+  "he": [
+   "הליכה",
+   "טיול",
+   "הרים",
+   "העלאה (של מחירים, שכר וכו)"
+  ]
+ },
+ {
+  "id": "humility",
+  "en": "humility",
+  "isVerb": false,
+  "he": [
+   "ענווה",
+   "צניעות"
+  ]
+ },
+ {
+  "id": "icicle",
+  "en": "icicle",
+  "isVerb": false,
+  "he": [
+   "נטיף קרח"
+  ]
+ },
+ {
+  "id": "inflate",
+  "en": "inflate",
+  "isVerb": false,
+  "he": [
+   "לנפח"
+  ]
+ },
+ {
+  "id": "ingest",
+  "en": "ingest",
+  "isVerb": false,
+  "he": [
+   "להכניס משהו לגוף דרך הפה"
+  ]
+ },
+ {
+  "id": "instant",
+  "en": "instant",
+  "isVerb": false,
+  "he": [
+   "מידי",
+   "רגע"
+  ]
+ },
+ {
+  "id": "intrusive",
+  "en": "intrusive",
+  "isVerb": false,
+  "he": [
+   "חודרני",
+   "פולשני"
+  ]
+ },
+ {
+  "id": "jagged",
+  "en": "jagged",
+  "isVerb": false,
+  "he": [
+   "משונן",
+   "מחוספס",
+   "חרץ"
+  ]
+ },
+ {
+  "id": "link",
+  "en": "link",
+  "isVerb": false,
+  "he": [
+   "קישור",
+   "חוליה"
+  ]
+ },
+ {
+  "id": "joyous",
+  "en": "joyous",
+  "isVerb": false,
+  "he": [
+   "שמח",
+   "עליז"
+  ]
+ },
+ {
+  "id": "mechanize",
+  "en": "mechanize",
+  "isVerb": false,
+  "he": [
+   "למכן",
+   "להתקין מכונות"
+  ]
+ },
+ {
+  "id": "monument",
+  "en": "monument",
+  "isVerb": false,
+  "he": [
+   "אנדרטה",
+   "מצבת זיכרון"
+  ]
+ },
+ {
+  "id": "mountainside",
+  "en": "mountainside",
+  "isVerb": false,
+  "he": [
+   "מדרון",
+   "צלע ההר"
+  ]
+ },
+ {
+  "id": "nose",
+  "en": "nose",
+  "isVerb": false,
+  "he": [
+   "אף",
+   "חרטום",
+   "רחרח"
+  ]
+ },
+ {
+  "id": "outweigh",
+  "en": "outweigh",
+  "isVerb": false,
+  "he": [
+   "עולה על משהו או מישהו במשקלו",
+   "בחשיבותו",
+   "בהשפעתו וכו"
+  ]
+ },
+ {
+  "id": "pardon",
+  "en": "pardon",
+  "isVerb": false,
+  "he": [
+   "סליחה",
+   "חנינה"
+  ]
+ },
+ {
+  "id": "peek",
+  "en": "peek",
+  "isVerb": false,
+  "he": [
+   "הציץ"
+  ]
+ },
+ {
+  "id": "quake",
+  "en": "quake",
+  "isVerb": false,
+  "he": [
+   "רעידה",
+   "הרעיד"
+  ]
+ },
+ {
+  "id": "reap",
+  "en": "reap",
+  "isVerb": false,
+  "he": [
+   "לקצור"
+  ]
+ },
+ {
+  "id": "refund",
+  "en": "refund",
+  "isVerb": false,
+  "he": [
+   "החזר"
+  ]
+ },
+ {
+  "id": "revitalize",
+  "en": "revitalize",
+  "isVerb": false,
+  "he": [
+   "להחיות מחדש"
+  ]
+ },
+ {
+  "id": "sin",
+  "en": "sin",
+  "isVerb": false,
+  "he": [
+   "חטא"
+  ]
+ },
+ {
+  "id": "slaughterhouse",
+  "en": "slaughterhouse",
+  "isVerb": false,
+  "he": [
+   "משחטה",
+   "בית מטבחיים"
+  ]
+ },
+ {
+  "id": "study",
+  "en": "study",
+  "isVerb": false,
+  "he": [
+   "למד",
+   "חקר",
+   "עין",
+   "בחן",
+   "חדר עבודה"
+  ]
+ },
+ {
+  "id": "salvation",
+  "en": "salvation",
+  "isVerb": false,
+  "he": [
+   "גאולה",
+   "ישועה",
+   "הצלה"
+  ]
+ },
+ {
+  "id": "surrender",
+  "en": "surrender",
+  "isVerb": false,
+  "he": [
+   "להיכנע"
+  ]
+ },
+ {
+  "id": "surpass",
+  "en": "surpass",
+  "isVerb": false,
+  "he": [
+   "עלה על",
+   "להצטיין"
+  ]
+ },
+ {
+  "id": "surveillance",
+  "en": "surveillance",
+  "isVerb": false,
+  "he": [
+   "פיקוח",
+   "מעקב",
+   "השגחה"
+  ]
+ },
+ {
+  "id": "thriller",
+  "en": "thriller",
+  "isVerb": false,
+  "he": [
+   "מותחן"
+  ]
+ },
+ {
+  "id": "transcript",
+  "en": "transcript",
+  "isVerb": false,
+  "he": [
+   "תעתיק",
+   "עותק",
+   "תמליל",
+   "פרוטוקול"
+  ]
+ },
+ {
+  "id": "trip",
+  "en": "trip",
+  "isVerb": false,
+  "he": [
+   "טיול",
+   "מעידה"
+  ]
+ },
+ {
+  "id": "unrest",
+  "en": "unrest",
+  "isVerb": false,
+  "he": [
+   "אי שקט",
+   "מתיחות"
+  ]
+ },
+ {
+  "id": "algae",
+  "en": "algae",
+  "isVerb": false,
+  "he": [
+   "אצה"
+  ]
+ },
+ {
+  "id": "antler",
+  "en": "antler",
+  "isVerb": false,
+  "he": [
+   "קרן"
+  ]
+ },
+ {
+  "id": "valve",
+  "en": "valve",
+  "isVerb": false,
+  "he": [
+   "שסתום"
+  ]
+ },
+ {
+  "id": "berry",
+  "en": "berry",
+  "isVerb": false,
+  "he": [
+   "גרגירי יער",
+   "ליקט גרגרים"
+  ]
+ },
+ {
+  "id": "cadaver",
+  "en": "cadaver",
+  "isVerb": false,
+  "he": [
+   "גופה"
+  ]
+ },
+ {
+  "id": "caterpillar",
+  "en": "caterpillar",
+  "isVerb": false,
+  "he": [
+   "זחל"
+  ]
+ },
+ {
+  "id": "citrus",
+  "en": "citrus",
+  "isVerb": false,
+  "he": [
+   "פרי הדר"
+  ]
+ },
+ {
+  "id": "cologne",
+  "en": "cologne",
+  "isVerb": false,
+  "he": [
+   "בושם של גבר"
+  ]
+ },
+ {
+  "id": "abacus",
+  "en": "abacus",
+  "isVerb": false,
+  "he": [
+   "חשבונייה"
+  ]
+ },
+ {
+  "id": "copper",
+  "en": "copper",
+  "isVerb": false,
+  "he": [
+   "נחושת"
+  ]
+ },
+ {
+  "id": "cougar",
+  "en": "cougar",
+  "isVerb": false,
+  "he": [
+   "פומה"
+  ]
+ },
+ {
+  "id": "culminate",
+  "en": "culminate",
+  "isVerb": false,
+  "he": [
+   "הגיע לפסגה"
+  ]
+ },
+ {
+  "id": "date",
+  "en": "date",
+  "isVerb": false,
+  "he": [
+   "תאריך",
+   "פגישה",
+   "יציאה",
+   "תמר"
+  ]
+ },
+ {
+  "id": "denominator",
+  "en": "denominator",
+  "isVerb": false,
+  "he": [
+   "מכנה של שבר"
+  ]
+ },
+ {
+  "id": "diurnal",
+  "en": "diurnal",
+  "isVerb": false,
+  "he": [
+   "יומי",
+   "שפועל במהלך היום"
+  ]
+ },
+ {
+  "id": "dovecote",
+  "en": "dovecote",
+  "isVerb": false,
+  "he": [
+   "שובך"
+  ]
+ },
+ {
+  "id": "eel",
+  "en": "eel",
+  "isVerb": false,
+  "he": [
+   "צלופח"
+  ]
+ },
+ {
+  "id": "fashion",
+  "en": "fashion",
+  "isVerb": false,
+  "he": [
+   "אופנה",
+   "סגנון",
+   "אופן",
+   "לעצב"
+  ]
+ },
+ {
+  "id": "folklore",
+  "en": "folklore",
+  "isVerb": false,
+  "he": [
+   "פולקלור",
+   "תרבות עממית"
+  ]
+ },
+ {
+  "id": "footage",
+  "en": "footage",
+  "isVerb": false,
+  "he": [
+   "קטע צילום",
+   "אורך (ביחידות של רגל)"
+  ]
+ },
+ {
+  "id": "glaze",
+  "en": "glaze",
+  "isVerb": false,
+  "he": [
+   "זיגוג"
+  ]
+ },
+ {
+  "id": "grammatical",
+  "en": "grammatical",
+  "isVerb": false,
+  "he": [
+   "דקדוקי"
+  ]
+ },
+ {
+  "id": "heroine",
+  "en": "heroine",
+  "isVerb": false,
+  "he": [
+   "גיבורה"
+  ]
+ },
+ {
+  "id": "intoxicate",
+  "en": "intoxicate",
+  "isVerb": false,
+  "he": [
+   "לשכר",
+   "להרעיל",
+   "להלהיב"
+  ]
+ },
+ {
+  "id": "invertebrate",
+  "en": "invertebrate",
+  "isVerb": false,
+  "he": [
+   "חסר חוליות"
+  ]
+ },
+ {
+  "id": "janitor",
+  "en": "janitor",
+  "isVerb": false,
+  "he": [
+   "שרת",
+   "אב בית"
+  ]
+ },
+ {
+  "id": "lame",
+  "en": "lame",
+  "isVerb": false,
+  "he": [
+   "נכה",
+   "חלש",
+   "צולע",
+   "עלוב",
+   "לא משכנע"
+  ]
+ },
+ {
+  "id": "league",
+  "en": "league",
+  "isVerb": false,
+  "he": [
+   "ליגה",
+   "בעלת אורך משתנה",
+   "מידת אורך קדומה"
+  ]
+ },
+ {
+  "id": "leopard",
+  "en": "leopard",
+  "isVerb": false,
+  "he": [
+   "נמר"
+  ]
+ },
+ {
+  "id": "loathe",
+  "en": "loathe",
+  "isVerb": false,
+  "he": [
+   "לתעב"
+  ]
+ },
+ {
+  "id": "magnificent",
+  "en": "magnificent",
+  "isVerb": false,
+  "he": [
+   "מפואר",
+   "נהדר",
+   "מדהים"
+  ]
+ },
+ {
+  "id": "marsupial",
+  "en": "marsupial",
+  "isVerb": false,
+  "he": [
+   "חיית כיס"
+  ]
+ },
+ {
+  "id": "monk",
+  "en": "monk",
+  "isVerb": false,
+  "he": [
+   "נזיר"
+  ]
+ },
+ {
+  "id": "moth",
+  "en": "moth",
+  "isVerb": false,
+  "he": [
+   "עש"
+  ]
+ },
+ {
+  "id": "groom",
+  "en": "groom",
+  "isVerb": false,
+  "he": [
+   "חתן",
+   "ארוס",
+   "טיפל",
+   "טיפח",
+   "סיס"
+  ]
+ },
+ {
+  "id": "gymnasium",
+  "en": "gymnasium",
+  "isVerb": false,
+  "he": [
+   "אולם ספורט"
+  ]
+ },
+ {
+  "id": "formulate",
+  "en": "formulate",
+  "isVerb": false,
+  "he": [
+   "ניסח",
+   "תכנן"
+  ]
+ },
+ {
+  "id": "numerator",
+  "en": "numerator",
+  "isVerb": false,
+  "he": [
+   "מונה של שבר"
+  ]
+ },
+ {
+  "id": "ode",
+  "en": "ode",
+  "isVerb": false,
+  "he": [
+   "שיר הלל"
+  ]
+ },
+ {
+  "id": "overhaul",
+  "en": "overhaul",
+  "isVerb": false,
+  "he": [
+   "אוברול",
+   "שיפוץ"
+  ]
+ },
+ {
+  "id": "poultry",
+  "en": "poultry",
+  "isVerb": false,
+  "he": [
+   "עוף"
+  ]
+ },
+ {
+  "id": "roast",
+  "en": "roast",
+  "isVerb": false,
+  "he": [
+   "צלה",
+   "קלה",
+   "ירד על מישהו"
+  ]
+ },
+ {
+  "id": "paradox",
+  "en": "paradox",
+  "isVerb": false,
+  "he": [
+   "מצב או טענה המכילים סטירה פנימית"
+  ]
+ },
+ {
+  "id": "sarcophagus",
+  "en": "sarcophagus",
+  "isVerb": false,
+  "he": [
+   "סרקופג (סוג של ארון קבורה)"
+  ]
+ },
+ {
+  "id": "shepherd",
+  "en": "shepherd",
+  "isVerb": false,
+  "he": [
+   "רועה צאן",
+   "רועה גרמני"
+  ]
+ },
+ {
+  "id": "smog",
+  "en": "smog",
+  "isVerb": false,
+  "he": [
+   "ערפיח (שילוב של ערפל ופיח)"
+  ]
+ },
+ {
+  "id": "toad",
+  "en": "toad",
+  "isVerb": false,
+  "he": [
+   "קרפדה"
+  ]
+ },
+ {
+  "id": "trigger",
+  "en": "trigger",
+  "isVerb": false,
+  "he": [
+   "הדק",
+   "גורם",
+   "גירוי להתחלת פעולה"
+  ]
+ },
+ {
+  "id": "tutor",
+  "en": "tutor",
+  "isVerb": false,
+  "he": [
+   "מורה פרטי",
+   "חונך",
+   "מתרגל",
+   "הדריך"
+  ]
+ },
+ {
+  "id": "staircase",
+  "en": "staircase",
+  "isVerb": false,
+  "he": [
+   "גרם מדרגות"
+  ]
+ },
+ {
+  "id": "using up",
+  "en": "using up",
+  "isVerb": false,
+  "he": [
+   "גמר",
+   "התיש",
+   "השתמש עד תום"
+  ]
+ },
+ {
+  "id": "vowel",
+  "en": "vowel",
+  "isVerb": false,
+  "he": [
+   "תנועה (פונטיקה)"
+  ]
+ },
+ {
+  "id": "wholesale",
+  "en": "wholesale",
+  "isVerb": false,
+  "he": [
+   "סיטונאות",
+   "נרחב",
+   "רחב היקף"
+  ]
+ },
+ {
+  "id": "writer",
+  "en": "writer",
+  "isVerb": false,
+  "he": [
+   "כותב",
+   "סופר",
+   "מחבר"
+  ]
+ },
+ {
+  "id": "vertebrate",
+  "en": "vertebrate",
+  "isVerb": false,
+  "he": [
+   "בעל חוליות"
+  ]
+ },
+ {
+  "id": "viper",
+  "en": "viper",
+  "isVerb": false,
+  "he": [
+   "צפע"
+  ]
+ },
+ {
+  "id": "objective",
+  "en": "objective",
+  "isVerb": false,
+  "he": [
+   "תכלית"
+  ]
+ },
+ {
+  "id": "illumination",
+  "en": "illumination",
+  "isVerb": false,
+  "he": [
+   "תאורה"
+  ]
+ },
+ {
+  "id": "worship",
+  "en": "worship",
+  "isVerb": false,
+  "he": [
+   "פולחן"
+  ]
+ },
+ {
+  "id": "envious",
+  "en": "envious",
+  "isVerb": false,
+  "he": [
+   "קנאי"
+  ]
+ },
+ {
+  "id": "confiscate",
+  "en": "confiscate",
+  "isVerb": false,
+  "he": [
+   "להחרים"
+  ]
+ },
+ {
+  "id": "notion",
+  "en": "notion",
+  "isVerb": false,
+  "he": [
+   "רעיון"
+  ]
+ },
+ {
+  "id": "propagation",
+  "en": "propagation",
+  "isVerb": false,
+  "he": [
+   "התפשטות"
+  ]
+ },
+ {
+  "id": "sound",
+  "en": "sound",
+  "isVerb": false,
+  "he": [
+   "תקין",
+   "מבוסס",
+   "חסון",
+   "בריא",
+   "בטוח",
+   "קול"
+  ]
+ },
+ {
+  "id": "erosion",
+  "en": "erosion",
+  "isVerb": false,
+  "he": [
+   "סחף",
+   "כרסום (חשיפת פנים השן עם הישחקות הזגוגית)"
+  ]
+ },
+ {
+  "id": "exile",
+  "en": "exile",
+  "isVerb": false,
+  "he": [
+   "להגלות",
+   "לגרש"
+  ]
+ },
+ {
+  "id": "indigenous",
+  "en": "indigenous",
+  "isVerb": false,
+  "he": [
+   "יליד",
+   "מולד",
+   "טבעי"
+  ]
+ },
+ {
+  "id": "insulate",
+  "en": "insulate",
+  "isVerb": false,
+  "he": [
+   "לבודד",
+   "להפריד"
+  ]
+ },
+ {
+  "id": "upholstery",
+  "en": "upholstery",
+  "isVerb": false,
+  "he": [
+   "ריפוד"
+  ]
+ },
+ {
+  "id": "usher",
+  "en": "usher",
+  "isVerb": false,
+  "he": [
+   "סדרן",
+   "הוביל"
+  ]
+ },
+ {
+  "id": "instill",
+  "en": "instill",
+  "isVerb": false,
+  "he": [
+   "החדיר",
+   "השריש",
+   "טפטף"
+  ]
+ },
+ {
+  "id": "lumber",
+  "en": "lumber",
+  "isVerb": false,
+  "he": [
+   "קורות",
+   "בולי עץ",
+   "נסורת",
+   "קרשים",
+   "גרוטאות",
+   "נע בכבדות",
+   "התנהל ברעש",
+   "ערם"
+  ]
+ },
+ {
+  "id": "compulsory",
+  "en": "compulsory",
+  "isVerb": false,
+  "he": [
+   "של חובה"
+  ]
+ },
+ {
+  "id": "genesis",
+  "en": "genesis",
+  "isVerb": false,
+  "he": [
+   "ספר בראשית",
+   "היוצרות",
+   "התהוות"
+  ]
+ },
+ {
+  "id": "fringe",
+  "en": "fringe",
+  "isVerb": false,
+  "he": [
+   "גדיל",
+   "שוליים"
+  ]
+ },
+ {
+  "id": "orbit",
+  "en": "orbit",
+  "isVerb": false,
+  "he": [
+   "מסלול",
+   "חג",
+   "הסתובב"
+  ]
+ },
+ {
+  "id": "crop",
+  "en": "crop",
+  "isVerb": false,
+  "he": [
+   "יבול",
+   "אוסף",
+   "קיצוץ",
+   "הניב"
+  ]
+ },
+ {
+  "id": "deliberate",
+  "en": "deliberate",
+  "isVerb": false,
+  "he": [
+   "מכוון"
+  ]
+ },
+ {
+  "id": "nevertheless",
+  "en": "nevertheless",
+  "isVerb": false,
+  "he": [
+   "למרות זאת"
+  ]
+ },
+ {
+  "id": "resurgence",
+  "en": "resurgence",
+  "isVerb": false,
+  "he": [
+   "תחיה",
+   "התעוררות",
+   "התחדשות"
+  ]
+ },
+ {
+  "id": "grain",
+  "en": "grain",
+  "isVerb": false,
+  "he": [
+   "תבואה",
+   "דגן",
+   "גרעין",
+   "גרגיר"
+  ]
+ },
+ {
+  "id": "venture",
+  "en": "venture",
+  "isVerb": false,
+  "he": [
+   "מיזם",
+   "סיכון"
+  ]
+ },
+ {
+  "id": "vociferous",
+  "en": "vociferous",
+  "isVerb": false,
+  "he": [
+   "רעשני",
+   "צעקני"
+  ]
+ },
+ {
+  "id": "embitter",
+  "en": "embitter",
+  "isVerb": false,
+  "he": [
+   "החמיר",
+   "גרם להתמרמרות"
+  ]
+ },
+ {
+  "id": "encroach",
+  "en": "encroach",
+  "isVerb": false,
+  "he": [
+   "להשיג גבול",
+   "לפלוש",
+   "לחדור"
+  ]
+ },
+ {
+  "id": "extracted",
+  "en": "extracted",
+  "isVerb": false,
+  "he": [
+   "מחולץ",
+   "מיצה",
+   "סחט",
+   "תמצת"
+  ]
+ },
+ {
+  "id": "paddle",
+  "en": "paddle",
+  "isVerb": false,
+  "he": [
+   "משוט",
+   "פדל",
+   "מחבט",
+   "השתכשך"
+  ]
+ },
+ {
+  "id": "ignorant",
+  "en": "ignorant",
+  "isVerb": false,
+  "he": [
+   "בור ועם הארץ"
+  ]
+ },
+ {
+  "id": "literacy",
+  "en": "literacy",
+  "isVerb": false,
+  "he": [
+   "קרוא וכתוב"
+  ]
+ },
+ {
+  "id": "reincarnation",
+  "en": "reincarnation",
+  "isVerb": false,
+  "he": [
+   "גלגול נשמות"
+  ]
+ },
+ {
+  "id": "shingles",
+  "en": "shingles",
+  "isVerb": false,
+  "he": [
+   "רעפים",
+   "שלטים",
+   "חלוקים",
+   "שלבקת חוגרת"
+  ]
+ },
+ {
+  "id": "silk",
+  "en": "silk",
+  "isVerb": false,
+  "he": [
+   "משי",
+   "קור (של עכביש)",
+   "יועץ המלך"
+  ]
+ },
+ {
+  "id": "pottery",
+  "en": "pottery",
+  "isVerb": false,
+  "he": [
+   "כלי חרס",
+   "קדרות"
+  ]
+ },
+ {
+  "id": "draft",
+  "en": "draft",
+  "isVerb": false,
+  "he": [
+   "טיוטה",
+   "תרשים",
+   "גיוס",
+   "רוח פרצים",
+   "לגימה"
+  ]
+ },
+ {
+  "id": "intermediary",
+  "en": "intermediary",
+  "isVerb": false,
+  "he": [
+   "מתווך",
+   "אמצעי"
+  ]
+ },
+ {
+  "id": "snarl",
+  "en": "snarl",
+  "isVerb": false,
+  "he": [
+   "רטן",
+   "נחר",
+   "הסתבך"
+  ]
+ },
+ {
+  "id": "robe",
+  "en": "robe",
+  "isVerb": false,
+  "he": [
+   "גלימה",
+   "חלוק",
+   "הלביש",
+   "מעטה"
+  ]
+ },
+ {
+  "id": "spread",
+  "en": "spread",
+  "isVerb": false,
+  "he": [
+   "התפשט",
+   "הפיץ",
+   "ערך שולחן",
+   "פרס",
+   "ממרח",
+   "מוטת כנפים",
+   "ארוחה"
+  ]
+ },
+ {
+  "id": "stalk",
+  "en": "stalk",
+  "isVerb": false,
+  "he": [
+   "עקב",
+   "הטריד",
+   "גבעול"
+  ]
+ },
+ {
+  "id": "stuff",
+  "en": "stuff",
+  "isVerb": false,
+  "he": [
+   "חומר",
+   "חפצים אישיים",
+   "מילא",
+   "דחס",
+   "פיטם",
+   "פיחלץ"
+  ]
+ },
+ {
+  "id": "stunt",
+  "en": "stunt",
+  "isVerb": false,
+  "he": [
+   "תרגיל",
+   "פעלול",
+   "עיכב",
+   "עצר",
+   "מנע התפתחות"
+  ]
+ },
+ {
+  "id": "swept away",
+  "en": "swept away",
+  "isVerb": false,
+  "he": [
+   "נסחף"
+  ]
+ },
+ {
+  "id": "syllable",
+  "en": "syllable",
+  "isVerb": false,
+  "he": [
+   "הברה"
+  ]
+ },
+ {
+  "id": "tale",
+  "en": "tale",
+  "isVerb": false,
+  "he": [
+   "סיפור",
+   "אגדה",
+   "שקר"
+  ]
+ },
+ {
+  "id": "thimble",
+  "en": "thimble",
+  "isVerb": false,
+  "he": [
+   "אצבעון (של תפירה)"
+  ]
+ },
+ {
+  "id": "tin",
+  "en": "tin",
+  "isVerb": false,
+  "he": [
+   "בדיל",
+   "פח",
+   "קופסת שימורים"
+  ]
+ },
+ {
+  "id": "swindler",
+  "en": "swindler",
+  "isVerb": false,
+  "he": [
+   "נוכל",
+   "רמאי"
+  ]
+ },
+ {
+  "id": "twig",
+  "en": "twig",
+  "isVerb": false,
+  "he": [
+   "ענף",
+   "חוטר",
+   "זרד",
+   "הבין",
+   "קלט",
+   "תפס"
+  ]
+ },
+ {
+  "id": "treat",
+  "en": "treat",
+  "isVerb": false,
+  "he": [
+   "פינוק",
+   "כיבוד",
+   "חגיגה",
+   "תענוג",
+   "ממתק",
+   "הזמין מישהו על חשבונו",
+   "טיפל"
+  ]
+ },
+ {
+  "id": "weave",
+  "en": "weave",
+  "isVerb": false,
+  "he": [
+   "ארג",
+   "טוה",
+   "שזר",
+   "קלע",
+   "נע בזיגזג"
+  ]
+ },
+ {
+  "id": "unholy",
+  "en": "unholy",
+  "isVerb": false,
+  "he": [
+   "שאינו קדוש",
+   "בלתי מוסרי",
+   "מושחת",
+   "מזעזע",
+   "לא טבעי"
+  ]
+ },
+ {
+  "id": "merchandise",
+  "en": "merchandise",
+  "isVerb": false,
+  "he": [
+   "סחורה"
+  ]
+ },
+ {
+  "id": "prone",
+  "en": "prone",
+  "isVerb": false,
+  "he": [
+   "נוטה ל",
+   "שרוע עם פניו כלפי מטה"
+  ]
+ },
+ {
+  "id": "substance",
+  "en": "substance",
+  "isVerb": false,
+  "he": [
+   "חומר"
+  ]
+ },
+ {
+  "id": "fond",
+  "en": "fond",
+  "isVerb": false,
+  "he": [
+   "מחבב"
+  ]
+ },
+ {
+  "id": "overruled",
+  "en": "overruled",
+  "isVerb": false,
+  "he": [
+   "פסק נגד"
+  ]
+ },
+ {
+  "id": "fragile",
+  "en": "fragile",
+  "isVerb": false,
+  "he": [
+   "שביר",
+   "עדין",
+   "קלוש"
+  ]
+ },
+ {
+  "id": "creed",
+  "en": "creed",
+  "isVerb": false,
+  "he": [
+   "אמונה"
+  ]
+ },
+ {
+  "id": "organ",
+  "en": "organ",
+  "isVerb": false,
+  "he": [
+   "איבר"
+  ]
+ },
+ {
+  "id": "siege",
+  "en": "siege",
+  "isVerb": false,
+  "he": [
+   "מצור"
+  ]
+ },
+ {
+  "id": "compile",
+  "en": "compile",
+  "isVerb": false,
+  "he": [
+   "כינס",
+   "קבץ"
+  ]
+ },
+ {
+  "id": "beam",
+  "en": "beam",
+  "isVerb": false,
+  "he": [
+   "קרן אור",
+   "קורה (שער)"
+  ]
+ },
+ {
+  "id": "sculpture",
+  "en": "sculpture",
+  "isVerb": false,
+  "he": [
+   "פסל"
+  ]
+ },
+ {
+  "id": "dormant",
+  "en": "dormant",
+  "isVerb": false,
+  "he": [
+   "רדום"
+  ]
+ },
+ {
+  "id": "cluster",
+  "en": "cluster",
+  "isVerb": false,
+  "he": [
+   "אשכול"
+  ]
+ },
+ {
+  "id": "acute",
+  "en": "acute",
+  "isVerb": false,
+  "he": [
+   "רציני",
+   "חמור",
+   "קריטי",
+   "חד",
+   "חריף"
+  ]
+ },
+ {
+  "id": "outrage",
+  "en": "outrage",
+  "isVerb": false,
+  "he": [
+   "שערורייה",
+   "עלבון",
+   "הרגיז"
+  ]
+ },
+ {
+  "id": "obliges",
+  "en": "obliges",
+  "isVerb": false,
+  "he": [
+   "מחייב"
+  ]
+ },
+ {
+  "id": "taunt",
+  "en": "taunt",
+  "isVerb": false,
+  "he": [
+   "לגלוג",
+   "הקנטה"
+  ]
+ },
+ {
+  "id": "agile",
+  "en": "agile",
+  "isVerb": false,
+  "he": [
+   "זריז"
+  ]
+ },
+ {
+  "id": "attentive",
+  "en": "attentive",
+  "isVerb": false,
+  "he": [
+   "קשוב",
+   "מנומס",
+   "מתחשב"
+  ]
+ },
+ {
+  "id": "detour",
+  "en": "detour",
+  "isVerb": false,
+  "he": [
+   "מעקף"
+  ]
+ },
+ {
+  "id": "spectacle",
+  "en": "spectacle",
+  "isVerb": false,
+  "he": [
+   "מחזה"
+  ]
+ },
+ {
+  "id": "vigorous",
+  "en": "vigorous",
+  "isVerb": false,
+  "he": [
+   "נמרץ"
+  ]
+ },
+ {
+  "id": "impeccable",
+  "en": "impeccable",
+  "isVerb": false,
+  "he": [
+   "מושלם"
+  ]
+ },
+ {
+  "id": "obstinate",
+  "en": "obstinate",
+  "isVerb": false,
+  "he": [
+   "עקשן"
+  ]
+ },
+ {
+  "id": "agenda",
+  "en": "agenda",
+  "isVerb": false,
+  "he": [
+   "סדר יום",
+   "מטרות ויעדים"
+  ]
+ },
+ {
+  "id": "affinity",
+  "en": "affinity",
+  "isVerb": false,
+  "he": [
+   "זיקה"
+  ]
+ },
+ {
+  "id": "invaluable",
+  "en": "invaluable",
+  "isVerb": false,
+  "he": [
+   "יקר ערך"
+  ]
+ },
+ {
+  "id": "adore",
+  "en": "adore",
+  "isVerb": false,
+  "he": [
+   "להעריץ"
+  ]
+ },
+ {
+  "id": "revolve",
+  "en": "revolve",
+  "isVerb": false,
+  "he": [
+   "הרהר",
+   "סובב"
+  ]
+ },
+ {
+  "id": "deprivation",
+  "en": "deprivation",
+  "isVerb": false,
+  "he": [
+   "חסך"
+  ]
+ },
+ {
+  "id": "confound",
+  "en": "confound",
+  "isVerb": false,
+  "he": [
+   "בלבל"
+  ]
+ },
+ {
+  "id": "flourish",
+  "en": "flourish",
+  "isVerb": false,
+  "he": [
+   "לפרוח"
+  ]
+ },
+ {
+  "id": "conventional",
+  "en": "conventional",
+  "isVerb": false,
+  "he": [
+   "שגרתי"
+  ]
+ },
+ {
+  "id": "defer",
+  "en": "defer",
+  "isVerb": false,
+  "he": [
+   "לדחות"
+  ]
+ },
+ {
+  "id": "marble",
+  "en": "marble",
+  "isVerb": false,
+  "he": [
+   "שיש",
+   "גולה",
+   "קר",
+   "קשה",
+   "נוקשה"
+  ]
+ },
+ {
+  "id": "inquire",
+  "en": "inquire",
+  "isVerb": false,
+  "he": [
+   "לשאול"
+  ]
+ },
+ {
+  "id": "timid",
+  "en": "timid",
+  "isVerb": false,
+  "he": [
+   "נחבא אל הכלים",
+   "בישן"
+  ]
+ },
+ {
+  "id": "blaze",
+  "en": "blaze",
+  "isVerb": false,
+  "he": [
+   "להבה",
+   "התלקח"
+  ]
+ },
+ {
+  "id": "lure",
+  "en": "lure",
+  "isVerb": false,
+  "he": [
+   "פיתוי",
+   "פיתיון"
+  ]
+ },
+ {
+  "id": "stem",
+  "en": "stem",
+  "isVerb": false,
+  "he": [
+   "גבעול"
+  ]
+ },
+ {
+  "id": "implausible",
+  "en": "implausible",
+  "isVerb": false,
+  "he": [
+   "בלתי סביר"
+  ]
+ },
+ {
+  "id": "obscure",
+  "en": "obscure",
+  "isVerb": false,
+  "he": [
+   "מעורפל",
+   "חסר חשיבות",
+   "חבוי"
+  ]
+ },
+ {
+  "id": "avert",
+  "en": "avert",
+  "isVerb": false,
+  "he": [
+   "מנע",
+   "הסיט"
+  ]
+ },
+ {
+  "id": "bound",
+  "en": "bound",
+  "isVerb": false,
+  "he": [
+   "כרוך",
+   "כבול",
+   "חייב",
+   "הציב גבול",
+   "קפץ"
+  ]
+ },
+ {
+  "id": "kneel",
+  "en": "kneel",
+  "isVerb": false,
+  "he": [
+   "לכרוע ברך"
+  ]
+ },
+ {
+  "id": "devious",
+  "en": "devious",
+  "isVerb": false,
+  "he": [
+   "ערמומי"
+  ]
+ },
+ {
+  "id": "inquiry",
+  "en": "inquiry",
+  "isVerb": false,
+  "he": [
+   "חקירה"
+  ]
+ },
+ {
+  "id": "embezzle",
+  "en": "embezzle",
+  "isVerb": false,
+  "he": [
+   "למעול בכספים"
+  ]
+ },
+ {
+  "id": "vigilance",
+  "en": "vigilance",
+  "isVerb": false,
+  "he": [
+   "דריכות",
+   "ערנות"
+  ]
+ },
+ {
+  "id": "aptitude",
+  "en": "aptitude",
+  "isVerb": false,
+  "he": [
+   "חריצות",
+   "נטייה",
+   "כישרון"
+  ]
+ },
+ {
+  "id": "undertaken",
+  "en": "undertaken",
+  "isVerb": false,
+  "he": [
+   "התחייב",
+   "התחיל",
+   "ניסה"
+  ]
+ },
+ {
+  "id": "contraction",
+  "en": "contraction",
+  "isVerb": false,
+  "he": [
+   "התכווצות"
+  ]
+ },
+ {
+  "id": "distinction",
+  "en": "distinction",
+  "isVerb": false,
+  "he": [
+   "ייחודיות",
+   "שוני",
+   "הצטיינות",
+   "כבוד"
+  ]
+ },
+ {
+  "id": "fraternal",
+  "en": "fraternal",
+  "isVerb": false,
+  "he": [
+   "חברי",
+   "של אח"
+  ]
+ },
+ {
+  "id": "furnish",
+  "en": "furnish",
+  "isVerb": false,
+  "he": [
+   "לרהט",
+   "לספק",
+   "לצייד"
+  ]
+ },
+ {
+  "id": "glacier",
+  "en": "glacier",
+  "isVerb": false,
+  "he": [
+   "קרחון"
+  ]
+ },
+ {
+  "id": "gulf",
+  "en": "gulf",
+  "isVerb": false,
+  "he": [
+   "מפרץ",
+   "פער",
+   "תהום",
+   "בלע"
+  ]
+ },
+ {
+  "id": "howl",
+  "en": "howl",
+  "isVerb": false,
+  "he": [
+   "יללה"
+  ]
+ },
+ {
+  "id": "index",
+  "en": "index",
+  "isVerb": false,
+  "he": [
+   "אינדקס",
+   "מדד",
+   "מפתח",
+   "תוכן עניינים"
+  ]
+ },
+ {
+  "id": "inn",
+  "en": "inn",
+  "isVerb": false,
+  "he": [
+   "פונדק"
+  ]
+ },
+ {
+  "id": "menial",
+  "en": "menial",
+  "isVerb": false,
+  "he": [
+   "בזוי",
+   "נחות"
+  ]
+ },
+ {
+  "id": "leniency",
+  "en": "leniency",
+  "isVerb": false,
+  "he": [
+   "רחמים",
+   "חמלה",
+   "הקלה בעונש"
+  ]
+ },
+ {
+  "id": "lip",
+  "en": "lip",
+  "isVerb": false,
+  "he": [
+   "שפה"
+  ]
+ },
+ {
+  "id": "nausea",
+  "en": "nausea",
+  "isVerb": false,
+  "he": [
+   "בחילה"
+  ]
+ },
+ {
+  "id": "stamp",
+  "en": "stamp",
+  "isVerb": false,
+  "he": [
+   "בול",
+   "חותמת",
+   "החתים",
+   "דרש",
+   "דרס",
+   "רמס"
+  ]
+ },
+ {
+  "id": "taint",
+  "en": "taint",
+  "isVerb": false,
+  "he": [
+   "זיהום",
+   "פגם",
+   "להכפיש"
+  ]
+ },
+ {
+  "id": "tame",
+  "en": "tame",
+  "isVerb": false,
+  "he": [
+   "לאלף",
+   "לבית"
+  ]
+ },
+ {
+  "id": "tentative",
+  "en": "tentative",
+  "isVerb": false,
+  "he": [
+   "ניסיוני",
+   "לא סופי",
+   "לא מגובש"
+  ]
+ },
+ {
+  "id": "rotary",
+  "en": "rotary",
+  "isVerb": false,
+  "he": [
+   "כיכר תנועה",
+   "סיבובי",
+   "נע על ציר סיבובי"
+  ]
+ },
+ {
+  "id": "saturated",
+  "en": "saturated",
+  "isVerb": false,
+  "he": [
+   "רווי",
+   "שופע",
+   "ספוג"
+  ]
+ },
+ {
+  "id": "sedative",
+  "en": "sedative",
+  "isVerb": false,
+  "he": [
+   "סם הרגעה",
+   "משכך",
+   "מרדים"
+  ]
+ },
+ {
+  "id": "segregation",
+  "en": "segregation",
+  "isVerb": false,
+  "he": [
+   "הפרדה"
+  ]
+ },
+ {
+  "id": "scale",
+  "en": "scale",
+  "isVerb": false,
+  "he": [
+   "סולם",
+   "לעלות",
+   "לטפס",
+   "מאזניים",
+   "קנה מידה",
+   "סרגל",
+   "משקל",
+   "אבנית",
+   "קשקשים"
+  ]
+ },
+ {
+  "id": "perspiration",
+  "en": "perspiration",
+  "isVerb": false,
+  "he": [
+   "זיעה"
+  ]
+ },
+ {
+  "id": "sentiment",
+  "en": "sentiment",
+  "isVerb": false,
+  "he": [
+   "רגש",
+   "חוש",
+   "דעה",
+   "עמדה"
+  ]
+ },
+ {
+  "id": "potent",
+  "en": "potent",
+  "isVerb": false,
+  "he": [
+   "חזק",
+   "רב עוצמה"
+  ]
+ },
+ {
+  "id": "abort",
+  "en": "abort",
+  "isVerb": false,
+  "he": [
+   "ביטל",
+   "הפסיק",
+   "הפילה (לידה)"
+  ]
+ },
+ {
+  "id": "thread",
+  "en": "thread",
+  "isVerb": false,
+  "he": [
+   "חוט",
+   "סיב"
+  ]
+ },
+ {
+  "id": "crookedness",
+  "en": "crookedness",
+  "isVerb": false,
+  "he": [
+   "עקימות",
+   "עיוות",
+   "סטייה",
+   "נטייה"
+  ]
+ },
+ {
+  "id": "dirt",
+  "en": "dirt",
+  "isVerb": false,
+  "he": [
+   "עפר",
+   "לכלוך"
+  ]
+ },
+ {
+  "id": "interval",
+  "en": "interval",
+  "isVerb": false,
+  "he": [
+   "רווח",
+   "פער"
+  ]
+ },
+ {
+  "id": "dubbed",
+  "en": "dubbed",
+  "isVerb": false,
+  "he": [
+   "דיבב",
+   "כינה"
+  ]
+ },
+ {
+  "id": "disclose",
+  "en": "disclose",
+  "isVerb": false,
+  "he": [
+   "לגלות",
+   "לחשוף"
+  ]
+ },
+ {
+  "id": "clay",
+  "en": "clay",
+  "isVerb": false,
+  "he": [
+   "אופי",
+   "חימר"
+  ]
+ },
+ {
+  "id": "wander",
+  "en": "wander",
+  "isVerb": false,
+  "he": [
+   "להסתובב",
+   "לשוטט",
+   "לנדוד"
+  ]
+ },
+ {
+  "id": "wound",
+  "en": "wound",
+  "isVerb": false,
+  "he": [
+   "פצע",
+   "התפתל",
+   "התלפף",
+   "נמתח"
+  ]
+ },
+ {
+  "id": "conductor",
+  "en": "conductor",
+  "isVerb": false,
+  "he": [
+   "מוליך",
+   "כרטיסן",
+   "מנצח (תזמורת)"
+  ]
+ },
+ {
+  "id": "consonant",
+  "en": "consonant",
+  "isVerb": false,
+  "he": [
+   "עיצור (לשוני)",
+   "הרמוני",
+   "תואם",
+   "הולם",
+   "מתאים"
+  ]
+ },
+ {
+  "id": "coop",
+  "en": "coop",
+  "isVerb": false,
+  "he": [
+   "כלא",
+   "כלוב",
+   "לול"
+  ]
+ },
+ {
+  "id": "dwindle",
+  "en": "dwindle",
+  "isVerb": false,
+  "he": [
+   "הדלדל",
+   "התמעט"
+  ]
+ },
+ {
+  "id": "flimsy",
+  "en": "flimsy",
+  "isVerb": false,
+  "he": [
+   "שביר",
+   "דק",
+   "עדין",
+   "קלוש",
+   "שטר כסף"
+  ]
+ },
+ {
+  "id": "disprove",
+  "en": "disprove",
+  "isVerb": false,
+  "he": [
+   "להפריך"
+  ]
+ },
+ {
+  "id": "issue",
+  "en": "issue",
+  "isVerb": false,
+  "he": [
+   "נושא",
+   "עניין",
+   "מהדורה",
+   "זרימה",
+   "פרסם",
+   "הפריש"
+  ]
+ },
+ {
+  "id": "joint",
+  "en": "joint",
+  "isVerb": false,
+  "he": [
+   "משותף",
+   "חיבור",
+   "מיפרק"
+  ]
+ },
+ {
+  "id": "apparent",
+  "en": "apparent",
+  "isVerb": false,
+  "he": [
+   "גלוי"
+  ]
+ },
+ {
+  "id": "attain",
+  "en": "attain",
+  "isVerb": false,
+  "he": [
+   "להשיג",
+   "להגיע"
+  ]
+ },
+ {
+  "id": "bare",
+  "en": "bare",
+  "isVerb": false,
+  "he": [
+   "חשוף",
+   "ריק",
+   "פשוט"
+  ]
+ },
+ {
+  "id": "comprise",
+  "en": "comprise",
+  "isVerb": false,
+  "he": [
+   "לכלול"
+  ]
+ },
+ {
+  "id": "confer",
+  "en": "confer",
+  "isVerb": false,
+  "he": [
+   "להתייעץ",
+   "להעניק",
+   "להסביר"
+  ]
+ },
+ {
+  "id": "pivot",
+  "en": "pivot",
+  "isVerb": false,
+  "he": [
+   "ציר",
+   "לסובב על הציר",
+   "גורם הממלא תפקיד מרכזי במצב או מערכת מסוימים"
+  ]
+ },
+ {
+  "id": "plate",
+  "en": "plate",
+  "isVerb": false,
+  "he": [
+   "צלחת",
+   "לוחית",
+   "לוח",
+   "פלטה",
+   "ציפוי",
+   "סידר מנה בצלחת"
+  ]
+ },
+ {
+  "id": "plunge",
+  "en": "plunge",
+  "isVerb": false,
+  "he": [
+   "צלל",
+   "צנח",
+   "הדרדר",
+   "קפץ למים",
+   "טבל"
+  ]
+ },
+ {
+  "id": "poignant",
+  "en": "poignant",
+  "isVerb": false,
+  "he": [
+   "חריף",
+   "עז",
+   "חודר",
+   "מכאיב",
+   "רלונטי",
+   "חד",
+   "מעורר"
+  ]
+ },
+ {
+  "id": "proverb",
+  "en": "proverb",
+  "isVerb": false,
+  "he": [
+   "פתגם",
+   "אימרה"
+  ]
+ },
+ {
+  "id": "recipient",
+  "en": "recipient",
+  "isVerb": false,
+  "he": [
+   "נמען"
+  ]
+ },
+ {
+  "id": "confide",
+  "en": "confide",
+  "isVerb": false,
+  "he": [
+   "לשתף",
+   "לספר (סוד)"
+  ]
+ },
+ {
+  "id": "function",
+  "en": "function",
+  "isVerb": false,
+  "he": [
+   "פונקציה",
+   "תפקד",
+   "שימש כ",
+   "גורם",
+   "מטלה",
+   "אירוע"
+  ]
+ },
+ {
+  "id": "particular",
+  "en": "particular",
+  "isVerb": false,
+  "he": [
+   "ספציפי",
+   "קפדן",
+   "בררן",
+   "פריט"
+  ]
+ },
+ {
+  "id": "obtain",
+  "en": "obtain",
+  "isVerb": false,
+  "he": [
+   "להשיג",
+   "לקבל",
+   "היה נהוג"
+  ]
+ },
+ {
+  "id": "simulate",
+  "en": "simulate",
+  "isVerb": false,
+  "he": [
+   "לדמות",
+   "לחקות"
+  ]
+ },
+ {
+  "id": "spring",
+  "en": "spring",
+  "isVerb": false,
+  "he": [
+   "אביב",
+   "מעיין",
+   "קפיצה",
+   "השתחרר",
+   "נבע"
+  ]
+ },
+ {
+  "id": "disposal",
+  "en": "disposal",
+  "isVerb": false,
+  "he": [
+   "רשות (לרשותו)",
+   "סידור",
+   "היפטרות"
+  ]
+ },
+ {
+  "id": "benefactor",
+  "en": "benefactor",
+  "isVerb": false,
+  "he": [
+   "תורם",
+   "נדבן"
+  ]
+ },
+ {
+  "id": "portray",
+  "en": "portray",
+  "isVerb": false,
+  "he": [
+   "לתאר",
+   "לצייר"
+  ]
+ },
+ {
+  "id": "louse",
+  "en": "louse",
+  "isVerb": false,
+  "he": [
+   "כינה",
+   "חלאה"
+  ]
+ },
+ {
+  "id": "keep",
+  "en": "keep",
+  "isVerb": false,
+  "he": [
+   "החזיק",
+   "השאיר",
+   "פירנס",
+   "המשיך",
+   "קיום",
+   "מחיה",
+   "צינוק",
+   "מצודה"
+  ]
+ },
+ {
+  "id": "lodge",
+  "en": "lodge",
+  "isVerb": false,
+  "he": [
+   "ביתן",
+   "בקתה",
+   "להתאכסן",
+   "אכסניה",
+   "סניף",
+   "התגורר",
+   "הפקיד",
+   "הגיש תביעה"
+  ]
+ },
+ {
+  "id": "log",
+  "en": "log",
+  "isVerb": false,
+  "he": [
+   "בול עץ",
+   "יומן",
+   "תיעד ביומן"
+  ]
+ },
+ {
+  "id": "mischief",
+  "en": "mischief",
+  "isVerb": false,
+  "he": [
+   "מעשה קונדס",
+   "פגיעה",
+   "נזק",
+   "רעה"
+  ]
+ },
+ {
+  "id": "misty",
+  "en": "misty",
+  "isVerb": false,
+  "he": [
+   "מעורפל"
+  ]
+ },
+ {
+  "id": "norm",
+  "en": "norm",
+  "isVerb": false,
+  "he": [
+   "נורמה",
+   "תקן",
+   "רף",
+   "סטנדרט"
+  ]
+ },
+ {
+  "id": "palm",
+  "en": "palm",
+  "isVerb": false,
+  "he": [
+   "כף יד",
+   "ליטף",
+   "דקל",
+   "תמר"
+  ]
+ },
+ {
+  "id": "coat",
+  "en": "coat",
+  "isVerb": false,
+  "he": [
+   "מעיל",
+   "שכבה (של צבע, בטון וכו...)"
+  ]
+ },
+ {
+  "id": "comply",
+  "en": "comply",
+  "isVerb": false,
+  "he": [
+   "נענה",
+   "הסכים",
+   "ציית"
+  ]
+ },
+ {
+  "id": "harbor",
+  "en": "harbor",
+  "isVerb": false,
+  "he": [
+   "נמל",
+   "מחסה",
+   "הכיל"
+  ]
+ },
+ {
+  "id": "condition",
+  "en": "condition",
+  "isVerb": false,
+  "he": [
+   "מצב",
+   "תנאי",
+   "הכשיר"
+  ]
+ },
+ {
+  "id": "contract",
+  "en": "contract",
+  "isVerb": false,
+  "he": [
+   "חוזה",
+   "להידבק (במחלה)",
+   "התכווץ"
+  ]
+ },
+ {
+  "id": "exploit",
+  "en": "exploit",
+  "isVerb": false,
+  "he": [
+   "ניצל",
+   "הפיק תועלת",
+   "מיצה",
+   "פעולות"
+  ]
+ },
+ {
+  "id": "convoy",
+  "en": "convoy",
+  "isVerb": false,
+  "he": [
+   "שיירה",
+   "ליווה שיירה"
+  ]
+ },
+ {
+  "id": "ancestry",
+  "en": "ancestry",
+  "isVerb": false,
+  "he": [
+   "מוצא",
+   "שושלת"
+  ]
+ },
+ {
+  "id": "imprisoned",
+  "en": "imprisoned",
+  "isVerb": false,
+  "he": [
+   "כלוא"
+  ]
+ },
+ {
+  "id": "lobby",
+  "en": "lobby",
+  "isVerb": false,
+  "he": [
+   "לובי",
+   "מבואה",
+   "שידל"
+  ]
+ },
+ {
+  "id": "mammal",
+  "en": "mammal",
+  "isVerb": false,
+  "he": [
+   "יונק"
+  ]
+ },
+ {
+  "id": "negate",
+  "en": "negate",
+  "isVerb": false,
+  "he": [
+   "שלל"
+  ]
+ },
+ {
+  "id": "overdue",
+  "en": "overdue",
+  "isVerb": false,
+  "he": [
+   "שעבר זמן ההגשה שלו"
+  ]
+ },
+ {
+  "id": "precedent",
+  "en": "precedent",
+  "isVerb": false,
+  "he": [
+   "תקדים"
+  ]
+ },
+ {
+  "id": "enclose",
+  "en": "enclose",
+  "isVerb": false,
+  "he": [
+   "לצרף",
+   "להקיף",
+   "לסגור"
+  ]
+ },
+ {
+  "id": "evade",
+  "en": "evade",
+  "isVerb": false,
+  "he": [
+   "התחמק",
+   "השתמט"
+  ]
+ },
+ {
+  "id": "forsake",
+  "en": "forsake",
+  "isVerb": false,
+  "he": [
+   "לזנוח"
+  ]
+ },
+ {
+  "id": "industrious",
+  "en": "industrious",
+  "isVerb": false,
+  "he": [
+   "חרוץ",
+   "שקדן"
+  ]
+ },
+ {
+  "id": "marine",
+  "en": "marine",
+  "isVerb": false,
+  "he": [
+   "ימי",
+   "צי"
+  ]
+ },
+ {
+  "id": "pedestrian",
+  "en": "pedestrian",
+  "isVerb": false,
+  "he": [
+   "הולך רגל",
+   "משעמם",
+   "רגיל"
+  ]
+ },
+ {
+  "id": "persecution",
+  "en": "persecution",
+  "isVerb": false,
+  "he": [
+   "רדיפה",
+   "הצקה"
+  ]
+ },
+ {
+  "id": "populous",
+  "en": "populous",
+  "isVerb": false,
+  "he": [
+   "מאוכלס",
+   "מיושב (בצפיפות)"
+  ]
+ },
+ {
+  "id": "presume",
+  "en": "presume",
+  "isVerb": false,
+  "he": [
+   "הניח",
+   "העז",
+   "הרשה לעצמו"
+  ]
+ },
+ {
+  "id": "renown",
+  "en": "renown",
+  "isVerb": false,
+  "he": [
+   "ידוע",
+   "מוניטין",
+   "שם טוב"
+  ]
+ },
+ {
+  "id": "determined",
+  "en": "determined",
+  "isVerb": false,
+  "he": [
+   "נחוש",
+   "נחרץ"
+  ]
+ },
+ {
+  "id": "monumental",
+  "en": "monumental",
+  "isVerb": false,
+  "he": [
+   "עצום",
+   "אדיר"
+  ]
+ },
+ {
+  "id": "paramount",
+  "en": "paramount",
+  "isVerb": false,
+  "he": [
+   "עליון",
+   "חשוב ביותר"
+  ]
+ },
+ {
+  "id": "constitute",
+  "en": "constitute",
+  "isVerb": false,
+  "he": [
+   "הרכיב",
+   "מינה",
+   "הציב",
+   "הקים"
+  ]
+ },
+ {
+  "id": "solicit",
+  "en": "solicit",
+  "isVerb": false,
+  "he": [
+   "התחנן",
+   "שידל",
+   "הדיח"
+  ]
+ },
+ {
+  "id": "stimulate",
+  "en": "stimulate",
+  "isVerb": false,
+  "he": [
+   "עורר",
+   "המריץ"
+  ]
+ },
+ {
+  "id": "submit",
+  "en": "submit",
+  "isVerb": false,
+  "he": [
+   "הגיש",
+   "מסר",
+   "נכנע",
+   "טען"
+  ]
+ },
+ {
+  "id": "suppression",
+  "en": "suppression",
+  "isVerb": false,
+  "he": [
+   "דיכוי",
+   "הדחקה"
+  ]
+ },
+ {
+  "id": "uprising",
+  "en": "uprising",
+  "isVerb": false,
+  "he": [
+   "התקוממות",
+   "מרד"
+  ]
+ },
+ {
+  "id": "empathy",
+  "en": "empathy",
+  "isVerb": false,
+  "he": [
+   "אמפתיה",
+   "הזדהות רגשית"
+  ]
+ },
+ {
+  "id": "enrich",
+  "en": "enrich",
+  "isVerb": false,
+  "he": [
+   "העשיר"
+  ]
+ },
+ {
+  "id": "dissect",
+  "en": "dissect",
+  "isVerb": false,
+  "he": [
+   "ניתח",
+   "ביתר"
+  ]
+ },
+ {
+  "id": "course",
+  "en": "course",
+  "isVerb": false,
+  "he": [
+   "קורס",
+   "כיוון",
+   "מנה",
+   "מגרש",
+   "מסלול",
+   "חצה",
+   "התנהל",
+   "זרם"
+  ]
+ },
+ {
+  "id": "cripple",
+  "en": "cripple",
+  "isVerb": false,
+  "he": [
+   "נכה",
+   "בעל מום",
+   "גרם לנזק קשה"
+  ]
+ },
+ {
+  "id": "croak",
+  "en": "croak",
+  "isVerb": false,
+  "he": [
+   "לקרקר"
+  ]
+ },
+ {
+  "id": "demented",
+  "en": "demented",
+  "isVerb": false,
+  "he": [
+   "משוגע",
+   "מטורף"
+  ]
+ },
+ {
+  "id": "drip",
+  "en": "drip",
+  "isVerb": false,
+  "he": [
+   "לטפטף",
+   "אינפוזיה",
+   "אדם לא מעניין",
+   "ביגוד אופנתי"
+  ]
+ },
+ {
+  "id": "dull",
+  "en": "dull",
+  "isVerb": false,
+  "he": [
+   "משעמם",
+   "עמום",
+   "סתום",
+   "קהה"
+  ]
+ },
+ {
+  "id": "extortion",
+  "en": "extortion",
+  "isVerb": false,
+  "he": [
+   "סחיטה"
+  ]
+ },
+ {
+  "id": "extrapolate",
+  "en": "extrapolate",
+  "isVerb": false,
+  "he": [
+   "לאמוד על סמך מידע קיים"
+  ]
+ },
+ {
+  "id": "fault",
+  "en": "fault",
+  "isVerb": false,
+  "he": [
+   "אשמה",
+   "פגם",
+   "תקלה",
+   "פגיעה",
+   "טעות",
+   "חיסרון",
+   "עברה"
+  ]
+ },
+ {
+  "id": "flavor",
+  "en": "flavor",
+  "isVerb": false,
+  "he": [
+   "טעם",
+   "תיבל"
+  ]
+ },
+ {
+  "id": "foster",
+  "en": "foster",
+  "isVerb": false,
+  "he": [
+   "עודד",
+   "טיפח",
+   "גידל",
+   "מאומץ"
+  ]
+ },
+ {
+  "id": "genial",
+  "en": "genial",
+  "isVerb": false,
+  "he": [
+   "עליז",
+   "ידידותי",
+   "לבבי"
+  ]
+ },
+ {
+  "id": "commendably",
+  "en": "commendably",
+  "isVerb": false,
+  "he": [
+   "באופן ראוי לשבח"
+  ]
+ },
+ {
+  "id": "compatible",
+  "en": "compatible",
+  "isVerb": false,
+  "he": [
+   "מתאים",
+   "ראוי"
+  ]
+ },
+ {
+  "id": "wage",
+  "en": "wage",
+  "isVerb": false,
+  "he": [
+   "התחיל",
+   "ניהל",
+   "ערך",
+   "משכורת"
+  ]
+ },
+ {
+  "id": "faint",
+  "en": "faint",
+  "isVerb": false,
+  "he": [
+   "קלוש",
+   "חלוש",
+   "התעלף"
+  ]
+ },
+ {
+  "id": "ward",
+  "en": "ward",
+  "isVerb": false,
+  "he": [
+   "רובע",
+   "אגף",
+   "סוהר",
+   "הגן"
+  ]
+ },
+ {
+  "id": "yield",
+  "en": "yield",
+  "isVerb": false,
+  "he": [
+   "תשואה",
+   "להניב",
+   "להפיק",
+   "להיכנע",
+   "לוותר",
+   "לסגת"
+  ]
+ },
+ {
+  "id": "strive",
+  "en": "strive",
+  "isVerb": false,
+  "he": [
+   "שאף",
+   "חתר"
+  ]
+ },
+ {
+  "id": "extension",
+  "en": "extension",
+  "isVerb": false,
+  "he": [
+   "הארכה",
+   "הרחבה",
+   "שלוחה",
+   "מתיחה"
+  ]
+ },
+ {
+  "id": "engrave",
+  "en": "engrave",
+  "isVerb": false,
+  "he": [
+   "חרט",
+   "גילף",
+   "חקק"
+  ]
+ },
+ {
+  "id": "hectic",
+  "en": "hectic",
+  "isVerb": false,
+  "he": [
+   "עמוס",
+   "קדחתני"
+  ]
+ },
+ {
+  "id": "correspond",
+  "en": "correspond",
+  "isVerb": false,
+  "he": [
+   "להתאים",
+   "להתכתב"
+  ]
+ },
+ {
+  "id": "heir",
+  "en": "heir",
+  "isVerb": false,
+  "he": [
+   "יורש"
+  ]
+ },
+ {
+  "id": "lens",
+  "en": "lens",
+  "isVerb": false,
+  "he": [
+   "עדשה",
+   "הסריט"
+  ]
+ },
+ {
+  "id": "oriented",
+  "en": "oriented",
+  "isVerb": false,
+  "he": [
+   "מכוון",
+   "מונחה"
+  ]
+ },
+ {
+  "id": "pattern",
+  "en": "pattern",
+  "isVerb": false,
+  "he": [
+   "דוגמה",
+   "דפוס",
+   "משקל"
+  ]
+ },
+ {
+  "id": "piece",
+  "en": "piece",
+  "isVerb": false,
+  "he": [
+   "חלק",
+   "יצירה",
+   "כלי",
+   "מטבע"
+  ]
+ },
+ {
+  "id": "razor",
+  "en": "razor",
+  "isVerb": false,
+  "he": [
+   "סכין גילוח"
+  ]
+ },
+ {
+  "id": "reconcile",
+  "en": "reconcile",
+  "isVerb": false,
+  "he": [
+   "השלים",
+   "התפייס"
+  ]
+ },
+ {
+  "id": "augment",
+  "en": "augment",
+  "isVerb": false,
+  "he": [
+   "הגדיל",
+   "הרחיב"
+  ]
+ },
+ {
+  "id": "concise",
+  "en": "concise",
+  "isVerb": false,
+  "he": [
+   "תמציתי",
+   "תכליתי"
+  ]
+ },
+ {
+  "id": "counsel",
+  "en": "counsel",
+  "isVerb": false,
+  "he": [
+   "ליעץ",
+   "להדריך",
+   "תכנית",
+   "פרקליט"
+  ]
+ },
+ {
+  "id": "courteous",
+  "en": "courteous",
+  "isVerb": false,
+  "he": [
+   "אדיב",
+   "מנומס"
+  ]
+ },
+ {
+  "id": "craft",
+  "en": "craft",
+  "isVerb": false,
+  "he": [
+   "אמנות",
+   "מלאכה",
+   "מיומנות",
+   "ערמומיות",
+   "כלי טיס או שיט"
+  ]
+ },
+ {
+  "id": "cult",
+  "en": "cult",
+  "isVerb": false,
+  "he": [
+   "כת",
+   "פולחן"
+  ]
+ },
+ {
+  "id": "decipher",
+  "en": "decipher",
+  "isVerb": false,
+  "he": [
+   "פיענח"
+  ]
+ },
+ {
+  "id": "desire",
+  "en": "desire",
+  "isVerb": false,
+  "he": [
+   "תשוקה",
+   "בקשה",
+   "חשק"
+  ]
+ },
+ {
+  "id": "sketch",
+  "en": "sketch",
+  "isVerb": false,
+  "he": [
+   "סקיצה",
+   "מתווה",
+   "מערכון"
+  ]
+ },
+ {
+  "id": "screen",
+  "en": "screen",
+  "isVerb": false,
+  "he": [
+   "מסך",
+   "סינן",
+   "לסרוק"
+  ]
+ },
+ {
+  "id": "vain",
+  "en": "vain",
+  "isVerb": false,
+  "he": [
+   "שחצן",
+   "חסר ערך",
+   "לשווא"
+  ]
+ },
+ {
+  "id": "virtually",
+  "en": "virtually",
+  "isVerb": false,
+  "he": [
+   "למעשה",
+   "בפועל",
+   "כמעט לגמרי"
+  ]
+ },
+ {
+  "id": "abstain",
+  "en": "abstain",
+  "isVerb": false,
+  "he": [
+   "נמנע",
+   "התנזר"
+  ]
+ },
+ {
+  "id": "accentuate",
+  "en": "accentuate",
+  "isVerb": false,
+  "he": [
+   "הדגיש",
+   "הבליט"
+  ]
+ },
+ {
+  "id": "agitate",
+  "en": "agitate",
+  "isVerb": false,
+  "he": [
+   "זעזע",
+   "הטריד",
+   "הסית",
+   "הסעיר",
+   "עצבן"
+  ]
+ },
+ {
+  "id": "aisle",
+  "en": "aisle",
+  "isVerb": false,
+  "he": [
+   "מעבר בין שורות של דברים"
+  ]
+ },
+ {
+  "id": "impact",
+  "en": "impact",
+  "isVerb": false,
+  "he": [
+   "השפעה",
+   "פגע",
+   "הרשים"
+  ]
+ },
+ {
+  "id": "implement",
+  "en": "implement",
+  "isVerb": false,
+  "he": [
+   "ליישם",
+   "להטמיע",
+   "כלי",
+   "מכשיר"
+  ]
+ },
+ {
+  "id": "eloquent",
+  "en": "eloquent",
+  "isVerb": false,
+  "he": [
+   "רהוט"
+  ]
+ },
+ {
+  "id": "implication",
+  "en": "implication",
+  "isVerb": false,
+  "he": [
+   "השלכה",
+   "השפעה",
+   "סיבוך"
+  ]
+ },
+ {
+  "id": "grand",
+  "en": "grand",
+  "isVerb": false,
+  "he": [
+   "גדול",
+   "מרשים",
+   "מקיף"
+  ]
+ },
+ {
+  "id": "hail",
+  "en": "hail",
+  "isVerb": false,
+  "he": [
+   "ברד",
+   "מטח",
+   "לשבח"
+  ]
+ },
+ {
+  "id": "flattery",
+  "en": "flattery",
+  "isVerb": false,
+  "he": [
+   "חנופה"
+  ]
+ },
+ {
+  "id": "cater",
+  "en": "cater",
+  "isVerb": false,
+  "he": [
+   "סיפק"
+  ]
+ },
+ {
+  "id": "immersion",
+  "en": "immersion",
+  "isVerb": false,
+  "he": [
+   "שקיעה"
+  ]
+ },
+ {
+  "id": "myriad",
+  "en": "myriad",
+  "isVerb": false,
+  "he": [
+   "עצום",
+   "אינספור"
+  ]
+ },
+ {
+  "id": "novel",
+  "en": "novel",
+  "isVerb": false,
+  "he": [
+   "רומן",
+   "סיפור",
+   "חדש",
+   "מקורי"
+  ]
+ },
+ {
+  "id": "oppressive",
+  "en": "oppressive",
+  "isVerb": false,
+  "he": [
+   "אכזרי",
+   "מדכא",
+   "מעיק"
+  ]
+ },
+ {
+  "id": "reflect",
+  "en": "reflect",
+  "isVerb": false,
+  "he": [
+   "לשקף",
+   "להרהר",
+   "להגות",
+   "לחשוב"
+  ]
+ },
+ {
+  "id": "baffled",
+  "en": "baffled",
+  "isVerb": false,
+  "he": [
+   "בלבל",
+   "הביך",
+   "סיבך",
+   "הקשה"
+  ]
+ },
+ {
+  "id": "blur",
+  "en": "blur",
+  "isVerb": false,
+  "he": [
+   "טשטש",
+   "לכלך",
+   "מרח"
+  ]
+ },
+ {
+  "id": "score",
+  "en": "score",
+  "isVerb": false,
+  "he": [
+   "לחתוך",
+   "לחרוץ",
+   "חוב",
+   "חשבון",
+   "תוצאה"
+  ]
+ },
+ {
+  "id": "sighting",
+  "en": "sighting",
+  "isVerb": false,
+  "he": [
+   "תצפית",
+   "מראה"
+  ]
+ },
+ {
+  "id": "spill",
+  "en": "spill",
+  "isVerb": false,
+  "he": [
+   "לשפוך",
+   "קיסם"
+  ]
+ },
+ {
+  "id": "welfare",
+  "en": "welfare",
+  "isVerb": false,
+  "he": [
+   "סעד"
+  ]
+ },
+ {
+  "id": "withstand",
+  "en": "withstand",
+  "isVerb": false,
+  "he": [
+   "לעמוד בפני",
+   "להתמודד"
+  ]
+ },
+ {
+  "id": "acquitted",
+  "en": "acquitted",
+  "isVerb": false,
+  "he": [
+   "זיכה",
+   "טיהר"
+  ]
+ },
+ {
+  "id": "advocate",
+  "en": "advocate",
+  "isVerb": false,
+  "he": [
+   "סנגור",
+   "עורך דין",
+   "תומך"
+  ]
+ },
+ {
+  "id": "bolster",
+  "en": "bolster",
+  "isVerb": false,
+  "he": [
+   "תמך",
+   "חיזק",
+   "הגביה"
+  ]
+ },
+ {
+  "id": "cabin",
+  "en": "cabin",
+  "isVerb": false,
+  "he": [
+   "ביקתה"
+  ]
+ },
+ {
+  "id": "commute",
+  "en": "commute",
+  "isVerb": false,
+  "he": [
+   "נסע באופן קבוע לעבודה",
+   "החליף",
+   "המיר",
+   "המתיק (עונש)"
+  ]
+ },
+ {
+  "id": "composed",
+  "en": "composed",
+  "isVerb": false,
+  "he": [
+   "רגוע",
+   "הלחין",
+   "חיבר"
+  ]
+ },
+ {
+  "id": "spot",
+  "en": "spot",
+  "isVerb": false,
+  "he": [
+   "מקום",
+   "כתם"
+  ]
+ },
+ {
+  "id": "congenial",
+  "en": "congenial",
+  "isVerb": false,
+  "he": [
+   "נעים",
+   "ידידותי"
+  ]
+ },
+ {
+  "id": "consolidate",
+  "en": "consolidate",
+  "isVerb": false,
+  "he": [
+   "גיבש",
+   "איחד",
+   "חיזק",
+   "ייצב"
+  ]
+ },
+ {
+  "id": "disdain",
+  "en": "disdain",
+  "isVerb": false,
+  "he": [
+   "בוז",
+   "זלזול"
+  ]
+ },
+ {
+  "id": "cultivate",
+  "en": "cultivate",
+  "isVerb": false,
+  "he": [
+   "עבד",
+   "טיפח",
+   "פיתח"
+  ]
+ },
+ {
+  "id": "displacement",
+  "en": "displacement",
+  "isVerb": false,
+  "he": [
+   "עקירה",
+   "תזוזה"
+  ]
+ },
+ {
+  "id": "docile",
+  "en": "docile",
+  "isVerb": false,
+  "he": [
+   "צייתן",
+   "כנוע",
+   "נוח"
+  ]
+ },
+ {
+  "id": "draw",
+  "en": "draw",
+  "isVerb": false,
+  "he": [
+   "צייר",
+   "משך",
+   "הסיק",
+   "רשם",
+   "שאף"
+  ]
+ },
+ {
+  "id": "drift",
+  "en": "drift",
+  "isVerb": false,
+  "he": [
+   "ניסחף",
+   "הצטבר",
+   "נדד",
+   "התגלגל"
+  ]
+ },
+ {
+  "id": "congenital",
+  "en": "congenital",
+  "isVerb": false,
+  "he": [
+   "מולד"
+  ]
+ },
+ {
+  "id": "enlist",
+  "en": "enlist",
+  "isVerb": false,
+  "he": [
+   "התגייס"
+  ]
+ },
+ {
+  "id": "fort",
+  "en": "fort",
+  "isVerb": false,
+  "he": [
+   "מבצר",
+   "מצודה"
+  ]
+ },
+ {
+  "id": "heresy",
+  "en": "heresy",
+  "isVerb": false,
+  "he": [
+   "כפירה"
+  ]
+ },
+ {
+  "id": "entitled",
+  "en": "entitled",
+  "isVerb": false,
+  "he": [
+   "רשאי",
+   "ראוי",
+   "קרא",
+   "איפשר"
+  ]
+ },
+ {
+  "id": "hypocrisy",
+  "en": "hypocrisy",
+  "isVerb": false,
+  "he": [
+   "צביעות"
+  ]
+ },
+ {
+  "id": "inadvertently",
+  "en": "inadvertently",
+  "isVerb": false,
+  "he": [
+   "בלי כוונה"
+  ]
+ },
+ {
+  "id": "interface",
+  "en": "interface",
+  "isVerb": false,
+  "he": [
+   "ממשק",
+   "השיק"
+  ]
+ },
+ {
+  "id": "pest",
+  "en": "pest",
+  "isVerb": false,
+  "he": [
+   "מטרד",
+   "מפגע",
+   "נודניק"
+  ]
+ },
+ {
+  "id": "nursery",
+  "en": "nursery",
+  "isVerb": false,
+  "he": [
+   "חדר ילדים",
+   "משתלה"
+  ]
+ },
+ {
+  "id": "arable",
+  "en": "arable",
+  "isVerb": false,
+  "he": [
+   "קרקע ראויה לעיבוד"
+  ]
+ },
+ {
+  "id": "bargain",
+  "en": "bargain",
+  "isVerb": false,
+  "he": [
+   "התמקח",
+   "עסקה",
+   "מציאה"
+  ]
+ },
+ {
+  "id": "transport",
+  "en": "transport",
+  "isVerb": false,
+  "he": [
+   "משלוח",
+   "תחבורה",
+   "הוביל",
+   "העביר"
+  ]
+ },
+ {
+  "id": "virtue",
+  "en": "virtue",
+  "isVerb": false,
+  "he": [
+   "סגולה",
+   "מעלה",
+   "צדק",
+   "טוב"
+  ]
+ },
+ {
+  "id": "withdraw",
+  "en": "withdraw",
+  "isVerb": false,
+  "he": [
+   "נסוג",
+   "התחרט",
+   "פרש",
+   "יצא",
+   "השיג",
+   "סילק",
+   "משך כסף"
+  ]
+ },
+ {
+  "id": "stress",
+  "en": "stress",
+  "isVerb": false,
+  "he": [
+   "להדגיש",
+   "מצוקה",
+   "לחץ"
+  ]
+ },
+ {
+  "id": "tomb",
+  "en": "tomb",
+  "isVerb": false,
+  "he": [
+   "קבר"
+  ]
+ },
+ {
+  "id": "relieve",
+  "en": "relieve",
+  "isVerb": false,
+  "he": [
+   "הקל",
+   "סייע",
+   "הרגיע",
+   "שחרר",
+   "החליף"
+  ]
+ },
+ {
+  "id": "repelled",
+  "en": "repelled",
+  "isVerb": false,
+  "he": [
+   "דחה",
+   "הגעיל",
+   "הדף"
+  ]
+ },
+ {
+  "id": "reserve",
+  "en": "reserve",
+  "isVerb": false,
+  "he": [
+   "לשמור",
+   "לחסוך",
+   "לרסן",
+   "שמורה",
+   "מילואים"
+  ]
+ },
+ {
+  "id": "basin",
+  "en": "basin",
+  "isVerb": false,
+  "he": [
+   "אגן",
+   "כיור",
+   "משקע",
+   "אפיק"
+  ]
+ },
+ {
+  "id": "appetite",
+  "en": "appetite",
+  "isVerb": false,
+  "he": [
+   "תאבון",
+   "רצון עז"
+  ]
+ },
+ {
+  "id": "sanction",
+  "en": "sanction",
+  "isVerb": false,
+  "he": [
+   "סנקציה",
+   "עונש",
+   "קנס",
+   "עידוד",
+   "אישור"
+  ]
+ },
+ {
+  "id": "pole",
+  "en": "pole",
+  "isVerb": false,
+  "he": [
+   "מוט",
+   "קוטב",
+   "פולני"
+  ]
+ },
+ {
+  "id": "plague",
+  "en": "plague",
+  "isVerb": false,
+  "he": [
+   "מגפה",
+   "הטריד",
+   "הציק"
+  ]
+ },
+ {
+  "id": "susceptible",
+  "en": "susceptible",
+  "isVerb": false,
+  "he": [
+   "רגיש",
+   "פגיע"
+  ]
+ },
+ {
+  "id": "suspense",
+  "en": "suspense",
+  "isVerb": false,
+  "he": [
+   "השהיה",
+   "מתח",
+   "דריכות"
+  ]
+ },
+ {
+  "id": "propel",
+  "en": "propel",
+  "isVerb": false,
+  "he": [
+   "להניע",
+   "לדחוף"
+  ]
+ },
+ {
+  "id": "interminable",
+  "en": "interminable",
+  "isVerb": false,
+  "he": [
+   "נצחי",
+   "אינסופי"
+  ]
+ },
+ {
+  "id": "insurrection",
+  "en": "insurrection",
+  "isVerb": false,
+  "he": [
+   "התקוממות"
+  ]
+ },
+ {
+  "id": "reservoir",
+  "en": "reservoir",
+  "isVerb": false,
+  "he": [
+   "מאגר"
+  ]
+ },
+ {
+  "id": "lineage",
+  "en": "lineage",
+  "isVerb": false,
+  "he": [
+   "שושלת",
+   "יחוס"
+  ]
+ },
+ {
+  "id": "allusion",
+  "en": "allusion",
+  "isVerb": false,
+  "he": [
+   "רמיזה",
+   "אזכור"
+  ]
+ },
+ {
+  "id": "stiff",
+  "en": "stiff",
+  "isVerb": false,
+  "he": [
+   "קשה",
+   "רשמי",
+   "מאופק",
+   "חזק",
+   "עקשן",
+   "שתוי"
+  ]
+ },
+ {
+  "id": "wind",
+  "en": "wind",
+  "isVerb": false,
+  "he": [
+   "רמז",
+   "רוח",
+   "שמועה",
+   "התלפף"
+  ]
+ },
+ {
+  "id": "revise",
+  "en": "revise",
+  "isVerb": false,
+  "he": [
+   "לתקן",
+   "לשפר",
+   "הגיה"
+  ]
+ },
+ {
+  "id": "bore",
+  "en": "bore",
+  "isVerb": false,
+  "he": [
+   "לשעמם",
+   "לקדוח"
+  ]
+ },
+ {
+  "id": "strain",
+  "en": "strain",
+  "isVerb": false,
+  "he": [
+   "מאמץ",
+   "מנגינה",
+   "צאצא",
+   "נקע",
+   "מתיחה",
+   "מתח נפשי"
+  ]
+ },
+ {
+  "id": "vagueness",
+  "en": "vagueness",
+  "isVerb": false,
+  "he": [
+   "עמימות",
+   "טשטוש",
+   "ערפול"
+  ]
+ },
+ {
+  "id": "veracity",
+  "en": "veracity",
+  "isVerb": false,
+  "he": [
+   "יושר",
+   "דייקנות"
+  ]
+ },
+ {
+  "id": "condone",
+  "en": "condone",
+  "isVerb": false,
+  "he": [
+   "לסלוח"
+  ]
+ },
+ {
+  "id": "cavity",
+  "en": "cavity",
+  "isVerb": false,
+  "he": [
+   "חור",
+   "מחילה",
+   "חלל"
+  ]
+ },
+ {
+  "id": "emission",
+  "en": "emission",
+  "isVerb": false,
+  "he": [
+   "פליטה",
+   "הנפקה"
+  ]
+ },
+ {
+  "id": "herd",
+  "en": "herd",
+  "isVerb": false,
+  "he": [
+   "עדר (של חיות למשל)",
+   "אסף",
+   "כינס"
+  ]
+ },
+ {
+  "id": "frugal",
+  "en": "frugal",
+  "isVerb": false,
+  "he": [
+   "חסכני",
+   "דל",
+   "זעום"
+  ]
+ },
+ {
+  "id": "dispatch",
+  "en": "dispatch",
+  "isVerb": false,
+  "he": [
+   "שיגר"
+  ]
+ },
+ {
+  "id": "devoid",
+  "en": "devoid",
+  "isVerb": false,
+  "he": [
+   "חסר",
+   "נטול"
+  ]
+ },
+ {
+  "id": "shatter",
+  "en": "shatter",
+  "isVerb": false,
+  "he": [
+   "ניפץ",
+   "הרס",
+   "התיש",
+   "קעקע"
+  ]
+ },
+ {
+  "id": "subsequent",
+  "en": "subsequent",
+  "isVerb": false,
+  "he": [
+   "עוקב"
+  ]
+ },
+ {
+  "id": "infiltrate",
+  "en": "infiltrate",
+  "isVerb": false,
+  "he": [
+   "הסתנן",
+   "החדיר"
+  ]
+ },
+ {
+  "id": "mole",
+  "en": "mole",
+  "isVerb": false,
+  "he": [
+   "חפרפרת",
+   "מזח",
+   "שומה"
+  ]
+ },
+ {
+  "id": "outspoken",
+  "en": "outspoken",
+  "isVerb": false,
+  "he": [
+   "גלוי",
+   "ישר"
+  ]
+ },
+ {
+  "id": "pervasive",
+  "en": "pervasive",
+  "isVerb": false,
+  "he": [
+   "נרחב",
+   "חודר"
+  ]
+ },
+ {
+  "id": "slender",
+  "en": "slender",
+  "isVerb": false,
+  "he": [
+   "רזה",
+   "דק",
+   "רעוע"
+  ]
+ },
+ {
+  "id": "proliferate",
+  "en": "proliferate",
+  "isVerb": false,
+  "he": [
+   "התפשט/התרבה/צמח במהירות"
+  ]
+ },
+ {
+  "id": "delicate",
+  "en": "delicate",
+  "isVerb": false,
+  "he": [
+   "עדין",
+   "רגיש",
+   "פגיע",
+   "שברירי"
+  ]
+ },
+ {
+  "id": "ample",
+  "en": "ample",
+  "isVerb": false,
+  "he": [
+   "מספיק",
+   "שופע",
+   "גדול"
+  ]
+ },
+ {
+  "id": "disseminate",
+  "en": "disseminate",
+  "isVerb": false,
+  "he": [
+   "להפיץ",
+   "לפזר"
+  ]
+ },
+ {
+  "id": "growled",
+  "en": "growled",
+  "isVerb": false,
+  "he": [
+   "נהם",
+   "רטן"
+  ]
+ },
+ {
+  "id": "hasty",
+  "en": "hasty",
+  "isVerb": false,
+  "he": [
+   "מהיר",
+   "חפוז",
+   "עצבני"
+  ]
+ },
+ {
+  "id": "indebted",
+  "en": "indebted",
+  "isVerb": false,
+  "he": [
+   "חייב",
+   "אסיר תודה"
+  ]
+ },
+ {
+  "id": "hospitality",
+  "en": "hospitality",
+  "isVerb": false,
+  "he": [
+   "הכנסת אורחים"
+  ]
+ },
+ {
+  "id": "incline",
+  "en": "incline",
+  "isVerb": false,
+  "he": [
+   "שיפוע",
+   "להתאים"
+  ]
+ },
+ {
+  "id": "interjection",
+  "en": "interjection",
+  "isVerb": false,
+  "he": [
+   "הערה",
+   "הפרעה לשיחה"
+  ]
+ },
+ {
+  "id": "lucrative",
+  "en": "lucrative",
+  "isVerb": false,
+  "he": [
+   "רווחי"
+  ]
+ },
+ {
+  "id": "rebuttal",
+  "en": "rebuttal",
+  "isVerb": false,
+  "he": [
+   "סתירה",
+   "הכחשה"
+  ]
+ },
+ {
+  "id": "scarce",
+  "en": "scarce",
+  "isVerb": false,
+  "he": [
+   "נדיר"
+  ]
+ },
+ {
+  "id": "punctuation",
+  "en": "punctuation",
+  "isVerb": false,
+  "he": [
+   "פיסוק",
+   "ניקוד",
+   "הדגשה"
+  ]
+ },
+ {
+  "id": "refined",
+  "en": "refined",
+  "isVerb": false,
+  "he": [
+   "מעודן",
+   "טהור"
+  ]
+ },
+ {
+  "id": "attire",
+  "en": "attire",
+  "isVerb": false,
+  "he": [
+   "הלביש",
+   "קישט"
+  ]
+ },
+ {
+  "id": "appraise",
+  "en": "appraise",
+  "isVerb": false,
+  "he": [
+   "אמד",
+   "העריך"
+  ]
+ },
+ {
+  "id": "insurmountable",
+  "en": "insurmountable",
+  "isVerb": false,
+  "he": [
+   "שלא ניתן להתגבר עליו"
+  ]
+ },
+ {
+  "id": "sensation",
+  "en": "sensation",
+  "isVerb": false,
+  "he": [
+   "תחושה",
+   "התרגשות",
+   "חדשה מרעישה",
+   "סנסציה"
+  ]
+ },
+ {
+  "id": "slope",
+  "en": "slope",
+  "isVerb": false,
+  "he": [
+   "שיפוע",
+   "מדרון",
+   "הטה"
+  ]
+ },
+ {
+  "id": "snicker",
+  "en": "snicker",
+  "isVerb": false,
+  "he": [
+   "צהלה",
+   "צחקוק",
+   "גיחוח"
+  ]
+ },
+ {
+  "id": "nurture",
+  "en": "nurture",
+  "isVerb": false,
+  "he": [
+   "טיפח",
+   "גידל",
+   "האכיל",
+   "חינך"
+  ]
+ },
+ {
+  "id": "offset",
+  "en": "offset",
+  "isVerb": false,
+  "he": [
+   "קיצץ",
+   "פיצה",
+   "איזן"
+  ]
+ },
+ {
+  "id": "potter",
+  "en": "potter",
+  "isVerb": false,
+  "he": [
+   "התבטל (כלומר לא עשה כלום)",
+   "קדר (המקצוע)"
+  ]
+ },
+ {
+  "id": "splendor",
+  "en": "splendor",
+  "isVerb": false,
+  "he": [
+   "פאר"
+  ]
+ },
+ {
+  "id": "repressive",
+  "en": "repressive",
+  "isVerb": false,
+  "he": [
+   "מדכא"
+  ]
+ },
+ {
+  "id": "detrimental",
+  "en": "detrimental",
+  "isVerb": false,
+  "he": [
+   "מזיק"
+  ]
+ },
+ {
+  "id": "dread",
+  "en": "dread",
+  "isVerb": false,
+  "he": [
+   "פחד",
+   "אימה"
+  ]
+ },
+ {
+  "id": "determine",
+  "en": "determine",
+  "isVerb": false,
+  "he": [
+   "לקבוע",
+   "להחליט"
+  ]
+ },
+ {
+  "id": "commotion",
+  "en": "commotion",
+  "isVerb": false,
+  "he": [
+   "מהומה"
+  ]
+ },
+ {
+  "id": "vent",
+  "en": "vent",
+  "isVerb": false,
+  "he": [
+   "לפרוק",
+   "להוציא"
+  ]
+ },
+ {
+  "id": "amend",
+  "en": "amend",
+  "isVerb": false,
+  "he": [
+   "לתקן",
+   "לשפר"
+  ]
+ },
+ {
+  "id": "relapse",
+  "en": "relapse",
+  "isVerb": false,
+  "he": [
+   "הדרדר",
+   "התיישן",
+   "חזרה של מחלה לאחר ריפוי"
+  ]
+ },
+ {
+  "id": "hatch",
+  "en": "hatch",
+  "isVerb": false,
+  "he": [
+   "בוקע",
+   "תכנן",
+   "יזם"
+  ]
+ },
+ {
+  "id": "pragmatic",
+  "en": "pragmatic",
+  "isVerb": false,
+  "he": [
+   "מעשי"
+  ]
+ },
+ {
+  "id": "deceive",
+  "en": "deceive",
+  "isVerb": false,
+  "he": [
+   "מרמה",
+   "מטעה"
+  ]
+ },
+ {
+  "id": "flee",
+  "en": "flee",
+  "isVerb": false,
+  "he": [
+   "לברוח",
+   "להימלט"
+  ]
+ },
+ {
+  "id": "gland",
+  "en": "gland",
+  "isVerb": false,
+  "he": [
+   "בלוטה"
+  ]
+ },
+ {
+  "id": "shroud",
+  "en": "shroud",
+  "isVerb": false,
+  "he": [
+   "עטיפה",
+   "מסך",
+   "הסווה",
+   "הסתיר"
+  ]
+ },
+ {
+  "id": "spoil",
+  "en": "spoil",
+  "isVerb": false,
+  "he": [
+   "פינק",
+   "קלקל",
+   "שלל",
+   "בזז"
+  ]
+ },
+ {
+  "id": "scrutinize",
+  "en": "scrutinize",
+  "isVerb": false,
+  "he": [
+   "בחן",
+   "בדק"
+  ]
+ },
+ {
+  "id": "seizure",
+  "en": "seizure",
+  "isVerb": false,
+  "he": [
+   "התקף",
+   "פרכוס",
+   "תפיסה",
+   "החזקה"
+  ]
+ },
+ {
+  "id": "spewing",
+  "en": "spewing",
+  "isVerb": false,
+  "he": [
+   "הקיא",
+   "פלט",
+   "הזרים"
+  ]
+ },
+ {
+  "id": "deface",
+  "en": "deface",
+  "isVerb": false,
+  "he": [
+   "להשחית"
+  ]
+ },
+ {
+  "id": "probe",
+  "en": "probe",
+  "isVerb": false,
+  "he": [
+   "לחקור",
+   "לברר",
+   "לחטט"
+  ]
+ },
+ {
+  "id": "fragment",
+  "en": "fragment",
+  "isVerb": false,
+  "he": [
+   "רסיס"
+  ]
+ },
+ {
+  "id": "compound",
+  "en": "compound",
+  "isVerb": false,
+  "he": [
+   "מתחם",
+   "תרכובת",
+   "החמיר",
+   "החריף"
+  ]
+ },
+ {
+  "id": "rehabilitation",
+  "en": "rehabilitation",
+  "isVerb": false,
+  "he": [
+   "שיקום",
+   "גמילה"
+  ]
+ },
+ {
+  "id": "deviant",
+  "en": "deviant",
+  "isVerb": false,
+  "he": [
+   "סוטה"
+  ]
+ },
+ {
+  "id": "deceased",
+  "en": "deceased",
+  "isVerb": false,
+  "he": [
+   "נפטר"
+  ]
+ },
+ {
+  "id": "plot",
+  "en": "plot",
+  "isVerb": false,
+  "he": [
+   "מזימה",
+   "תרשים",
+   "תכנית",
+   "חלקה",
+   "עלילה"
+  ]
+ },
+ {
+  "id": "prescription",
+  "en": "prescription",
+  "isVerb": false,
+  "he": [
+   "מרשם",
+   "הוראה",
+   "צו"
+  ]
+ },
+ {
+  "id": "prompted",
+  "en": "prompted",
+  "isVerb": false,
+  "he": [
+   "גרם",
+   "המריץ"
+  ]
+ },
+ {
+  "id": "rear",
+  "en": "rear",
+  "isVerb": false,
+  "he": [
+   "אחורי",
+   "גידל"
+  ]
+ },
+ {
+  "id": "proponent",
+  "en": "proponent",
+  "isVerb": false,
+  "he": [
+   "תומך"
+  ]
+ },
+ {
+  "id": "divine",
+  "en": "divine",
+  "isVerb": false,
+  "he": [
+   "אלוהי",
+   "ניחש"
+  ]
+ },
+ {
+  "id": "circuit",
+  "en": "circuit",
+  "isVerb": false,
+  "he": [
+   "הקיף",
+   "מסלול",
+   "מחוז",
+   "מעגל חשמלי"
+  ]
+ },
+ {
+  "id": "exhaust",
+  "en": "exhaust",
+  "isVerb": false,
+  "he": [
+   "צינור",
+   "התיש",
+   "פליטה"
+  ]
+ },
+ {
+  "id": "expedite",
+  "en": "expedite",
+  "isVerb": false,
+  "he": [
+   "זירז"
+  ]
+ },
+ {
+  "id": "figurative",
+  "en": "figurative",
+  "isVerb": false,
+  "he": [
+   "סמלי"
+  ]
+ },
+ {
+  "id": "fluid",
+  "en": "fluid",
+  "isVerb": false,
+  "he": [
+   "נוזל",
+   "גמיש"
+  ]
+ },
+ {
+  "id": "grievance",
+  "en": "grievance",
+  "isVerb": false,
+  "he": [
+   "התמרמרות"
+  ]
+ },
+ {
+  "id": "harass",
+  "en": "harass",
+  "isVerb": false,
+  "he": [
+   "הטריד",
+   "הציק"
+  ]
+ },
+ {
+  "id": "dispose",
+  "en": "dispose",
+  "isVerb": false,
+  "he": [
+   "להיפטר"
+  ]
+ },
+ {
+  "id": "excavate",
+  "en": "excavate",
+  "isVerb": false,
+  "he": [
+   "לחפור"
+  ]
+ },
+ {
+  "id": "magnitude",
+  "en": "magnitude",
+  "isVerb": false,
+  "he": [
+   "גודל",
+   "חשיבות"
+  ]
+ },
+ {
+  "id": "peddler",
+  "en": "peddler",
+  "isVerb": false,
+  "he": [
+   "סוחר"
+  ]
+ },
+ {
+  "id": "handicap",
+  "en": "handicap",
+  "isVerb": false,
+  "he": [
+   "הכשיל",
+   "הגביל",
+   "נכה"
+  ]
+ },
+ {
+  "id": "jug",
+  "en": "jug",
+  "isVerb": false,
+  "he": [
+   "כד",
+   "קנקן",
+   "בישל בכלי חרס",
+   "בית סוהר"
+  ]
+ },
+ {
+  "id": "depict",
+  "en": "depict",
+  "isVerb": false,
+  "he": [
+   "לתאר",
+   "לסרטט",
+   "להציג"
+  ]
+ },
+ {
+  "id": "stain",
+  "en": "stain",
+  "isVerb": false,
+  "he": [
+   "כתם",
+   "הכתים"
+  ]
+ },
+ {
+  "id": "superfluous",
+  "en": "superfluous",
+  "isVerb": false,
+  "he": [
+   "מיותר",
+   "עודף"
+  ]
+ },
+ {
+  "id": "agony",
+  "en": "agony",
+  "isVerb": false,
+  "he": [
+   "סבל",
+   "עינוי"
+  ]
+ },
+ {
+  "id": "damp",
+  "en": "damp",
+  "isVerb": false,
+  "he": [
+   "לחות",
+   "רטיבות",
+   "החליש",
+   "ריסן"
+  ]
+ },
+ {
+  "id": "counterpart",
+  "en": "counterpart",
+  "isVerb": false,
+  "he": [
+   "בעל תפקיד מקביל",
+   "עמית",
+   "בן זוג"
+  ]
+ },
+ {
+  "id": "alert",
+  "en": "alert",
+  "isVerb": false,
+  "he": [
+   "דרוך",
+   "ערני",
+   "אזעקה"
+  ]
+ },
+ {
+  "id": "pounce",
+  "en": "pounce",
+  "isVerb": false,
+  "he": [
+   "התנפל",
+   "הסתער"
+  ]
+ },
+ {
+  "id": "derision",
+  "en": "derision",
+  "isVerb": false,
+  "he": [
+   "לעג",
+   "לגלוג",
+   "בוז"
+  ]
+ },
+ {
+  "id": "merit",
+  "en": "merit",
+  "isVerb": false,
+  "he": [
+   "שווי",
+   "יתרון",
+   "היה זכאי",
+   "ערך",
+   "הישג"
+  ]
+ },
+ {
+  "id": "indefinitely",
+  "en": "indefinitely",
+  "isVerb": false,
+  "he": [
+   "ללא הגבלה",
+   "לתמיד"
+  ]
+ },
+ {
+  "id": "prospective",
+  "en": "prospective",
+  "isVerb": false,
+  "he": [
+   "צפוי",
+   "סביר",
+   "עתידי"
+  ]
+ },
+ {
+  "id": "stark",
+  "en": "stark",
+  "isVerb": false,
+  "he": [
+   "קשה",
+   "בוטה",
+   "שומם",
+   "עזוב",
+   "בולט"
+  ]
+ },
+ {
+  "id": "stroke",
+  "en": "stroke",
+  "isVerb": false,
+  "he": [
+   "מכה",
+   "שבץ",
+   "משיכת מכחול",
+   "קו",
+   "מהלך",
+   "סגנון שחייה",
+   "ליטוף",
+   "תנועת חתירה"
+  ]
+ },
+ {
+  "id": "speck",
+  "en": "speck",
+  "isVerb": false,
+  "he": [
+   "כתם",
+   "ניקד"
+  ]
+ },
+ {
+  "id": "elaborate",
+  "en": "elaborate",
+  "isVerb": false,
+  "he": [
+   "משוכלל",
+   "מפורט",
+   "מתוכנן"
+  ]
+ },
+ {
+  "id": "slander",
+  "en": "slander",
+  "isVerb": false,
+  "he": [
+   "לכלך",
+   "הכפיש"
+  ]
+ },
+ {
+  "id": "kettle",
+  "en": "kettle",
+  "isVerb": false,
+  "he": [
+   "דוד",
+   "קומקום"
+  ]
+ },
+ {
+  "id": "pad",
+  "en": "pad",
+  "isVerb": false,
+  "he": [
+   "לרפד",
+   "כרית",
+   "דפדפת",
+   "צליל צעדים עמום"
+  ]
+ },
+ {
+  "id": "pothole",
+  "en": "pothole",
+  "isVerb": false,
+  "he": [
+   "בור",
+   "מהמורה",
+   "מערה"
+  ]
+ },
+ {
+  "id": "pinch",
+  "en": "pinch",
+  "isVerb": false,
+  "he": [
+   "צביטה",
+   "קמצוץ",
+   "סחב",
+   "פילח",
+   "גנב"
+  ]
+ },
+ {
+  "id": "pit",
+  "en": "pit",
+  "isVerb": false,
+  "he": [
+   "בור",
+   "מכרה",
+   "גלעין"
+  ]
+ },
+ {
+  "id": "pick",
+  "en": "pick",
+  "isVerb": false,
+  "he": [
+   "בחר",
+   "קטף",
+   "אסף",
+   "עדר",
+   "ניכש",
+   "מכוש",
+   "מפרט לגיטרה"
+  ]
+ },
+ {
+  "id": "sustain",
+  "en": "sustain",
+  "isVerb": false,
+  "he": [
+   "לקיים",
+   "לסבול",
+   "לתמוך"
+  ]
+ },
+ {
+  "id": "mold",
+  "en": "mold",
+  "isVerb": false,
+  "he": [
+   "עובש",
+   "לעצב",
+   "תבנית",
+   "דגם",
+   "מסגרת",
+   "דוגמה"
+  ]
+ },
+ {
+  "id": "dissolve",
+  "en": "dissolve",
+  "isVerb": false,
+  "he": [
+   "להמיס",
+   "נעלם",
+   "פירק",
+   "פיזר"
+  ]
+ },
+ {
+  "id": "enroll",
+  "en": "enroll",
+  "isVerb": false,
+  "he": [
+   "רשם",
+   "צירף",
+   "גייס"
+  ]
+ },
+ {
+  "id": "linger",
+  "en": "linger",
+  "isVerb": false,
+  "he": [
+   "התעכב",
+   "דעך"
+  ]
+ },
+ {
+  "id": "convene",
+  "en": "convene",
+  "isVerb": false,
+  "he": [
+   "כינס",
+   "התכנס"
+  ]
+ },
+ {
+  "id": "flock",
+  "en": "flock",
+  "isVerb": false,
+  "he": [
+   "לנהור",
+   "עדר",
+   "המון",
+   "לקבץ"
+  ]
+ },
+ {
+  "id": "morose",
+  "en": "morose",
+  "isVerb": false,
+  "he": [
+   "קודר",
+   "עגמומי"
+  ]
+ },
+ {
+  "id": "elude",
+  "en": "elude",
+  "isVerb": false,
+  "he": [
+   "ברח",
+   "התחמק"
+  ]
+ },
+ {
+  "id": "mourning",
+  "en": "mourning",
+  "isVerb": false,
+  "he": [
+   "להתאבל",
+   "אבל"
+  ]
+ },
+ {
+  "id": "narration",
+  "en": "narration",
+  "isVerb": false,
+  "he": [
+   "סיפור",
+   "קריינות"
+  ]
+ },
+ {
+  "id": "esteemed",
+  "en": "esteemed",
+  "isVerb": false,
+  "he": [
+   "כיבד",
+   "העריך"
+  ]
+ },
+ {
+  "id": "haul",
+  "en": "haul",
+  "isVerb": false,
+  "he": [
+   "שלל",
+   "גרירה",
+   "משיכה"
+  ]
+ },
+ {
+  "id": "monitor",
+  "en": "monitor",
+  "isVerb": false,
+  "he": [
+   "להשגיח",
+   "מסך",
+   "לפקח",
+   "גלאי קרינה"
+  ]
+ },
+ {
+  "id": "evocative",
+  "en": "evocative",
+  "isVerb": false,
+  "he": [
+   "מזכיר",
+   "מעלה",
+   "מעורר"
+  ]
+ },
+ {
+  "id": "infraction",
+  "en": "infraction",
+  "isVerb": false,
+  "he": [
+   "עבירה",
+   "הפרה"
+  ]
+ },
+ {
+  "id": "lamentable",
+  "en": "lamentable",
+  "isVerb": false,
+  "he": [
+   "מצער",
+   "מעציב",
+   "אומלל"
+  ]
+ },
+ {
+  "id": "slant",
+  "en": "slant",
+  "isVerb": false,
+  "he": [
+   "מדרון",
+   "שיפוע",
+   "אלכסון",
+   "עיוות",
+   "סילוף"
+  ]
+ },
+ {
+  "id": "slate",
+  "en": "slate",
+  "isVerb": false,
+  "he": [
+   "קטל",
+   "גינה",
+   "רעף",
+   "לוח",
+   "להכניס מישהו לרשימה"
+  ]
+ },
+ {
+  "id": "sequel",
+  "en": "sequel",
+  "isVerb": false,
+  "he": [
+   "תוצאה",
+   "המשך"
+  ]
+ },
+ {
+  "id": "relic",
+  "en": "relic",
+  "isVerb": false,
+  "he": [
+   "שריד",
+   "שארית",
+   "מזכרת"
+  ]
+ },
+ {
+  "id": "bland",
+  "en": "bland",
+  "isVerb": false,
+  "he": [
+   "עדין",
+   "מנומס",
+   "מעודן",
+   "תפל",
+   "נטול רגשות"
+  ]
+ },
+ {
+  "id": "prevalent",
+  "en": "prevalent",
+  "isVerb": false,
+  "he": [
+   "נפוץ"
+  ]
+ },
+ {
+  "id": "readily",
+  "en": "readily",
+  "isVerb": false,
+  "he": [
+   "ללא קושי",
+   "מיד"
+  ]
+ },
+ {
+  "id": "epitomize",
+  "en": "epitomize",
+  "isVerb": false,
+  "he": [
+   "לייצג",
+   "לאפיין",
+   "לתמצת"
+  ]
+ },
+ {
+  "id": "delinquent",
+  "en": "delinquent",
+  "isVerb": false,
+  "he": [
+   "עבריין",
+   "נזנח",
+   "נשכח"
+  ]
+ },
+ {
+  "id": "revoke",
+  "en": "revoke",
+  "isVerb": false,
+  "he": [
+   "ביטל",
+   "שלל"
+  ]
+ },
+ {
+  "id": "cord",
+  "en": "cord",
+  "isVerb": false,
+  "he": [
+   "מיתר",
+   "חוט",
+   "כבל חשמל",
+   "קשר"
+  ]
+ },
+ {
+  "id": "exert",
+  "en": "exert",
+  "isVerb": false,
+  "he": [
+   "הפעיל",
+   "השתמש",
+   "התאמץ"
+  ]
+ },
+ {
+  "id": "expend",
+  "en": "expend",
+  "isVerb": false,
+  "he": [
+   "גמר",
+   "בזבז",
+   "פיזר"
+  ]
+ },
+ {
+  "id": "fertile",
+  "en": "fertile",
+  "isVerb": false,
+  "he": [
+   "פורה",
+   "שופע"
+  ]
+ },
+ {
+  "id": "induce",
+  "en": "induce",
+  "isVerb": false,
+  "he": [
+   "שכנע",
+   "השפיע",
+   "גרם",
+   "יצר"
+  ]
+ },
+ {
+  "id": "flagrant",
+  "en": "flagrant",
+  "isVerb": false,
+  "he": [
+   "בוטה",
+   "מזעזע"
+  ]
+ },
+ {
+  "id": "lurking",
+  "en": "lurking",
+  "isVerb": false,
+  "he": [
+   "אורב",
+   "מתגנב"
+  ]
+ },
+ {
+  "id": "nuisance",
+  "en": "nuisance",
+  "isVerb": false,
+  "he": [
+   "מטרד"
+  ]
+ },
+ {
+  "id": "sequence",
+  "en": "sequence",
+  "isVerb": false,
+  "he": [
+   "סדר פעולות",
+   "רצף",
+   "המשכיות"
+  ]
+ },
+ {
+  "id": "estate",
+  "en": "estate",
+  "isVerb": false,
+  "he": [
+   "אחוזה",
+   "נכס",
+   "רכוש",
+   "מעמד"
+  ]
+ },
+ {
+  "id": "gauge",
+  "en": "gauge",
+  "isVerb": false,
+  "he": [
+   "היקף",
+   "קיבולת",
+   "העריך",
+   "מדד"
+  ]
+ },
+ {
+  "id": "petty",
+  "en": "petty",
+  "isVerb": false,
+  "he": [
+   "קטן",
+   "קטנוני",
+   "חסר חשיבות"
+  ]
+ },
+ {
+  "id": "maritime",
+  "en": "maritime",
+  "isVerb": false,
+  "he": [
+   "ימי"
+  ]
+ },
+ {
+  "id": "cast",
+  "en": "cast",
+  "isVerb": false,
+  "he": [
+   "גבס",
+   "זרק",
+   "השליך",
+   "נטייה",
+   "ניחוש",
+   "צוות משתתפים"
+  ]
+ },
+ {
+  "id": "degenerate",
+  "en": "degenerate",
+  "isVerb": false,
+  "he": [
+   "מנוון",
+   "הדרדר",
+   "אדם מושחת"
+  ]
+ },
+ {
+  "id": "facilitate",
+  "en": "facilitate",
+  "isVerb": false,
+  "he": [
+   "הקל",
+   "סייע"
+  ]
+ },
+ {
+  "id": "caste",
+  "en": "caste",
+  "isVerb": false,
+  "he": [
+   "מעמד",
+   "כת"
+  ]
+ },
+ {
+  "id": "adverse",
+  "en": "adverse",
+  "isVerb": false,
+  "he": [
+   "שלילי",
+   "מסוכן"
+  ]
+ },
+ {
+  "id": "lapse",
+  "en": "lapse",
+  "isVerb": false,
+  "he": [
+   "טעות",
+   "תקופה",
+   "מעידה",
+   "פליטת פה",
+   "פקיעה"
+  ]
+ },
+ {
+  "id": "manuscript",
+  "en": "manuscript",
+  "isVerb": false,
+  "he": [
+   "כתב יד"
+  ]
+ },
+ {
+  "id": "mild",
+  "en": "mild",
+  "isVerb": false,
+  "he": [
+   "מתון",
+   "עדין",
+   "חלש",
+   "קל",
+   "נוח"
+  ]
+ },
+ {
+  "id": "restrain",
+  "en": "restrain",
+  "isVerb": false,
+  "he": [
+   "ריסן"
+  ]
+ },
+ {
+  "id": "resourceful",
+  "en": "resourceful",
+  "isVerb": false,
+  "he": [
+   "בעל תושיה"
+  ]
+ },
+ {
+  "id": "session",
+  "en": "session",
+  "isVerb": false,
+  "he": [
+   "ישיבה",
+   "כנס",
+   "סמסטר"
+  ]
+ },
+ {
+  "id": "sheer",
+  "en": "sheer",
+  "isVerb": false,
+  "he": [
+   "מוחלט",
+   "שקוף",
+   "תלול",
+   "סטה"
+  ]
+ },
+ {
+  "id": "profound",
+  "en": "profound",
+  "isVerb": false,
+  "he": [
+   "מעמיק",
+   "מוחלט",
+   "נחרץ"
+  ]
+ },
+ {
+  "id": "refute",
+  "en": "refute",
+  "isVerb": false,
+  "he": [
+   "להפריך",
+   "לסתור"
+  ]
+ },
+ {
+  "id": "quench",
+  "en": "quench",
+  "isVerb": false,
+  "he": [
+   "הרווה",
+   "כיבה",
+   "כבש",
+   "דיכא",
+   "לספק"
+  ]
+ },
+ {
+  "id": "staunch",
+  "en": "staunch",
+  "isVerb": false,
+  "he": [
+   "איתן",
+   "מוצק",
+   "חזק",
+   "נאמן",
+   "חסם",
+   "עצר"
+  ]
+ },
+ {
+  "id": "carve",
+  "en": "carve",
+  "isVerb": false,
+  "he": [
+   "לחרוט",
+   "לגלף"
+  ]
+ },
+ {
+  "id": "tender",
+  "en": "tender",
+  "isVerb": false,
+  "he": [
+   "מטבע",
+   "עדין",
+   "רגיש",
+   "טוב",
+   "רך",
+   "הצעה",
+   "מכרז"
+  ]
+ },
+ {
+  "id": "admonish",
+  "en": "admonish",
+  "isVerb": false,
+  "he": [
+   "להוכיח",
+   "להתריע",
+   "לנזוף"
+  ]
+ },
+ {
+  "id": "abridge",
+  "en": "abridge",
+  "isVerb": false,
+  "he": [
+   "לצמצם"
+  ]
+ },
+ {
+  "id": "instigate",
+  "en": "instigate",
+  "isVerb": false,
+  "he": [
+   "להסית",
+   "לדרבן"
+  ]
+ },
+ {
+  "id": "concealment",
+  "en": "concealment",
+  "isVerb": false,
+  "he": [
+   "הסתרה"
+  ]
+ },
+ {
+  "id": "enterprise",
+  "en": "enterprise",
+  "isVerb": false,
+  "he": [
+   "יוזמה",
+   "פרויקט",
+   "מיזם",
+   "חברה"
+  ]
+ },
+ {
+  "id": "grit",
+  "en": "grit",
+  "isVerb": false,
+  "he": [
+   "חול",
+   "חצץ",
+   "נחישות",
+   "כוח סבל"
+  ]
+ },
+ {
+  "id": "plead",
+  "en": "plead",
+  "isVerb": false,
+  "he": [
+   "לעתור",
+   "להתחנן"
+  ]
+ },
+ {
+  "id": "conspicuous",
+  "en": "conspicuous",
+  "isVerb": false,
+  "he": [
+   "בולט",
+   "ניכר"
+  ]
+ },
+ {
+  "id": "embodied",
+  "en": "embodied",
+  "isVerb": false,
+  "he": [
+   "גילם",
+   "כלל",
+   "הכיל"
+  ]
+ },
+ {
+  "id": "heed",
+  "en": "heed",
+  "isVerb": false,
+  "he": [
+   "שם לב"
+  ]
+ },
+ {
+  "id": "inscription",
+  "en": "inscription",
+  "isVerb": false,
+  "he": [
+   "הרשמה",
+   "רישום",
+   "כתובת",
+   "הקדשה"
+  ]
+ },
+ {
+  "id": "plight",
+  "en": "plight",
+  "isVerb": false,
+  "he": [
+   "צרה",
+   "סכנה",
+   "הבטחה"
+  ]
+ },
+ {
+  "id": "hinder",
+  "en": "hinder",
+  "isVerb": false,
+  "he": [
+   "מנע",
+   "עיכב"
+  ]
+ },
+ {
+  "id": "boast",
+  "en": "boast",
+  "isVerb": false,
+  "he": [
+   "התרברב",
+   "התגאה"
+  ]
+ },
+ {
+  "id": "fortitude",
+  "en": "fortitude",
+  "isVerb": false,
+  "he": [
+   "אומץ לב",
+   "קור רוח",
+   "גבורה"
+  ]
+ },
+ {
+  "id": "apprehension",
+  "en": "apprehension",
+  "isVerb": false,
+  "he": [
+   "לכידה",
+   "תפיסה",
+   "מאסר",
+   "הבנה",
+   "דאגה"
+  ]
+ },
+ {
+  "id": "defiance",
+  "en": "defiance",
+  "isVerb": false,
+  "he": [
+   "התנגדות",
+   "התרסה"
+  ]
+ },
+ {
+  "id": "sought",
+  "en": "sought",
+  "isVerb": false,
+  "he": [
+   "חיפש",
+   "ביקש"
+  ]
+ },
+ {
+  "id": "refrain",
+  "en": "refrain",
+  "isVerb": false,
+  "he": [
+   "נמנע מ",
+   "התרסן",
+   "אמירה החוזרת שוב ושוב"
+  ]
+ },
+ {
+  "id": "implore",
+  "en": "implore",
+  "isVerb": false,
+  "he": [
+   "הפציר",
+   "התחנן"
+  ]
+ },
+ {
+  "id": "endeavor",
+  "en": "endeavor",
+  "isVerb": false,
+  "he": [
+   "ניסה",
+   "התאמץ",
+   "ניסיון"
+  ]
+ },
+ {
+  "id": "dissent",
+  "en": "dissent",
+  "isVerb": false,
+  "he": [
+   "עימות",
+   "מחלוקת"
+  ]
+ },
+ {
+  "id": "lavishly",
+  "en": "lavishly",
+  "isVerb": false,
+  "he": [
+   "בנדיבות",
+   "באופן פזרני"
+  ]
+ },
+ {
+  "id": "cherish",
+  "en": "cherish",
+  "isVerb": false,
+  "he": [
+   "העריך",
+   "הוקיר",
+   "טיפח",
+   "פיתח"
+  ]
+ },
+ {
+  "id": "impart",
+  "en": "impart",
+  "isVerb": false,
+  "he": [
+   "מסר",
+   "השמיע",
+   "התייחס",
+   "העניק"
+  ]
+ },
+ {
+  "id": "wrath",
+  "en": "wrath",
+  "isVerb": false,
+  "he": [
+   "זעם"
+  ]
+ },
+ {
+  "id": "impose",
+  "en": "impose",
+  "isVerb": false,
+  "he": [
+   "להטיל (מס, עונש)",
+   "לכפות",
+   "לנצל",
+   "להטריח"
+  ]
+ },
+ {
+  "id": "enact",
+  "en": "enact",
+  "isVerb": false,
+  "he": [
+   "חוקק",
+   "שיחק",
+   "גילם דמות"
+  ]
+ },
+ {
+  "id": "ensue",
+  "en": "ensue",
+  "isVerb": false,
+  "he": [
+   "נגרם",
+   "נבע"
+  ]
+ },
+ {
+  "id": "entangle",
+  "en": "entangle",
+  "isVerb": false,
+  "he": [
+   "להסתבך"
+  ]
+ },
+ {
+  "id": "predominantly",
+  "en": "predominantly",
+  "isVerb": false,
+  "he": [
+   "באופן ניכר"
+  ]
+ },
+ {
+  "id": "impair",
+  "en": "impair",
+  "isVerb": false,
+  "he": [
+   "פגם",
+   "החליש"
+  ]
+ },
+ {
+  "id": "clasp",
+  "en": "clasp",
+  "isVerb": false,
+  "he": [
+   "החזיק",
+   "אבזם",
+   "סגר",
+   "תפס",
+   "חיבוק",
+   "לחיצה",
+   "אחיזה"
+  ]
+ },
+ {
+  "id": "perished",
+  "en": "perished",
+  "isVerb": false,
+  "he": [
+   "נהרס",
+   "נחרב",
+   "אבד",
+   "ירד לטמיון",
+   "מת",
+   "נרקב"
+  ]
+ },
+ {
+  "id": "verse",
+  "en": "verse",
+  "isVerb": false,
+  "he": [
+   "חרוז",
+   "פסוק",
+   "בית בשיר"
+  ]
+ },
+ {
+  "id": "upheaval",
+  "en": "upheaval",
+  "isVerb": false,
+  "he": [
+   "מהפך",
+   "מהומה",
+   "התפרצות (גיאולוגית)"
+  ]
+ },
+ {
+  "id": "wrought",
+  "en": "wrought",
+  "isVerb": false,
+  "he": [
+   "מעובד",
+   "מעוצב",
+   "יצוק",
+   "מחושל"
+  ]
+ },
+ {
+  "id": "bleak",
+  "en": "bleak",
+  "isVerb": false,
+  "he": [
+   "קר",
+   "עגום",
+   "חשוף"
+  ]
+ },
+ {
+  "id": "goof",
+  "en": "goof",
+  "isVerb": false,
+  "he": [
+   "קלקל",
+   "טעות"
+  ]
+ },
+ {
+  "id": "canvass",
+  "en": "canvass",
+  "isVerb": false,
+  "he": [
+   "תעמולה",
+   "שידל",
+   "בחן",
+   "בדק",
+   "סקר"
+  ]
+ },
+ {
+  "id": "limb",
+  "en": "limb",
+  "isVerb": false,
+  "he": [
+   "איבר",
+   "גף",
+   "שפה",
+   "קצה",
+   "שיסע"
+  ]
+ },
+ {
+  "id": "thereby",
+  "en": "thereby",
+  "isVerb": false,
+  "he": [
+   "ולכן...",
+   "גרם ל..."
+  ]
+ },
+ {
+  "id": "gadgets",
+  "en": "gadgets",
+  "isVerb": false,
+  "he": [
+   "מכשיר",
+   "מתקן",
+   "פטנט",
+   "המצאה"
+  ]
+ },
+ {
+  "id": "pitch",
+  "en": "pitch",
+  "isVerb": false,
+  "he": [
+   "גובה הצליל",
+   "כר דשא",
+   "נאום",
+   "פרויקט",
+   "טלטול"
+  ]
+ },
+ {
+  "id": "garment",
+  "en": "garment",
+  "isVerb": false,
+  "he": [
+   "בגד",
+   "כיסוי"
+  ]
+ },
+ {
+  "id": "invoke",
+  "en": "invoke",
+  "isVerb": false,
+  "he": [
+   "עורר",
+   "התפלל",
+   "התחנן",
+   "העלה (זיכרון)"
+  ]
+ },
+ {
+  "id": "conviction",
+  "en": "conviction",
+  "isVerb": false,
+  "he": [
+   "הרשעה",
+   "שכנוע",
+   "אמונה"
+  ]
+ },
+ {
+  "id": "utter",
+  "en": "utter",
+  "isVerb": false,
+  "he": [
+   "הגה",
+   "ביטא",
+   "אמר",
+   "מוחלט",
+   "גמור"
+  ]
+ },
+ {
+  "id": "beak",
+  "en": "beak",
+  "isVerb": false,
+  "he": [
+   "אף",
+   "מקור",
+   "מנהל בית ספר",
+   "ניקר"
+  ]
+ },
+ {
+  "id": "uproar",
+  "en": "uproar",
+  "isVerb": false,
+  "he": [
+   "מהומה"
+  ]
+ },
+ {
+  "id": "vocation",
+  "en": "vocation",
+  "isVerb": false,
+  "he": [
+   "מקצוע",
+   "שליחות",
+   "תכלית"
+  ]
+ },
+ {
+  "id": "wagon",
+  "en": "wagon",
+  "isVerb": false,
+  "he": [
+   "עגלה",
+   "קרון"
+  ]
+ },
+ {
+  "id": "bead",
+  "en": "bead",
+  "isVerb": false,
+  "he": [
+   "חרוז",
+   "תפילה"
+  ]
+ },
+ {
+  "id": "resolve",
+  "en": "resolve",
+  "isVerb": false,
+  "he": [
+   "הפריד",
+   "פתר",
+   "החלטיות",
+   "נחישות"
+  ]
+ },
+ {
+  "id": "reciprocal",
+  "en": "reciprocal",
+  "isVerb": false,
+  "he": [
+   "מספר הופכי",
+   "דו צדדי",
+   "הדדי"
+  ]
+ },
+ {
+  "id": "recreation",
+  "en": "recreation",
+  "isVerb": false,
+  "he": [
+   "בילוי",
+   "שעשוע",
+   "נופש",
+   "הפסקה",
+   "יצירה מחדש"
+  ]
+ },
+ {
+  "id": "scorn",
+  "en": "scorn",
+  "isVerb": false,
+  "he": [
+   "בוז",
+   "לעג",
+   "לזלזל",
+   "לנדות"
+  ]
+ },
+ {
+  "id": "resort",
+  "en": "resort",
+  "isVerb": false,
+  "he": [
+   "אתר נופש",
+   "מפלט",
+   "מחסה",
+   "נזקק",
+   "נקט"
+  ]
+ },
+ {
+  "id": "reciprocate",
+  "en": "reciprocate",
+  "isVerb": false,
+  "he": [
+   "החזיר",
+   "גמל"
+  ]
+ },
+ {
+  "id": "considerable",
+  "en": "considerable",
+  "isVerb": false,
+  "he": [
+   "ניכר",
+   "בולט",
+   "חשוב",
+   "רבות"
+  ]
+ },
+ {
+  "id": "revolt",
+  "en": "revolt",
+  "isVerb": false,
+  "he": [
+   "מרד",
+   "התקוממות",
+   "זעזע",
+   "התחלחל"
+  ]
+ },
+ {
+  "id": "disrupt",
+  "en": "disrupt",
+  "isVerb": false,
+  "he": [
+   "שבר",
+   "הפריע",
+   "שיבש",
+   "פילג",
+   "פיצל"
+  ]
+ },
+ {
+  "id": "eminent",
+  "en": "eminent",
+  "isVerb": false,
+  "he": [
+   "בולט",
+   "מכובד",
+   "ניכר"
+  ]
+ },
+ {
+  "id": "intact",
+  "en": "intact",
+  "isVerb": false,
+  "he": [
+   "ללא פגע",
+   "שלם"
+  ]
+ },
+ {
+  "id": "limber",
+  "en": "limber",
+  "isVerb": false,
+  "he": [
+   "גמיש",
+   "זריז",
+   "מרכבת תותח"
+  ]
+ },
+ {
+  "id": "unearth",
+  "en": "unearth",
+  "isVerb": false,
+  "he": [
+   "חפר",
+   "גילה",
+   "חשף"
+  ]
+ },
+ {
+  "id": "zealot",
+  "en": "zealot",
+  "isVerb": false,
+  "he": [
+   "אדם קנאי",
+   "שתומך באופן קיצוני ברעיונות מסוימים"
+  ]
+ },
+ {
+  "id": "fume",
+  "en": "fume",
+  "isVerb": false,
+  "he": [
+   "אדים",
+   "עשן"
+  ]
+ },
+ {
+  "id": "disposable",
+  "en": "disposable",
+  "isVerb": false,
+  "he": [
+   "חד פעמי",
+   "נזיל",
+   "נגיש"
+  ]
+ },
+ {
+  "id": "scatter",
+  "en": "scatter",
+  "isVerb": false,
+  "he": [
+   "פיזר",
+   "התפזר"
+  ]
+ },
+ {
+  "id": "staple",
+  "en": "staple",
+  "isVerb": false,
+  "he": [
+   "מרכיב מרכזי",
+   "שידך",
+   "סיכה"
+  ]
+ },
+ {
+  "id": "subtle",
+  "en": "subtle",
+  "isVerb": false,
+  "he": [
+   "מעודן",
+   "מתוחכם",
+   "שנון",
+   "דק"
+  ]
+ },
+ {
+  "id": "emit",
+  "en": "emit",
+  "isVerb": false,
+  "he": [
+   "הוציא",
+   "פלט",
+   "הנפיק"
+  ]
+ },
+ {
+  "id": "exhale",
+  "en": "exhale",
+  "isVerb": false,
+  "he": [
+   "נשף",
+   "פלט",
+   "התנדף"
+  ]
+ },
+ {
+  "id": "expatriate",
+  "en": "expatriate",
+  "isVerb": false,
+  "he": [
+   "להגלות",
+   "לגרש",
+   "שגלה מארצו"
+  ]
+ },
+ {
+  "id": "famine",
+  "en": "famine",
+  "isVerb": false,
+  "he": [
+   "מחסור חמור",
+   "רעב"
+  ]
+ },
+ {
+  "id": "withhold",
+  "en": "withhold",
+  "isVerb": false,
+  "he": [
+   "לעכב",
+   "למנוע",
+   "להסתיר",
+   "לנכות (מס)"
+  ]
+ },
+ {
+  "id": "acclaim",
+  "en": "acclaim",
+  "isVerb": false,
+  "he": [
+   "הריע",
+   "שיבח"
+  ]
+ },
+ {
+  "id": "bank",
+  "en": "bank",
+  "isVerb": false,
+  "he": [
+   "בנק",
+   "קופה",
+   "סוללה",
+   "שיפוע",
+   "חסם",
+   "ערם"
+  ]
+ },
+ {
+  "id": "desolate",
+  "en": "desolate",
+  "isVerb": false,
+  "he": [
+   "שומם",
+   "נטוש",
+   "מדכא",
+   "החריב"
+  ]
+ },
+ {
+  "id": "detract",
+  "en": "detract",
+  "isVerb": false,
+  "he": [
+   "הפחית",
+   "הסית",
+   "הפריע"
+  ]
+ },
+ {
+  "id": "devise",
+  "en": "devise",
+  "isVerb": false,
+  "he": [
+   "תכנן",
+   "הוריש",
+   "המצאה"
+  ]
+ },
+ {
+  "id": "exquisite",
+  "en": "exquisite",
+  "isVerb": false,
+  "he": [
+   "מצוין",
+   "חד",
+   "מעודן"
+  ]
+ },
+ {
+  "id": "compelling",
+  "en": "compelling",
+  "isVerb": false,
+  "he": [
+   "מחייב",
+   "מרתק",
+   "משכנע",
+   "חזק"
+  ]
+ },
+ {
+  "id": "concerted",
+  "en": "concerted",
+  "isVerb": false,
+  "he": [
+   "מוסכם",
+   "מתוכנן",
+   "מתואם"
+  ]
+ },
+ {
+  "id": "concur",
+  "en": "concur",
+  "isVerb": false,
+  "he": [
+   "הסכים",
+   "התאים",
+   "שיתף פעולה",
+   "התרחש (בו זמנית)"
+  ]
+ },
+ {
+  "id": "concurrence",
+  "en": "concurrence",
+  "isVerb": false,
+  "he": [
+   "בו זמנית",
+   "הסכמה כללית"
+  ]
+ },
+ {
+  "id": "confinement",
+  "en": "confinement",
+  "isVerb": false,
+  "he": [
+   "מאסר",
+   "ריתוק"
+  ]
+ },
+ {
+  "id": "conform",
+  "en": "conform",
+  "isVerb": false,
+  "he": [
+   "להתאים",
+   "לציית",
+   "להסתגל"
+  ]
+ },
+ {
+  "id": "legible",
+  "en": "legible",
+  "isVerb": false,
+  "he": [
+   "קריא",
+   "ניכר",
+   "בולט"
+  ]
+ },
+ {
+  "id": "mediate",
+  "en": "mediate",
+  "isVerb": false,
+  "he": [
+   "לגשר",
+   "לתווך"
+  ]
+ },
+ {
+  "id": "incidence",
+  "en": "incidence",
+  "isVerb": false,
+  "he": [
+   "כמות",
+   "מידה",
+   "שכיחות"
+  ]
+ },
+ {
+  "id": "exclude",
+  "en": "exclude",
+  "isVerb": false,
+  "he": [
+   "מנע",
+   "שלל",
+   "דחה",
+   "הרחיק",
+   "גירש"
+  ]
+ },
+ {
+  "id": "foil",
+  "en": "foil",
+  "isVerb": false,
+  "he": [
+   "סיכל",
+   "בלבל",
+   "הביס"
+  ]
+ },
+ {
+  "id": "upbringing",
+  "en": "upbringing",
+  "isVerb": false,
+  "he": [
+   "חינוך",
+   "גידול",
+   "טיפוח"
+  ]
+ },
+ {
+  "id": "wart",
+  "en": "wart",
+  "isVerb": false,
+  "he": [
+   "יבלת"
+  ]
+ },
+ {
+  "id": "dispute",
+  "en": "dispute",
+  "isVerb": false,
+  "he": [
+   "מחלוקת",
+   "ויכוח"
+  ]
+ },
+ {
+  "id": "sift",
+  "en": "sift",
+  "isVerb": false,
+  "he": [
+   "לנפות",
+   "לסנן"
+  ]
+ },
+ {
+  "id": "equity",
+  "en": "equity",
+  "isVerb": false,
+  "he": [
+   "הון עצמי",
+   "הגינות"
+  ]
+ },
+ {
+  "id": "persistent",
+  "en": "persistent",
+  "isVerb": false,
+  "he": [
+   "מתמיד"
+  ]
+ },
+ {
+  "id": "disperse",
+  "en": "disperse",
+  "isVerb": false,
+  "he": [
+   "לפזר",
+   "להפיץ"
+  ]
+ },
+ {
+  "id": "transmit",
+  "en": "transmit",
+  "isVerb": false,
+  "he": [
+   "להעביר",
+   "לשדר"
+  ]
+ },
+ {
+  "id": "perch",
+  "en": "perch",
+  "isVerb": false,
+  "he": [
+   "נח",
+   "ישב",
+   "בד",
+   "ענף",
+   "סוג של דג שחי במים מתוקים"
+  ]
+ },
+ {
+  "id": "plaster",
+  "en": "plaster",
+  "isVerb": false,
+  "he": [
+   "הדביק",
+   "הצמיד",
+   "גבס (לבנייה) טיח",
+   "פלסטר"
+  ]
+ },
+ {
+  "id": "prick",
+  "en": "prick",
+  "isVerb": false,
+  "he": [
+   "דקירה",
+   "כאב",
+   "זקף את אוזניו",
+   "נקיפות מצפון",
+   "זין",
+   "עקץ"
+  ]
+ },
+ {
+  "id": "prowess",
+  "en": "prowess",
+  "isVerb": false,
+  "he": [
+   "כושר",
+   "מיומנות",
+   "יכולת",
+   "אומץ לב"
+  ]
+ },
+ {
+  "id": "rehearsal",
+  "en": "rehearsal",
+  "isVerb": false,
+  "he": [
+   "חזרה",
+   "תרגול"
+  ]
+ },
+ {
+  "id": "snap",
+  "en": "snap",
+  "isVerb": false,
+  "he": [
+   "שבר",
+   "תמונה",
+   "מרץ",
+   "פיצוח",
+   "נקישה",
+   "הרים קול",
+   "שינה תנוחה במהירות",
+   "פעולה קלה"
+  ]
+ },
+ {
+  "id": "inventory",
+  "en": "inventory",
+  "isVerb": false,
+  "he": [
+   "מלאי"
+  ]
+ },
+ {
+  "id": "landmark",
+  "en": "landmark",
+  "isVerb": false,
+  "he": [
+   "אבן דרך",
+   "נקודת ציון"
+  ]
+ },
+ {
+  "id": "gallop",
+  "en": "gallop",
+  "isVerb": false,
+  "he": [
+   "דהירה"
+  ]
+ },
+ {
+  "id": "gloat",
+  "en": "gloat",
+  "isVerb": false,
+  "he": [
+   "שמחה לאיד"
+  ]
+ },
+ {
+  "id": "tend",
+  "en": "tend",
+  "isVerb": false,
+  "he": [
+   "שמר",
+   "השגיח",
+   "טיפל",
+   "נטה",
+   "הוביל",
+   "הוליך"
+  ]
+ },
+ {
+  "id": "indignant",
+  "en": "indignant",
+  "isVerb": false,
+  "he": [
+   "ממורמר"
+  ]
+ },
+ {
+  "id": "elusive",
+  "en": "elusive",
+  "isVerb": false,
+  "he": [
+   "חמקמק"
+  ]
+ },
+ {
+  "id": "subordinate",
+  "en": "subordinate",
+  "isVerb": false,
+  "he": [
+   "משני",
+   "נחות"
+  ]
+ },
+ {
+  "id": "hurdle",
+  "en": "hurdle",
+  "isVerb": false,
+  "he": [
+   "משוכה",
+   "קושי"
+  ]
+ },
+ {
+  "id": "feud",
+  "en": "feud",
+  "isVerb": false,
+  "he": [
+   "סכסוך",
+   "שנאה",
+   "נקמת דם"
+  ]
+ },
+ {
+  "id": "deposit",
+  "en": "deposit",
+  "isVerb": false,
+  "he": [
+   "הפקדה",
+   "פיקדון",
+   "מרבץ",
+   "שכבה",
+   "משקע",
+   "השאיר"
+  ]
+ },
+ {
+  "id": "extravagant",
+  "en": "extravagant",
+  "isVerb": false,
+  "he": [
+   "ראוותני במיוחד"
+  ]
+ },
+ {
+  "id": "remorseful",
+  "en": "remorseful",
+  "isVerb": false,
+  "he": [
+   "מלא חרטה"
+  ]
+ },
+ {
+  "id": "notoriously",
+  "en": "notoriously",
+  "isVerb": false,
+  "he": [
+   "באופן ידוע לשמצה"
+  ]
+ },
+ {
+  "id": "rally",
+  "en": "rally",
+  "isVerb": false,
+  "he": [
+   "לגייס",
+   "לעג",
+   "התאושש",
+   "הפגנה",
+   "כינוס",
+   "עלייה חדה"
+  ]
+ },
+ {
+  "id": "graze",
+  "en": "graze",
+  "isVerb": false,
+  "he": [
+   "רעה",
+   "שפשף"
+  ]
+ },
+ {
+  "id": "poll",
+  "en": "poll",
+  "isVerb": false,
+  "he": [
+   "סקר"
+  ]
+ },
+ {
+  "id": "in vitro fertilization",
+  "en": "in vitro fertilization",
+  "isVerb": false,
+  "he": [
+   "הפריה חוץ גופית"
+  ]
+ },
+ {
+  "id": "descent",
+  "en": "descent",
+  "isVerb": false,
+  "he": [
+   "ירידה",
+   "שיפוע",
+   "מוצא",
+   "שושלת",
+   "הורשה"
+  ]
+ },
+ {
+  "id": "frank",
+  "en": "frank",
+  "isVerb": false,
+  "he": [
+   "גלוי לב",
+   "ישר",
+   "כן"
+  ]
+ },
+ {
+  "id": "erratic",
+  "en": "erratic",
+  "isVerb": false,
+  "he": [
+   "בלתי צפוי",
+   "בלתי יציב",
+   "לא אחיד"
+  ]
+ },
+ {
+  "id": "jovial",
+  "en": "jovial",
+  "isVerb": false,
+  "he": [
+   "עליז",
+   "שמח",
+   "צוהל"
+  ]
+ },
+ {
+  "id": "thrust",
+  "en": "thrust",
+  "isVerb": false,
+  "he": [
+   "עיקר",
+   "דחף",
+   "מהות",
+   "הנקודה המרכזית"
+  ]
+ },
+ {
+  "id": "facades",
+  "en": "facades",
+  "isVerb": false,
+  "he": [
+   "חזית",
+   "חזות",
+   "מראה",
+   "חיצוניות",
+   "פסון"
+  ]
+ },
+ {
+  "id": "meadow",
+  "en": "meadow",
+  "isVerb": false,
+  "he": [
+   "אחו",
+   "מרעה"
+  ]
+ },
+ {
+  "id": "crease",
+  "en": "crease",
+  "isVerb": false,
+  "he": [
+   "קמט",
+   "קפל"
+  ]
+ },
+ {
+  "id": "shrill",
+  "en": "shrill",
+  "isVerb": false,
+  "he": [
+   "צווח",
+   "צרח"
+  ]
+ },
+ {
+  "id": "futile",
+  "en": "futile",
+  "isVerb": false,
+  "he": [
+   "חסר ערך",
+   "עקר"
+  ]
+ },
+ {
+  "id": "thaw",
+  "en": "thaw",
+  "isVerb": false,
+  "he": [
+   "הפשיר"
+  ]
+ },
+ {
+  "id": "reprimand",
+  "en": "reprimand",
+  "isVerb": false,
+  "he": [
+   "נזף"
+  ]
+ },
+ {
+  "id": "convent",
+  "en": "convent",
+  "isVerb": false,
+  "he": [
+   "מנזר"
+  ]
+ },
+ {
+  "id": "pavement",
+  "en": "pavement",
+  "isVerb": false,
+  "he": [
+   "מדרכה",
+   "מרצפת"
+  ]
+ },
+ {
+  "id": "earnestly",
+  "en": "earnestly",
+  "isVerb": false,
+  "he": [
+   "באופן רציני/כן/אמיתי"
+  ]
+ },
+ {
+  "id": "seafarer",
+  "en": "seafarer",
+  "isVerb": false,
+  "he": [
+   "יורד ים",
+   "מלח"
+  ]
+ },
+ {
+  "id": "wardrobe",
+  "en": "wardrobe",
+  "isVerb": false,
+  "he": [
+   "מלתחה"
+  ]
+ },
+ {
+  "id": "orchard",
+  "en": "orchard",
+  "isVerb": false,
+  "he": [
+   "פרדס",
+   "מטע",
+   "בוסתן"
+  ]
+ },
+ {
+  "id": "outlet",
+  "en": "outlet",
+  "isVerb": false,
+  "he": [
+   "שקע",
+   "פורקן",
+   "מוצא"
+  ]
+ },
+ {
+  "id": "douse",
+  "en": "douse",
+  "isVerb": false,
+  "he": [
+   "טבילה",
+   "השרייה",
+   "השקיע",
+   "כיבה (אש) באמצעות מים"
+  ]
+ },
+ {
+  "id": "apron",
+  "en": "apron",
+  "isVerb": false,
+  "he": [
+   "סינר",
+   "קדמת הבמה",
+   "רחבת חניה למטוסים"
+  ]
+ },
+ {
+  "id": "fuss",
+  "en": "fuss",
+  "isVerb": false,
+  "he": [
+   "דאג",
+   "חרד",
+   "הטריד"
+  ]
+ },
+ {
+  "id": "pacify",
+  "en": "pacify",
+  "isVerb": false,
+  "he": [
+   "הרגיע",
+   "שיכך",
+   "פייס"
+  ]
+ },
+ {
+  "id": "simmer",
+  "en": "simmer",
+  "isVerb": false,
+  "he": [
+   "בישל באיטיות על אש קטנה"
+  ]
+ },
+ {
+  "id": "stimulus",
+  "en": "stimulus",
+  "isVerb": false,
+  "he": [
+   "גירוי",
+   "תמריץ"
+  ]
+ },
+ {
+  "id": "alumnus",
+  "en": "alumnus",
+  "isVerb": false,
+  "he": [
+   "בוגר במוסד השכלה"
+  ]
+ },
+ {
+  "id": "intrude",
+  "en": "intrude",
+  "isVerb": false,
+  "he": [
+   "הפריע",
+   "התפרץ",
+   "פלש"
+  ]
+ },
+ {
+  "id": "pseudonym",
+  "en": "pseudonym",
+  "isVerb": false,
+  "he": [
+   "שם בדוי",
+   "כינוי ספרותי",
+   "שם במה"
+  ]
+ },
+ {
+  "id": "rebuke",
+  "en": "rebuke",
+  "isVerb": false,
+  "he": [
+   "נזף"
+  ]
+ },
+ {
+  "id": "ferment",
+  "en": "ferment",
+  "isVerb": false,
+  "he": [
+   "שמרים",
+   "התסיס"
+  ]
+ },
+ {
+  "id": "smuggle",
+  "en": "smuggle",
+  "isVerb": false,
+  "he": [
+   "הבריח"
+  ]
+ },
+ {
+  "id": "reminiscent",
+  "en": "reminiscent",
+  "isVerb": false,
+  "he": [
+   "מזכיר"
+  ]
+ },
+ {
+  "id": "chronicle",
+  "en": "chronicle",
+  "isVerb": false,
+  "he": [
+   "תיעד"
+  ]
+ },
+ {
+  "id": "pious",
+  "en": "pious",
+  "isVerb": false,
+  "he": [
+   "אדוק",
+   "קנאי"
+  ]
+ },
+ {
+  "id": "rekindled",
+  "en": "rekindled",
+  "isVerb": false,
+  "he": [
+   "הצית מחדש"
+  ]
+ },
+ {
+  "id": "hallmark",
+  "en": "hallmark",
+  "isVerb": false,
+  "he": [
+   "סימן היכר"
+  ]
+ },
+ {
+  "id": "quintessential",
+  "en": "quintessential",
+  "isVerb": false,
+  "he": [
+   "מופתי",
+   "מושלם",
+   "אופייני",
+   "קלסי",
+   "מובהק"
+  ]
+ },
+ {
+  "id": "partaken",
+  "en": "partaken",
+  "isVerb": false,
+  "he": [
+   "התכבד",
+   "השתתף"
+  ]
+ },
+ {
+  "id": "curtail",
+  "en": "curtail",
+  "isVerb": false,
+  "he": [
+   "הפחית",
+   "קיצץ"
+  ]
+ },
+ {
+  "id": "molar",
+  "en": "molar",
+  "isVerb": false,
+  "he": [
+   "שן טוחנת"
+  ]
+ },
+ {
+  "id": "bliss",
+  "en": "bliss",
+  "isVerb": false,
+  "he": [
+   "אושר עילאי"
+  ]
+ },
+ {
+  "id": "sew",
+  "en": "sew",
+  "isVerb": false,
+  "he": [
+   "תפר",
+   "איחה"
+  ]
+ },
+ {
+  "id": "wreath",
+  "en": "wreath",
+  "isVerb": false,
+  "he": [
+   "זר פרחים"
+  ]
+ },
+ {
+  "id": "martyr",
+  "en": "martyr",
+  "isVerb": false,
+  "he": [
+   "קדוש מעונה"
+  ]
+ },
+ {
+  "id": "ridge",
+  "en": "ridge",
+  "isVerb": false,
+  "he": [
+   "רכס",
+   "תלם",
+   "חריץ",
+   "חרש"
+  ]
+ },
+ {
+  "id": "friar",
+  "en": "friar",
+  "isVerb": false,
+  "he": [
+   "נזיר"
+  ]
+ },
+ {
+  "id": "sulk",
+  "en": "sulk",
+  "isVerb": false,
+  "he": [
+   "זעף",
+   "הזעיף את פניו"
+  ]
+ },
+ {
+  "id": "recuperate",
+  "en": "recuperate",
+  "isVerb": false,
+  "he": [
+   "החלים",
+   "הבריא",
+   "קיבל בחזרה"
+  ]
+ },
+ {
+  "id": "parcel",
+  "en": "parcel",
+  "isVerb": false,
+  "he": [
+   "חבילה",
+   "צרור",
+   "קבוצה",
+   "מגרש",
+   "חלקה",
+   "עטף",
+   "חילק"
+  ]
+ },
+ {
+  "id": "outskirts",
+  "en": "outskirts",
+  "isVerb": false,
+  "he": [
+   "פרוורים"
+  ]
+ },
+ {
+  "id": "wield",
+  "en": "wield",
+  "isVerb": false,
+  "he": [
+   "הפעיל",
+   "השתמש",
+   "החזיק"
+  ]
+ },
+ {
+  "id": "fable",
+  "en": "fable",
+  "isVerb": false,
+  "he": [
+   "שיקר",
+   "משל",
+   "אגדה"
+  ]
+ },
+ {
+  "id": "reviled",
+  "en": "reviled",
+  "isVerb": false,
+  "he": [
+   "השמיץ",
+   "גינה"
+  ]
+ },
+ {
+  "id": "preposterous",
+  "en": "preposterous",
+  "isVerb": false,
+  "he": [
+   "אבסורד",
+   "מגוחך",
+   "מנוגד לטבע או להיגיון"
+  ]
+ },
+ {
+  "id": "fugitive",
+  "en": "fugitive",
+  "isVerb": false,
+  "he": [
+   "פליט",
+   "עבריין נמלט"
+  ]
+ },
+ {
+  "id": "reverent",
+  "en": "reverent",
+  "isVerb": false,
+  "he": [
+   "נערץ",
+   "מעריץ",
+   "נכבד",
+   "מכובד",
+   "מוקיר",
+   "רוחש כבוד רב"
+  ]
+ },
+ {
+  "id": "aviator",
+  "en": "aviator",
+  "isVerb": false,
+  "he": [
+   "טייס"
+  ]
+ },
+ {
+  "id": "obstruction",
+  "en": "obstruction",
+  "isVerb": false,
+  "he": [
+   "חסימה",
+   "מכשול",
+   "הפרעה"
+  ]
+ },
+ {
+  "id": "bar",
+  "en": "bar",
+  "isVerb": false,
+  "he": [
+   "חסם",
+   "עצר",
+   "נעל",
+   "הבריח",
+   "התנגד"
+  ]
+ },
+ {
+  "id": "fray",
+  "en": "fray",
+  "isVerb": false,
+  "he": [
+   "התווכח",
+   "שחק",
+   "בילה",
+   "שיפשף",
+   "התרגז"
+  ]
+ },
+ {
+  "id": "taper",
+  "en": "taper",
+  "isVerb": false,
+  "he": [
+   "הצטמצם בהדרגה",
+   "התחדד",
+   "הלך ופחת"
+  ]
+ },
+ {
+  "id": "wit",
+  "en": "wit",
+  "isVerb": false,
+  "he": [
+   "שכל",
+   "תושיה",
+   "שנינות"
+  ]
+ },
+ {
+  "id": "lust",
+  "en": "lust",
+  "isVerb": false,
+  "he": [
+   "תאווה",
+   "תשוקה"
+  ]
+ },
+ {
+  "id": "cede",
+  "en": "cede",
+  "isVerb": false,
+  "he": [
+   "העביר",
+   "מסר"
+  ]
+ },
+ {
+  "id": "undermine",
+  "en": "undermine",
+  "isVerb": false,
+  "he": [
+   "חתר תחת",
+   "ערער",
+   "החליש"
+  ]
+ },
+ {
+  "id": "indispose",
+  "en": "indispose",
+  "isVerb": false,
+  "he": [
+   "סרב",
+   "דחה",
+   "החלה",
+   "לא בקו הבריאות"
+  ]
+ },
+ {
+  "id": "weep",
+  "en": "weep",
+  "isVerb": false,
+  "he": [
+   "התייפח",
+   "בכה"
+  ]
+ },
+ {
+  "id": "revile",
+  "en": "revile",
+  "isVerb": false,
+  "he": [
+   "גינה",
+   "השתלח",
+   "השמיץ"
+  ]
+ },
+ {
+  "id": "discerned",
+  "en": "discerned",
+  "isVerb": false,
+  "he": [
+   "הבחין",
+   "הבדיל",
+   "תפס"
+  ]
+ },
+ {
+  "id": "realm",
+  "en": "realm",
+  "isVerb": false,
+  "he": [
+   "ממלכה",
+   "תחום"
+  ]
+ },
+ {
+  "id": "precept",
+  "en": "precept",
+  "isVerb": false,
+  "he": [
+   "צו",
+   "הוראה",
+   "פקודה",
+   "פתגם",
+   "אמת כללית"
+  ]
+ },
+ {
+  "id": "blunder",
+  "en": "blunder",
+  "isVerb": false,
+  "he": [
+   "פליטת פה",
+   "טעות גסה",
+   "מעד",
+   "נכשל",
+   "עשה טעות מטופשת"
+  ]
+ },
+ {
+  "id": "attest",
+  "en": "attest",
+  "isVerb": false,
+  "he": [
+   "העיד",
+   "אישר",
+   "תמך",
+   "אימת",
+   "הצהיר"
+  ]
+ },
+ {
+  "id": "interrogate",
+  "en": "interrogate",
+  "isVerb": false,
+  "he": [
+   "חקר",
+   "תחקר"
+  ]
+ },
+ {
+  "id": "junction",
+  "en": "junction",
+  "isVerb": false,
+  "he": [
+   "צומת",
+   "הצטלבות"
+  ]
+ },
+ {
+  "id": "contest",
+  "en": "contest",
+  "isVerb": false,
+  "he": [
+   "התחרה",
+   "התמודד",
+   "ערער",
+   "מחה"
+  ]
+ },
+ {
+  "id": "meek",
+  "en": "meek",
+  "isVerb": false,
+  "he": [
+   "צנוע",
+   "צייתני",
+   "כנוע"
+  ]
+ },
+ {
+  "id": "compass",
+  "en": "compass",
+  "isVerb": false,
+  "he": [
+   "מצפן",
+   "תחום",
+   "השיג",
+   "הקיף",
+   "תפס",
+   "קלט"
+  ]
+ },
+ {
+  "id": "hue",
+  "en": "hue",
+  "isVerb": false,
+  "he": [
+   "גוון",
+   "צבע"
+  ]
+ },
+ {
+  "id": "omen",
+  "en": "omen",
+  "isVerb": false,
+  "he": [
+   "אות",
+   "מופת",
+   "סימן",
+   "בישר (דבר רע)"
+  ]
+ },
+ {
+  "id": "trail",
+  "en": "trail",
+  "isVerb": false,
+  "he": [
+   "סימן",
+   "עקב",
+   "נתיב",
+   "נגרר",
+   "רדף",
+   "צד",
+   "יצר נתיב"
+  ]
+ },
+ {
+  "id": "scroll",
+  "en": "scroll",
+  "isVerb": false,
+  "he": [
+   "גלל",
+   "מגילה"
+  ]
+ },
+ {
+  "id": "taut",
+  "en": "taut",
+  "isVerb": false,
+  "he": [
+   "מתוח",
+   "עצבני",
+   "מסודר",
+   "מאורגן"
+  ]
+ },
+ {
+  "id": "drab",
+  "en": "drab",
+  "isVerb": false,
+  "he": [
+   "מרופט",
+   "בלוי",
+   "משעמם"
+  ]
+ },
+ {
+  "id": "fad",
+  "en": "fad",
+  "isVerb": false,
+  "he": [
+   "טרנד",
+   "אופנה חולפת"
+  ]
+ },
+ {
+  "id": "rift",
+  "en": "rift",
+  "isVerb": false,
+  "he": [
+   "קרע",
+   "פילג",
+   "סדק"
+  ]
+ },
+ {
+  "id": "inaugurate",
+  "en": "inaugurate",
+  "isVerb": false,
+  "he": [
+   "חנך"
+  ]
+ },
+ {
+  "id": "sanctuary",
+  "en": "sanctuary",
+  "isVerb": false,
+  "he": [
+   "מקלט",
+   "מסתור",
+   "מפלט",
+   "מקום קדוש"
+  ]
+ },
+ {
+  "id": "culprit",
+  "en": "culprit",
+  "isVerb": false,
+  "he": [
+   "אשם",
+   "נאשם",
+   "עבריין",
+   "הגורם או מקור הבעיה"
+  ]
+ },
+ {
+  "id": "flaunt",
+  "en": "flaunt",
+  "isVerb": false,
+  "he": [
+   "התהדר",
+   "התרברב",
+   "זלזל"
+  ]
+ },
+ {
+  "id": "grimace",
+  "en": "grimace",
+  "isVerb": false,
+  "he": [
+   "העווה",
+   "עיוה את פניו"
+  ]
+ },
+ {
+  "id": "relent",
+  "en": "relent",
+  "isVerb": false,
+  "he": [
+   "ויתר",
+   "קיבל",
+   "התמתן"
+  ]
+ },
+ {
+  "id": "lull",
+  "en": "lull",
+  "isVerb": false,
+  "he": [
+   "הפוגה",
+   "רגיעה"
+  ]
+ },
+ {
+  "id": "stack",
+  "en": "stack",
+  "isVerb": false,
+  "he": [
+   "ערימה",
+   "צינור אנכי",
+   "ארובה",
+   "כוננית ספרים"
+  ]
+ },
+ {
+  "id": "forge",
+  "en": "forge",
+  "isVerb": false,
+  "he": [
+   "עיצב",
+   "זייף",
+   "כור היתוך"
+  ]
+ },
+ {
+  "id": "sled",
+  "en": "sled",
+  "isVerb": false,
+  "he": [
+   "מזחלת"
+  ]
+ },
+ {
+  "id": "pluck",
+  "en": "pluck",
+  "isVerb": false,
+  "he": [
+   "מרט",
+   "תלש",
+   "רימה",
+   "תעוזה"
+  ]
+ },
+ {
+  "id": "sway",
+  "en": "sway",
+  "isVerb": false,
+  "he": [
+   "התנדנד",
+   "השפיע",
+   "שליטה",
+   "שלטון"
+  ]
+ },
+ {
+  "id": "strand",
+  "en": "strand",
+  "isVerb": false,
+  "he": [
+   "רצועה",
+   "חוף",
+   "נטש"
+  ]
+ },
+ {
+  "id": "peg",
+  "en": "peg",
+  "isVerb": false,
+  "he": [
+   "יתד",
+   "מקל כביסה",
+   "דרגה",
+   "חיזק",
+   "קיבע",
+   "סיווג"
+  ]
+ },
+ {
+  "id": "impel",
+  "en": "impel",
+  "isVerb": false,
+  "he": [
+   "המריץ",
+   "דירבן",
+   "דחף"
+  ]
+ },
+ {
+  "id": "ravage",
+  "en": "ravage",
+  "isVerb": false,
+  "he": [
+   "הרס",
+   "חורבן"
+  ]
+ },
+ {
+  "id": "salvage",
+  "en": "salvage",
+  "isVerb": false,
+  "he": [
+   "הצלה",
+   "ספינה",
+   "חילוץ של ספינה"
+  ]
+ },
+ {
+  "id": "treacherous",
+  "en": "treacherous",
+  "isVerb": false,
+  "he": [
+   "בוגדני"
+  ]
+ },
+ {
+  "id": "reptile",
+  "en": "reptile",
+  "isVerb": false,
+  "he": [
+   "זוחל"
+  ]
+ },
+ {
+  "id": "clip",
+  "en": "clip",
+  "isVerb": false,
+  "he": [
+   "הצמיד",
+   "הידק",
+   "קיצץ",
+   "רימה",
+   "מחסנית"
+  ]
+ },
+ {
+  "id": "tedious",
+  "en": "tedious",
+  "isVerb": false,
+  "he": [
+   "מעייף",
+   "מעיק",
+   "משעמם"
+  ]
+ },
+ {
+  "id": "ostentatious",
+  "en": "ostentatious",
+  "isVerb": false,
+  "he": [
+   "ראוותני",
+   "יומרני",
+   "גנדרני"
+  ]
+ },
+ {
+  "id": "tarnish",
+  "en": "tarnish",
+  "isVerb": false,
+  "he": [
+   "הכתים",
+   "לכלך"
+  ]
+ },
+ {
+  "id": "inflict",
+  "en": "inflict",
+  "isVerb": false,
+  "he": [
+   "גרם",
+   "הסב",
+   "הטיל"
+  ]
+ },
+ {
+  "id": "epoch",
+  "en": "epoch",
+  "isVerb": false,
+  "he": [
+   "תקופה"
+  ]
+ },
+ {
+  "id": "dispense",
+  "en": "dispense",
+  "isVerb": false,
+  "he": [
+   "נתן",
+   "חילק"
+  ]
+ },
+ {
+  "id": "adjourn",
+  "en": "adjourn",
+  "isVerb": false,
+  "he": [
+   "דחה",
+   "פרש",
+   "נעל את הישיבה"
+  ]
+ },
+ {
+  "id": "comma",
+  "en": "comma",
+  "isVerb": false,
+  "he": [
+   "פסיק"
+  ]
+ },
+ {
+  "id": "innocuous",
+  "en": "innocuous",
+  "isVerb": false,
+  "he": [
+   "בלתי מזיק"
+  ]
+ },
+ {
+  "id": "transpire",
+  "en": "transpire",
+  "isVerb": false,
+  "he": [
+   "היה ידוע",
+   "נודע",
+   "התגלה",
+   "קרה"
+  ]
+ },
+ {
+  "id": "amicable",
+  "en": "amicable",
+  "isVerb": false,
+  "he": [
+   "חברי",
+   "ידידותי"
+  ]
+ },
+ {
+  "id": "rubble",
+  "en": "rubble",
+  "isVerb": false,
+  "he": [
+   "חצץ",
+   "שברי אבנים",
+   "הריסות",
+   "פסולת בנייה"
+  ]
+ },
+ {
+  "id": "extant",
+  "en": "extant",
+  "isVerb": false,
+  "he": [
+   "מצוי",
+   "שורד",
+   "קיים"
+  ]
+ },
+ {
+  "id": "succumb",
+  "en": "succumb",
+  "isVerb": false,
+  "he": [
+   "מת",
+   "נכנע"
+  ]
+ },
+ {
+  "id": "earl",
+  "en": "earl",
+  "isVerb": false,
+  "he": [
+   "רוזן"
+  ]
+ },
+ {
+  "id": "thwart",
+  "en": "thwart",
+  "isVerb": false,
+  "he": [
+   "התנגד",
+   "מנע",
+   "סיכל"
+  ]
+ },
+ {
+  "id": "drape",
+  "en": "drape",
+  "isVerb": false,
+  "he": [
+   "וילון",
+   "מסך",
+   "תלה",
+   "כיסה"
+  ]
+ },
+ {
+  "id": "cardinal",
+  "en": "cardinal",
+  "isVerb": false,
+  "he": [
+   "ראשי",
+   "עיקרי",
+   "בסיסי"
+  ]
+ },
+ {
+  "id": "fused",
+  "en": "fused",
+  "isVerb": false,
+  "he": [
+   "התיך",
+   "איחד"
+  ]
+ },
+ {
+  "id": "provision",
+  "en": "provision",
+  "isVerb": false,
+  "he": [
+   "אספקה",
+   "הספקה",
+   "אמצעי",
+   "תנאי",
+   "הוראה",
+   "סיפק"
+  ]
+ },
+ {
+  "id": "trample",
+  "en": "trample",
+  "isVerb": false,
+  "he": [
+   "רמס",
+   "דרס",
+   "דרך"
+  ]
+ },
+ {
+  "id": "prune",
+  "en": "prune",
+  "isVerb": false,
+  "he": [
+   "גזם",
+   "קצץ"
+  ]
+ },
+ {
+  "id": "feign",
+  "en": "feign",
+  "isVerb": false,
+  "he": [
+   "העמיד פנים",
+   "זייף",
+   "עשה הצגות"
+  ]
+ },
+ {
+  "id": "fanciful",
+  "en": "fanciful",
+  "isVerb": false,
+  "he": [
+   "דמיוני",
+   "גחמני"
+  ]
+ },
+ {
+  "id": "backdrop",
+  "en": "backdrop",
+  "isVerb": false,
+  "he": [
+   "רקע",
+   "תפאורה"
+  ]
+ },
+ {
+  "id": "pedestal",
+  "en": "pedestal",
+  "isVerb": false,
+  "he": [
+   "מעמד",
+   "כן"
+  ]
+ },
+ {
+  "id": "omniscient",
+  "en": "omniscient",
+  "isVerb": false,
+  "he": [
+   "שיודע הכל",
+   "בעל ידע בלתי מוגבל"
+  ]
+ },
+ {
+  "id": "pastime",
+  "en": "pastime",
+  "isVerb": false,
+  "he": [
+   "תחביב",
+   "בידור",
+   "בילוי"
+  ]
+ },
+ {
+  "id": "syntax",
+  "en": "syntax",
+  "isVerb": false,
+  "he": [
+   "תחביר",
+   "בלשנות"
+  ]
+ },
+ {
+  "id": "mint",
+  "en": "mint",
+  "isVerb": false,
+  "he": [
+   "הטביע (מטבעות)",
+   "המציא (ביחוד מילים או ביטויים חדשים)"
+  ]
+ },
+ {
+  "id": "valiant",
+  "en": "valiant",
+  "isVerb": false,
+  "he": [
+   "אמיץ",
+   "נועז"
+  ]
+ },
+ {
+  "id": "morbid",
+  "en": "morbid",
+  "isVerb": false,
+  "he": [
+   "מבעית",
+   "אימתני"
+  ]
+ }
+]
