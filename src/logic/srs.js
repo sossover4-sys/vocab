@@ -45,7 +45,7 @@ export function newToday(wordStates, day) {
   return Object.values(wordStates).filter((s) => s.firstSeen === day).length;
 }
 
-function shuffle(list, random) {
+export function shuffle(list, random = Math.random) {
   const a = [...list];
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(random() * (i + 1));
@@ -55,13 +55,14 @@ function shuffle(list, random) {
 }
 
 /**
- * בוחר מילים לסבב.
- * סדר עדיפות: מילים שהגיע זמנן (אדום ← צהוב ← ירוק) → מילים חדשות (עד המכסה היומית)
- * → אדומות/צהובות שעוד לא הגיע זמנן → ירוקות שעוד לא הגיע זמנן.
- * @param {string[]} ids המילים שמהן בוחרים (אפשר אחרי סינון)
- * @param {Record<string, object>} wordStates מצב כל מילה
+ * מסדר את המילים לפי עדיפות, לפי מצב הבחירה:
+ * - smart (חכם): מילים שהגיע זמנן (אדום ← צהוב ← ירוק) → חדשות (עד המכסה היומית) → שעוד לא הגיע זמנן.
+ * - new (רק חדשות): מילים שעוד לא תורגלו, בלי מכסה יומית (בחרת את זה במפורש). אם נגמרו – ממשיכים כמו חכם.
+ * - mixed (מעורבב): מכל המילים בלי קשר לצבע.
  */
-export function pickRound(ids, wordStates, { size = 8, dailyNew = 10 } = {}, day, random = Math.random) {
+export function orderByMode(ids, wordStates, { dailyNew = 10, mode = 'smart' } = {}, day, random = Math.random) {
+  if (mode === 'mixed') return shuffle(ids, random);
+
   const byUrgency = (a, b) =>
     COLOR_RANK[wordStates[a].color] - COLOR_RANK[wordStates[b].color] ||
     wordStates[a].due.localeCompare(wordStates[b].due);
@@ -69,11 +70,29 @@ export function pickRound(ids, wordStates, { size = 8, dailyNew = 10 } = {}, day
   const seen = ids.filter((id) => wordStates[id]);
   const due = seen.filter((id) => wordStates[id].due <= day).sort(byUrgency);
   const fresh = ids.filter((id) => !wordStates[id]);
-  const newLeft = Math.max(0, dailyNew - newToday(wordStates, day));
   const notDue = seen.filter((id) => wordStates[id].due > day).sort(byUrgency);
 
-  const picked = [...due, ...fresh.slice(0, newLeft), ...notDue].slice(0, size);
-  return shuffle(picked, random);
+  if (mode === 'new') return [...fresh, ...due, ...notDue];
+  const newLeft = Math.max(0, dailyNew - newToday(wordStates, day));
+  return [...due, ...fresh.slice(0, newLeft), ...notDue, ...fresh.slice(newLeft)];
+}
+
+/**
+ * בוחר מילים לסבב כרטיסיות.
+ * @param {string[]} ids המילים שמהן בוחרים (אפשר אחרי סינון)
+ * @param {Record<string, object>} wordStates מצב כל מילה
+ */
+export function pickRound(ids, wordStates, { size = 8, dailyNew = 10, mode = 'smart' } = {}, day, random = Math.random) {
+  const ordered = orderByMode(ids, wordStates, { dailyNew, mode }, day, random);
+  // בחכם לא נכנסות חדשות מעבר למכסה, אלא אם אין שום מילה אחרת
+  const limit = mode === 'smart' ? smartLimit(ids, wordStates, dailyNew, day) : ordered.length;
+  return shuffle(ordered.slice(0, Math.min(size, limit || ordered.length)), random);
+}
+
+function smartLimit(ids, wordStates, dailyNew, day) {
+  const seen = ids.filter((id) => wordStates[id]).length;
+  const fresh = ids.length - seen;
+  return seen + Math.min(fresh, Math.max(0, dailyNew - newToday(wordStates, day)));
 }
 
 /** סיכום לפי צבע: { new, red, yellow, green, due } */

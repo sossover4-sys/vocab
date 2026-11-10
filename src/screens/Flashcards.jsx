@@ -1,26 +1,45 @@
-// מסך "כרטיסיות": סבב של כמה מילים לפי אלגוריתם החזרות.
-// רואים אנגלית → לוחצים → הכרטיס מסתובב לעברית → מסמנים אדום/צהוב/ירוק.
+// מסך "תרגול": בוחרים אילו מילים ואיזה תרגיל – כרטיסיות או משחק התאמה.
+// כרטיסיות: רואים אנגלית → לוחצים → הכרטיס מסתובב לעברית → מסמנים אדום/צהוב/ירוק.
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useApp } from '../AppContext.jsx';
 import { WORDS, WORDS_BY_ID, LEVELS, TOPICS, displayEn, filterWords } from '../logic/words.js';
 import { pickRound, summarize, newToday } from '../logic/srs.js';
+import { pickMatch } from '../logic/match.js';
+import { streakDays } from '../logic/streak.js';
 import { today } from '../logic/dates.js';
 import SpeakButton from '../components/SpeakButton.jsx';
 import ColorButtons from '../components/ColorButtons.jsx';
+import Stepper from '../components/Stepper.jsx';
+import Match, { matchMeaning } from './Match.jsx';
 
 const RANK = { red: 0, yellow: 1, green: 2 };
 
+const MODES = [
+  { id: 'smart', label: 'חכם', hint: 'קודם מה שצריך לחזור עליו, ואז מילים חדשות' },
+  { id: 'new', label: 'רק חדשות', hint: 'מילים שעוד לא תרגלת' },
+  { id: 'mixed', label: 'מעורבב', hint: 'מכל המילים, כולל ירוקות' },
+];
+
+function greeting(hour) {
+  if (hour >= 5 && hour < 12) return 'בוקר טוב';
+  if (hour >= 12 && hour < 17) return 'צהריים טובים';
+  if (hour >= 17 && hour < 22) return 'ערב טוב';
+  return 'לילה טוב';
+}
+
 export default function Flashcards() {
-  const { progress } = useApp();
-  const [round, setRound] = useState(null); // null = מסך פתיחה
+  const { progress, updateSettings } = useApp();
+  const [round, setRound] = useState(null); // סבב כרטיסיות פעיל
+  const [match, setMatch] = useState(null); // משחק התאמה פעיל: רשימת מילים
   const [scope, setScope] = useState({ level: '', topic: '' });
+  const s = progress.settings;
 
   const day = today();
   const poolIds = useMemo(() => filterWords(WORDS, scope, progress).map((w) => w.id), [scope, progress]);
 
-  const start = () => {
-    const ids = pickRound(poolIds, progress.words, progress.settings, day);
+  const startCards = () => {
+    const ids = pickRound(poolIds, progress.words, { size: s.roundSize, dailyNew: s.dailyNew, mode: s.wordMode }, day);
     setRound({
       queue: ids,
       index: 0,
@@ -30,59 +49,137 @@ export default function Flashcards() {
     });
   };
 
+  const startMatch = () => {
+    const ids = pickMatch(poolIds, progress.words, { n: s.matchPairs, mode: s.wordMode }, day, (id) =>
+      matchMeaning(WORDS_BY_ID[id]),
+    );
+    setMatch({ ids, key: Date.now() });
+  };
+
+  if (match) {
+    return <Match key={match.key} ids={match.ids} onAgain={startMatch} onDone={() => setMatch(null)} />;
+  }
   if (round && round.index >= round.queue.length) {
-    return <Summary round={round} onAgain={start} onDone={() => setRound(null)} />;
+    return <Summary round={round} onAgain={startCards} onDone={() => setRound(null)} />;
   }
   if (round) {
     return <Round round={round} setRound={setRound} onQuit={() => setRound(null)} />;
   }
 
   const counts = summarize(poolIds, progress.words, day);
-  const newLeft = Math.max(0, progress.settings.dailyNew - newToday(progress.words, day));
+  const newLeft = Math.min(counts.new, Math.max(0, s.dailyNew - newToday(progress.words, day)));
+  const learned = poolIds.length - counts.new;
   const canStart = poolIds.length > 0;
+  const doneToday = progress.activity?.[day] || 0;
+  const streak = streakDays(progress.activity, day);
+  const goalPct = Math.min(100, Math.round((doneToday / s.dailyGoal) * 100));
+  const mode = MODES.find((m) => m.id === s.wordMode) || MODES[0];
 
   return (
-    <>
-      <h1>כרטיסיות</h1>
-      <div className="card start-card">
-        <div className="start-stats">
-          <Stat value={counts.due} label="לחזרה היום" />
-          <Stat value={Math.min(newLeft, counts.new)} label="חדשות להיום" />
-          <Stat value={counts.green} label="ירוקות" />
+    <div className="practice">
+      <header className="hello">
+        <div>
+          <h1>{greeting(new Date().getHours())} 👋</h1>
+          <p className="muted">
+            {streak > 0 ? (
+              <>
+                <span className="flame">🔥</span> {streak} {streak === 1 ? 'יום' : 'ימים'} ברצף
+              </>
+            ) : (
+              'בוא נתחיל רצף חדש היום'
+            )}
+          </p>
         </div>
-        <button type="button" className="btn primary big" onClick={start} disabled={!canStart}>
-          התחל סבב של {progress.settings.roundSize} מילים
-        </button>
-        {counts.due === 0 && newLeft === 0 && canStart && (
-          <p className="muted hint">סיימת את החזרות וגם את המילים החדשות של היום 🎉 אפשר להמשיך לתרגל בכל זאת.</p>
+        <div className="goal-ring" style={{ '--pct': goalPct }} role="img" aria-label={`יעד יומי: ${doneToday} מתוך ${s.dailyGoal}`}>
+          <div>
+            <strong>{doneToday}</strong>
+            <span>/{s.dailyGoal}</span>
+          </div>
+        </div>
+      </header>
+      {goalPct >= 100 && <p className="goal-done">🎉 עמדת ביעד היומי!</p>}
+
+      <section className="mode-picker">
+        <h2>אילו מילים?</h2>
+        <div className="segmented" role="radiogroup" aria-label="אילו מילים לתרגל">
+          {MODES.map((m) => (
+            <button
+              key={m.id}
+              type="button"
+              role="radio"
+              aria-checked={s.wordMode === m.id}
+              className={s.wordMode === m.id ? 'on' : ''}
+              onClick={() => updateSettings({ wordMode: m.id })}
+            >
+              {m.label}
+            </button>
+          ))}
+        </div>
+        <p className="muted hint">{mode.hint}</p>
+      </section>
+
+      <section className="exercise cards-ex">
+        <div className="ex-head">
+          <span className="ex-icon" aria-hidden="true">🃏</span>
+          <div>
+            <h2>כרטיסיות</h2>
+            <p>רואים מילה, הופכים, ומסמנים כמה ידעת</p>
+          </div>
+        </div>
+        {s.wordMode === 'smart' && (
+          <div className="ex-stats">
+            <span><strong>{counts.due}</strong> לחזרה</span>
+            <span><strong>{newLeft}</strong> חדשות להיום</span>
+          </div>
         )}
-      </div>
+        <div className="ex-actions">
+          <Stepper label="כמה מילים" value={s.roundSize} min={4} max={20} onChange={(v) => updateSettings({ roundSize: v })} />
+          <button type="button" className="btn ex-start" onClick={startCards} disabled={!canStart}>
+            התחל ←
+          </button>
+        </div>
+      </section>
 
-      <h3>לתרגל רק חלק מהמילים (לא חובה)</h3>
-      <div className="tag-edit">
-        <select value={scope.topic} onChange={(e) => setScope((s) => ({ ...s, topic: e.target.value }))} aria-label="נושא">
-          <option value="">כל הנושאים</option>
-          {Object.entries(TOPICS).map(([k, v]) => (
-            <option key={k} value={k}>{v}</option>
-          ))}
-        </select>
-        <select value={scope.level} onChange={(e) => setScope((s) => ({ ...s, level: e.target.value }))} aria-label="רמה">
-          <option value="">כל הרמות</option>
-          {Object.entries(LEVELS).map(([k, v]) => (
-            <option key={k} value={k}>{v}</option>
-          ))}
-        </select>
-      </div>
-      {(scope.topic || scope.level) && <p className="muted hint">{poolIds.length} מילים בבחירה הזו.</p>}
-    </>
-  );
-}
+      <section className="exercise match-ex">
+        <div className="ex-head">
+          <span className="ex-icon" aria-hidden="true">🧩</span>
+          <div>
+            <h2>משחק התאמה</h2>
+            <p>מחברים כל מילה באנגלית לפירוש שלה, ובודקים בסוף</p>
+          </div>
+        </div>
+        {s.wordMode === 'smart' && learned < s.matchPairs && (
+          <div className="ex-stats">
+            <span>עוד מעט מילים שתרגלת – המשחק יוסיף גם חדשות</span>
+          </div>
+        )}
+        <div className="ex-actions">
+          <Stepper label="כמה זוגות" value={s.matchPairs} min={4} max={10} onChange={(v) => updateSettings({ matchPairs: v })} />
+          <button type="button" className="btn ex-start" onClick={startMatch} disabled={poolIds.length < 4}>
+            שחק ←
+          </button>
+        </div>
+      </section>
 
-function Stat({ value, label }) {
-  return (
-    <div className="stat">
-      <strong>{value.toLocaleString('he-IL')}</strong>
-      <span>{label}</span>
+      <details className="scope" open={Boolean(scope.topic || scope.level)}>
+        <summary>
+          🎯 לפי נושא או רמה {(scope.topic || scope.level) && <span className="muted">· {poolIds.length} מילים</span>}
+        </summary>
+        <div className="tag-edit">
+          <select value={scope.topic} onChange={(e) => setScope((x) => ({ ...x, topic: e.target.value }))} aria-label="נושא">
+            <option value="">כל הנושאים</option>
+            {Object.entries(TOPICS).map(([k, v]) => (
+              <option key={k} value={k}>{v}</option>
+            ))}
+          </select>
+          <select value={scope.level} onChange={(e) => setScope((x) => ({ ...x, level: e.target.value }))} aria-label="רמה">
+            <option value="">כל הרמות</option>
+            {Object.entries(LEVELS).map(([k, v]) => (
+              <option key={k} value={k}>{v}</option>
+            ))}
+          </select>
+        </div>
+      </details>
     </div>
   );
 }

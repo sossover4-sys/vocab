@@ -1,28 +1,215 @@
-.start-card {
+/* מסך תרגול */
+.practice {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.start-stats {
+.hello {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.hello h1 {
+  margin: 0;
+}
+
+.hello p {
+  margin: 2px 0 0;
+}
+
+.flame {
+  display: inline-block;
+  animation: flicker 1.6s ease-in-out infinite;
+}
+
+/* טבעת היעד היומי: conic-gradient ממלא את העיגול לפי האחוז */
+.goal-ring {
+  --pct: 0;
+  flex: none;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: conic-gradient(var(--green) calc(var(--pct) * 1%), var(--surface-2) 0);
+  display: grid;
+  place-items: center;
+}
+
+.goal-ring > div {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--bg);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding-top: 15px;
+  direction: ltr;
+}
+
+.goal-ring strong {
+  font-size: 1.15rem;
+}
+
+.goal-ring span {
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+.goal-done {
+  margin: -8px 0 0;
+  font-weight: 700;
+  color: var(--green);
+}
+
+.mode-picker h2,
+.exercise h2 {
+  margin: 0 0 8px;
+}
+
+.segmented {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  text-align: center;
+  gap: 4px;
+  padding: 4px;
+  background: var(--surface-2);
+  border-radius: 16px;
 }
 
-.stat {
+.segmented button {
+  min-height: 44px;
+  border: none;
+  border-radius: 12px;
+  background: none;
+  font-weight: 600;
+  color: var(--muted);
+  transition: background 0.15s, color 0.15s;
+}
+
+.segmented button.on {
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+/* כרטיסי התרגילים */
+.exercise {
+  --ex: #5b5bd6; /* קבוע גם במצב כהה, כדי שהטקסט הלבן יהיה קריא */
+  border-radius: 22px;
+  padding: 18px;
+  color: #fff;
+  background: var(--ex);
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--ex) 35%, transparent);
   display: flex;
   flex-direction: column;
+  gap: 14px;
 }
 
-.stat strong {
+.match-ex {
+  --ex: #0f8a7e;
+}
+
+.ex-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ex-head h2 {
+  margin: 0;
+  color: inherit;
+  font-size: 1.3rem;
+}
+
+.ex-head p {
+  margin: 2px 0 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.ex-icon {
+  flex: none;
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  background: rgb(255 255 255 / 0.2);
+  display: grid;
+  place-items: center;
   font-size: 1.8rem;
-  line-height: 1.1;
 }
 
-.stat span {
-  font-size: 0.8rem;
-  color: var(--muted);
+.ex-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.ex-stats span {
+  background: rgb(255 255 255 / 0.18);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+
+.ex-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.exercise .stepper button {
+  background: rgb(255 255 255 / 0.2);
+  border-color: rgb(255 255 255 / 0.35);
+  color: #fff;
+}
+
+.exercise .stepper button:disabled {
+  opacity: 0.4;
+}
+
+.btn.ex-start {
+  flex: 1;
+  max-width: 180px;
+  min-height: 52px;
+  border: none;
+  background: #fff;
+  color: var(--ex);
+  font-size: 1.1rem;
+  font-weight: 800;
+  transition: transform 0.12s;
+}
+
+.btn.ex-start:active {
+  transform: scale(0.96);
+}
+
+.scope {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 4px 14px;
+}
+
+.scope summary {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.scope[open] {
+  padding-bottom: 14px;
+}
+
+@keyframes flicker {
+  50% {
+    transform: scale(1.15) rotate(-6deg);
+  }
 }
 
 .hint {

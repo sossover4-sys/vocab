@@ -2,11 +2,14 @@
 // זה המקום היחיד שנוגע באחסון – כשיהיה סנכרון, רק הקובץ הזה ישתנה.
 
 const KEY = 'vocab-progress';
-export const VERSION = 1;
+export const VERSION = 2;
 
 export const DEFAULT_SETTINGS = {
   roundSize: 8,
   dailyNew: 10,
+  matchPairs: 8,
+  dailyGoal: 20,
+  wordMode: 'smart', // smart = חכם, new = רק חדשות, mixed = מעורבב
   speechRate: 0.9,
   voiceEn: '',
   voiceHe: '',
@@ -18,6 +21,7 @@ export function emptyProgress() {
     words: {}, // id → { color, due, streak, seen, firstSeen, updatedAt }
     tagOverrides: {}, // id → { level?, topic?, updatedAt }
     settings: { ...DEFAULT_SETTINGS, updatedAt: 0 },
+    activity: {}, // 'YYYY-MM-DD' → כמה תרגולים נעשו באותו יום (לרצף ימים וליעד יומי)
     lastBackup: null,
   };
 }
@@ -32,8 +36,10 @@ export function migrate(data) {
     words: data.words || {},
     tagOverrides: data.tagOverrides || {},
     settings: { ...base.settings, ...(data.settings || {}) },
+    activity: data.activity || {},
   };
-  // עתיד: if (out.version < 2) { ... ; out.version = 2 }
+  // גרסה 1 → 2: נוסף activity (ריק). כל השאר נשאר כמו שהוא.
+  // בשינוי מבנה הבא: if ((data.version || 1) < 3) { ... }
   out.version = VERSION;
   return out;
 }
@@ -73,8 +79,16 @@ export function merge(local, incoming) {
     words: mergeById(a.words, b.words),
     tagOverrides: mergeById(a.tagOverrides, b.tagOverrides),
     settings: (b.settings.updatedAt || 0) > (a.settings.updatedAt || 0) ? b.settings : a.settings,
+    activity: mergeActivity(a.activity, b.activity),
     lastBackup: a.lastBackup,
   };
+}
+
+/** לכל יום לוקחים את המספר הגבוה מבין שני המכשירים (כדי לא לספור פעמיים את אותו תרגול) */
+function mergeActivity(a = {}, b = {}) {
+  const out = { ...a };
+  for (const [day, n] of Object.entries(b)) out[day] = Math.max(out[day] || 0, n);
+  return out;
 }
 
 /** קורא קובץ גיבוי ובודק שהוא נראה תקין */

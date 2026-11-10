@@ -6,6 +6,7 @@ import { parseBackup } from '../logic/storage.js';
 import { speak, isSupported } from '../logic/speech.js';
 import { useVoices } from '../logic/useVoices.js';
 import { today } from '../logic/dates.js';
+import Stepper from '../components/Stepper.jsx';
 
 export default function Settings() {
   const { progress, updateSettings, importBackup, markBackedUp, resetAll } = useApp();
@@ -64,8 +65,10 @@ export default function Settings() {
 
       <h2>לימוד</h2>
       <div className="card settings-card">
-        <Stepper label="מילים בכל סבב" value={s.roundSize} min={4} max={20} onChange={(v) => updateSettings({ roundSize: v })} />
-        <Stepper label="מילים חדשות ביום" value={s.dailyNew} min={0} max={50} step={5} onChange={(v) => updateSettings({ dailyNew: v })} />
+        <SettingStepper label="מילים בכל סבב כרטיסיות" value={s.roundSize} min={4} max={20} onChange={(v) => updateSettings({ roundSize: v })} />
+        <SettingStepper label="זוגות במשחק התאמה" value={s.matchPairs} min={4} max={10} onChange={(v) => updateSettings({ matchPairs: v })} />
+        <SettingStepper label="מילים חדשות ביום" value={s.dailyNew} min={0} max={50} step={5} onChange={(v) => updateSettings({ dailyNew: v })} />
+        <SettingStepper label="יעד יומי (תרגולים)" value={s.dailyGoal} min={10} max={100} step={5} onChange={(v) => updateSettings({ dailyGoal: v })} />
       </div>
 
       <h2>הקראה</h2>
@@ -129,20 +132,11 @@ export default function Settings() {
   );
 }
 
-function Stepper({ label, value, min, max, step = 1, onChange }) {
-  const clamp = (v) => Math.min(max, Math.max(min, v));
+function SettingStepper({ label, ...props }) {
   return (
     <div className="setting-row">
       <span>{label}</span>
-      <div className="stepper">
-        <button type="button" aria-label="פחות" onClick={() => onChange(clamp(value - step))} disabled={value <= min}>
-          −
-        </button>
-        <strong>{value}</strong>
-        <button type="button" aria-label="יותר" onClick={() => onChange(clamp(value + step))} disabled={value >= max}>
-          +
-        </button>
-      </div>
+      <Stepper label={label} {...props} />
     </div>
   );
 }

@@ -6,6 +6,7 @@ import './styles/words.css';
 import './styles/flashcards.css';
 import './styles/progress.css';
 import './styles/settings.css';
+import './styles/match.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

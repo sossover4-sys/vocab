@@ -3,7 +3,8 @@
 
 import { createContext, useContext, useEffect, useMemo, useState } from 'react';
 import { load, save, merge, emptyProgress } from './logic/storage.js';
-import { rate } from './logic/srs.js';
+import { rate, demote } from './logic/srs.js';
+import { addActivity } from './logic/streak.js';
 import { today } from './logic/dates.js';
 
 const AppContext = createContext(null);
@@ -19,7 +20,21 @@ export function AppProvider({ children }) {
   const actions = useMemo(
     () => ({
       rateWord(id, color) {
-        setProgress((p) => ({ ...p, words: { ...p.words, [id]: rate(p.words[id], color, today()) } }));
+        const day = today();
+        setProgress((p) => ({
+          ...p,
+          words: { ...p.words, [id]: rate(p.words[id], color, day) },
+          activity: addActivity(p.activity, day),
+        }));
+      },
+      // תוצאת משחק התאמה: טעות מורידה צבע אחד – רק למילים שכבר תרגלת (מילה חדשה נשארת חדשה)
+      matchResult(total, wrongIds) {
+        const day = today();
+        setProgress((p) => {
+          const words = { ...p.words };
+          for (const id of wrongIds) if (words[id]) words[id] = demote(words[id], day);
+          return { ...p, words, activity: addActivity(p.activity, day, total) };
+        });
       },
       resetWord(id) {
         setProgress((p) => {

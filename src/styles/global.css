@@ -8,13 +8,17 @@
   --border: #e0e0ea;
   --accent: #5b5bd6;
   --accent-text: #ffffff;
-  --red: #e5484d;
-  --yellow: #f0a800;
-  --green: #30a46c;
-  --new: #a0a0b4;
-  --red-soft: #fde8e8;
-  --yellow-soft: #fff4d6;
-  --green-soft: #e1f5ea;
+  --accent-soft: #e6e6fb;
+  --teal: #0f9488;
+  /* צבעי ההתקדמות – חזקים ובולטים */
+  --red: #e5383b;
+  --yellow: #f5a300;
+  --green: #1f9d55;
+  --new: #7c8db5;
+  --red-soft: #ffd9d9;
+  --yellow-soft: #ffeab3;
+  --green-soft: #c9f0d8;
+  --new-soft: #dfe5f3;
   --radius: 14px;
   --nav-h: 64px;
   --shadow: 0 2px 10px rgb(0 0 0 / 0.06);
@@ -31,9 +35,16 @@
     --border: #2f2f3d;
     --accent: #8484f0;
     --accent-text: #0e0e15;
-    --red-soft: #3b1a1c;
-    --yellow-soft: #3a2f10;
-    --green-soft: #133024;
+    --accent-soft: #2a2a4a;
+    --teal: #2cc2b3;
+    --red: #ff5a5d;
+    --yellow: #ffb526;
+    --green: #2fc46f;
+    --new: #8e9cc4;
+    --red-soft: #4a1c1e;
+    --yellow-soft: #45360c;
+    --green-soft: #123a24;
+    --new-soft: #262c3d;
     --shadow: 0 2px 10px rgb(0 0 0 / 0.4);
   }
 }

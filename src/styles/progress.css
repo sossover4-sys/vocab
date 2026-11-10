@@ -1,33 +1,159 @@
-.big-number strong {
-  font-size: 2.4rem;
-}
-
-.stack-bar {
+/* טבעת הצבעים הגדולה */
+.hero {
   display: flex;
-  direction: ltr;
-  height: 14px;
-  border-radius: 999px;
-  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.big-ring {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.big-ring > div {
+  width: 164px;
+  height: 164px;
+  border-radius: 50%;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.big-ring strong {
+  font-size: 2.4rem;
+  line-height: 1;
+  color: var(--green);
+}
+
+.big-ring span {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.big-ring em {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-top: 2px;
+}
+
+.legend {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 18px;
+  font-size: 0.9rem;
+}
+
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend strong {
+  margin-inline-start: auto;
+}
+
+/* שלושה כרטיסים קטנים */
+.mini-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.mini {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 10px 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mini span {
+  font-size: 1.3rem;
+}
+
+.mini strong {
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+.mini small {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+/* גרף השבוע */
+.week h2 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.week-bars {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+  /* בעברית הזמן זורם מימין לשמאל: הישן מימין, היום בצד שמאל */
+}
+
+.week-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.week-bar {
+  width: 100%;
+  max-width: 28px;
+  height: 80px;
   background: var(--surface-2);
-  margin: 8px 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
 }
 
-.stack-bar div {
-  flex-basis: 0;
-  transition: flex-grow 0.4s;
+.week-bar div {
+  width: 100%;
+  background: var(--accent);
+  border-radius: 8px;
+  transition: height 0.4s;
 }
 
-.stack-bar .green {
+.week-day.today .week-bar div {
   background: var(--green);
 }
-.stack-bar .yellow {
-  background: var(--yellow);
+
+.week-count {
+  font-size: 0.75rem;
+  font-weight: 700;
+  min-height: 1em;
 }
-.stack-bar .red {
-  background: var(--red);
+
+.week-name {
+  font-size: 0.75rem;
+  color: var(--muted);
 }
-.stack-bar .new {
-  background: var(--surface-2);
+
+.week-day.today .week-name {
+  color: var(--text);
+  font-weight: 800;
 }
 
 .small {
@@ -35,6 +161,7 @@
   margin: 6px 0;
 }
 
+/* לשוניות הצבעים – צבע מלא וחזק */
 .color-tabs {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -46,31 +173,37 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 60px;
+  min-height: 64px;
   justify-content: center;
   border-radius: var(--radius);
-  border: 2px solid transparent;
-  background: var(--surface);
+  border: 3px solid transparent;
+  color: #fff;
   font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0.8;
+  transition: transform 0.15s, opacity 0.15s;
 }
 
 .color-tab strong {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .color-tab.red {
-  background: var(--red-soft);
+  background: var(--red);
 }
 .color-tab.yellow {
-  background: var(--yellow-soft);
+  background: var(--yellow);
+  color: #2a2000;
 }
 .color-tab.green {
-  background: var(--green-soft);
+  background: var(--green);
 }
 .color-tab.new {
-  background: var(--surface-2);
+  background: var(--new);
 }
 
 .color-tab.active {
+  opacity: 1;
   border-color: var(--text);
+  transform: scale(1.05);
 }

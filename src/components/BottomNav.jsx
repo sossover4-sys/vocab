@@ -1,5 +1,5 @@
 export const TABS = [
-  { id: 'cards', label: 'כרטיסיות', icon: '🃏' },
+  { id: 'cards', label: 'תרגול', icon: '🎯' },
   { id: 'words', label: 'מילים', icon: '📖' },
   { id: 'progress', label: 'התקדמות', icon: '📊' },
   { id: 'settings', label: 'הגדרות', icon: '⚙️' },

@@ -1,0 +1,125 @@
+/* משחק התאמה */
+.match {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.match-help {
+  margin: 0;
+}
+
+/* אנגלית תמיד משמאל, עברית מימין – לא תלוי בכיוון הדף */
+.match-grid {
+  direction: ltr;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 10px;
+}
+
+.match-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.match-col:last-child {
+  direction: rtl;
+}
+
+.match-item {
+  position: relative;
+  min-height: 52px;
+  padding: 8px 10px;
+  border-radius: 14px;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  font-size: 0.98rem;
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+  transition: transform 0.12s, background 0.15s, border-color 0.15s;
+}
+
+.match-item:active {
+  transform: scale(0.97);
+}
+
+.match-item.selected {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  transform: scale(1.03);
+}
+
+/* כל זוג מקבל צבע משלו, זהה בשני הצדדים */
+.match-item.paired {
+  border-color: var(--pc);
+  background: color-mix(in srgb, var(--pc) 16%, var(--surface));
+}
+.p0 { --pc: #6e56cf; }
+.p1 { --pc: #0090ff; }
+.p2 { --pc: #e5484d; }
+.p3 { --pc: #12a594; }
+.p4 { --pc: #f76b15; }
+.p5 { --pc: #d6409f; }
+.p6 { --pc: #8e8c99; }
+.p7 { --pc: #46a758; }
+.p8 { --pc: #ab4aba; }
+.p9 { --pc: #ad7f58; }
+
+.pair-num {
+  position: absolute;
+  top: -8px;
+  inset-inline-start: -6px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--pc, var(--muted));
+  color: #fff;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.match-item.right {
+  border-color: var(--green);
+  background: var(--green-soft);
+  --pc: var(--green);
+}
+
+.match-item.wrong {
+  border-color: var(--red);
+  background: var(--red-soft);
+  --pc: var(--red);
+}
+
+.correct-answer {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--green);
+  margin-top: 2px;
+}
+
+.match-check {
+  margin-top: 6px;
+}
+
+.match-result {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.match-score {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin: 6px 0 0;
+}
