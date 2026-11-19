@@ -1,15 +1,21 @@
 // שמירת ההתקדמות בזיכרון הדפדפן (localStorage), גיבוי ומיזוג.
 // זה המקום היחיד שנוגע באחסון – כשיהיה סנכרון, רק הקובץ הזה ישתנה.
 
+import { countGreen, milestoneFor } from './milestones.js';
+
 const KEY = 'vocab-progress';
-export const VERSION = 2;
+export const VERSION = 3;
 
 export const DEFAULT_SETTINGS = {
   roundSize: 8,
   dailyNew: 10,
   matchPairs: 8,
+  sentenceCount: 10,
   dailyGoal: 20,
   wordMode: 'smart', // smart = חכם, new = רק חדשות, mixed = מעורבב
+  sound: true, // צלילים בחגיגות
+  theme: 'auto', // auto = לפי הטלפון, light = בהיר, dark = כהה
+  direction: 'en-he', // כרטיסיות: en-he = רואים אנגלית, he-en = רואים עברית
   speechRate: 0.9,
   voiceEn: '',
   voiceHe: '',
@@ -22,6 +28,9 @@ export function emptyProgress() {
     tagOverrides: {}, // id → { level?, topic?, updatedAt }
     settings: { ...DEFAULT_SETTINGS, updatedAt: 0 },
     activity: {}, // 'YYYY-MM-DD' → כמה תרגולים נעשו באותו יום (לרצף ימים וליעד יומי)
+    celebrated: { greens: 0, goalDay: '' }, // אבן הדרך האחרונה שחגגנו, והיום האחרון שחגגנו בו יעד
+    customWords: {}, // id → { id, en, isVerb, he: [], createdAt, updatedAt, deleted? } – מילים שהמשתמש הוסיף
+    extraMeanings: {}, // id → { he: [], updatedAt } – פירושים שהמשתמש הוסיף למילה קיימת
     lastBackup: null,
   };
 }
@@ -37,9 +46,14 @@ export function migrate(data) {
     tagOverrides: data.tagOverrides || {},
     settings: { ...base.settings, ...(data.settings || {}) },
     activity: data.activity || {},
+    // מה כבר חגגנו. למי שמעדכן גרסה – אבני דרך שכבר עבר נחשבות "נחגגו", כדי שלא תקפוץ חגיגה סתם.
+    celebrated: data.celebrated || { greens: milestoneFor(countGreen(data.words)), goalDay: '' },
+    customWords: data.customWords || {},
+    extraMeanings: data.extraMeanings || {},
   };
   // גרסה 1 → 2: נוסף activity (ריק). כל השאר נשאר כמו שהוא.
-  // בשינוי מבנה הבא: if ((data.version || 1) < 3) { ... }
+  // גרסה 2 → 3: נוספו customWords ו-extraMeanings (ריקים) ו-celebrated.
+  // בשינוי מבנה הבא: if ((data.version || 1) < 4) { ... }
   out.version = VERSION;
   return out;
 }
@@ -50,6 +64,20 @@ export function load() {
     return raw ? migrate(JSON.parse(raw)) : emptyProgress();
   } catch {
     return emptyProgress();
+  }
+}
+
+/**
+ * מבקש מהדפדפן לסמן את הנתונים כ"חשובים" כדי שלא יימחקו כשחסר מקום.
+ * (בעדכון גרסה הנתונים ממילא לא נמחקים – זו הגנה נוספת.)
+ */
+export async function requestPersist() {
+  try {
+    if (navigator.storage?.persist && !(await navigator.storage.persisted())) {
+      await navigator.storage.persist();
+    }
+  } catch {
+    // דפדפן שלא תומך – לא נורא
   }
 }
 
@@ -80,6 +108,8 @@ export function merge(local, incoming) {
     tagOverrides: mergeById(a.tagOverrides, b.tagOverrides),
     settings: (b.settings.updatedAt || 0) > (a.settings.updatedAt || 0) ? b.settings : a.settings,
     activity: mergeActivity(a.activity, b.activity),
+    customWords: mergeById(a.customWords, b.customWords),
+    extraMeanings: mergeById(a.extraMeanings, b.extraMeanings),
     lastBackup: a.lastBackup,
   };
 }

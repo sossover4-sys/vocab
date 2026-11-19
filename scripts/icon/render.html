@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- דף עזר ליצירת קבצי האייקון: מציג את icon.svg במלוא החלון. ?maskable מקטין את התוכן לאזור הבטוח של אנדרואיד. -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: 'Rubik Variable';
+        font-weight: 300 900;
+        font-display: block;
+        src: url('../../node_modules/@fontsource-variable/rubik/files/rubik-latin-wght-normal.woff2') format('woff2');
+      }
+      html,
+      body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background: #0b0c16;
+      }
+      svg {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="slot"></div>
+    <script>
+      fetch('icon.svg')
+        .then((r) => r.text())
+        .catch(() => null)
+        .then((svg) => {
+          document.getElementById('slot').innerHTML = svg || '';
+          if (location.search.includes('maskable')) {
+            // אנדרואיד חותך את האייקון לעיגול – מקטינים את התוכן ל-80% כדי שלא ייחתך
+            document.getElementById('content').setAttribute('transform', 'translate(51.2 51.2) scale(0.8)');
+          }
+        });
+    </script>
+  </body>
+</html>

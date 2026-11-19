@@ -42,6 +42,48 @@
   font-size: 1.2rem;
 }
 
+/* מתג דלוק/כבוי בסגנון אייפון */
+.switch {
+  appearance: none;
+  -webkit-appearance: none;
+  flex: none;
+  position: relative;
+  width: 52px;
+  height: 32px;
+  margin: 0;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.switch::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  inset-inline-start: 2px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.25);
+  transition: transform 0.2s;
+}
+
+.switch:checked {
+  background: var(--green);
+}
+
+/* בעברית "דלוק" = העיגול זז שמאלה */
+.switch:checked::after {
+  transform: translateX(-20px);
+}
+
+.switch-row small {
+  font-size: 0.8rem;
+}
+
 .btn-row {
   display: flex;
   gap: 8px;

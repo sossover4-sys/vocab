@@ -1,0 +1,202 @@
+/* משחק השלמת משפט */
+.sentence-game {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sentence-game .hint {
+  margin: 0;
+}
+
+.sentence-card {
+  position: relative;
+  overflow: hidden;
+  background: var(--surface-solid);
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  box-shadow: var(--shadow-lg);
+  padding: 26px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  animation: card-in 0.3s ease-out;
+}
+
+.sentence-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  inset-inline: 0;
+  height: 5px;
+  background: var(--grad-sentence);
+}
+
+.sentence {
+  margin: 0;
+  font-size: 1.22rem;
+  line-height: 1.7;
+  font-weight: 500;
+  text-align: left;
+  width: 100%;
+}
+
+.blank {
+  display: inline-block;
+  min-width: 90px;
+  padding: 0 8px;
+  margin: 0 2px;
+  border-bottom: 3px solid #f76b15;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.blank.right {
+  color: var(--green);
+  border-color: var(--green);
+  background: var(--green-soft);
+  border-radius: 8px 8px 0 0;
+}
+
+.blank.wrong {
+  color: var(--red);
+  border-color: var(--red);
+  background: var(--red-soft);
+  border-radius: 8px 8px 0 0;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.option {
+  position: relative;
+  min-height: 60px;
+  padding: 10px 12px;
+  border-radius: 18px;
+  border: 2px solid var(--border);
+  background: var(--surface-solid);
+  box-shadow: var(--shadow);
+  font-size: 1.05rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  transition: transform 0.12s, border-color 0.15s, background 0.15s, opacity 0.2s;
+  animation: card-in 0.3s ease-out backwards;
+}
+
+.option:nth-child(2) {
+  animation-delay: 0.04s;
+}
+.option:nth-child(3) {
+  animation-delay: 0.08s;
+}
+.option:nth-child(4) {
+  animation-delay: 0.12s;
+}
+
+.option:active:not(:disabled) {
+  transform: scale(0.96);
+}
+
+.option-letter {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  font-size: 0.7rem;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.option-he {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.option.right {
+  border-color: var(--green);
+  background: var(--green-soft);
+}
+
+.option.wrong {
+  border-color: var(--red);
+  background: var(--red-soft);
+  animation: shake 0.35s;
+}
+
+/* אחרי תשובה: כל אפשרות מציגה תרגום ורמקול */
+.option.answered {
+  cursor: default;
+  justify-content: flex-start;
+  padding-top: 14px;
+  animation: none;
+}
+
+.option.other {
+  border-style: dashed;
+}
+
+.option-en {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.option .option-he {
+  font-size: 0.85rem;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.speak-btn.mini-speak {
+  width: 32px;
+  height: 32px;
+  font-size: 0.85rem;
+  margin: -6px -4px -6px 0;
+  background: none;
+  border-color: transparent;
+}
+
+.option:disabled {
+  cursor: default;
+}
+
+.sentence-feedback {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sentence-feedback p {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
+.sentence-feedback .good {
+  color: var(--green);
+}
+
+.sentence-feedback .bad {
+  color: var(--red);
+}
+
+@keyframes shake {
+  25% {
+    transform: translateX(-6px);
+  }
+  50% {
+    transform: translateX(6px);
+  }
+  75% {
+    transform: translateX(-3px);
+  }
+}

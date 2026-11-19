@@ -33,8 +33,9 @@
   padding: 8px 10px;
   border-radius: 14px;
   border: 2px solid var(--border);
-  background: var(--surface);
+  background: var(--surface-solid);
   box-shadow: var(--shadow);
+  animation: card-in 0.3s ease-out backwards;
   font-size: 0.98rem;
   font-weight: 600;
   text-align: center;
@@ -55,12 +56,13 @@
   border-color: var(--accent);
   background: var(--accent-soft);
   transform: scale(1.03);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 22%, transparent);
 }
 
 /* כל זוג מקבל צבע משלו, זהה בשני הצדדים */
 .match-item.paired {
   border-color: var(--pc);
-  background: color-mix(in srgb, var(--pc) 16%, var(--surface));
+  background: color-mix(in srgb, var(--pc) 16%, var(--surface-solid));
 }
 .p0 { --pc: #6e56cf; }
 .p1 { --pc: #0090ff; }

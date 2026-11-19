@@ -27,16 +27,53 @@ export function pickVoice(lang, savedName) {
   );
 }
 
-/** מקריא טקסט. חייב לקרות בתגובה ללחיצה (דרישה של אייפון). */
-export function speak(text, lang, { voiceName = '', rate = 0.9 } = {}) {
-  if (!synth) return;
-  synth.cancel();
+function utterance(text, lang, voiceName, rate) {
   const u = new SpeechSynthesisUtterance(text);
   const voice = pickVoice(lang, voiceName);
   if (voice) u.voice = voice;
   u.lang = voice ? voice.lang : lang === 'he' ? 'he-IL' : 'en-US';
   u.rate = rate;
-  synth.speak(u);
+  return u;
+}
+
+// מונה הקראות: כשמתחילה הקראה חדשה, ההמשך של הקודמת (אחרי הצליל) מתבטל
+let session = 0;
+
+/** מקריא טקסט. חייב לקרות בתגובה ללחיצה (דרישה של אייפון). */
+export function speak(text, lang, { voiceName = '', rate = 0.9 } = {}) {
+  if (!synth) return;
+  session++;
+  synth.cancel();
+  synth.speak(utterance(text, lang, voiceName, rate));
+}
+
+/**
+ * מקריא משפט עם מילה חסרה: החלק שלפני ← צליל עדין ועצירה קצרה (במקום המילה) ← החלק שאחרי.
+ * @param {() => void} playGap משמיע את הצליל של המילה החסרה
+ */
+export function speakWithGap(before, after, { voiceName = '', rate = 0.9 } = {}, playGap = () => {}) {
+  if (!synth) return;
+  const my = ++session;
+  synth.cancel();
+  const rest = () => {
+    if (my !== session) return; // התחילה הקראה אחרת בינתיים
+    setTimeout(() => {
+      if (my !== session) return;
+      playGap();
+      if (after.trim()) {
+        setTimeout(() => {
+          if (my === session) synth.speak(utterance(after, 'en', voiceName, rate));
+        }, 380);
+      }
+    }, 80);
+  };
+  if (before.trim()) {
+    const u = utterance(before, 'en', voiceName, rate);
+    u.onend = rest;
+    synth.speak(u);
+  } else {
+    rest();
+  }
 }
 
 /** הקולות נטענים באיחור בחלק מהדפדפנים – מאזינים לעדכון */

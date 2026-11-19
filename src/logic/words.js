@@ -4,10 +4,64 @@ import words from '../data/words.json';
 import tags from '../data/tags.json';
 import topicsData from '../data/topics.json';
 
+// המילים מהוורד בלבד. במסכים משתמשים ב-words מה-context, שכולל גם מילים ופירושים שהמשתמש הוסיף.
 export const WORDS = words;
 export const WORDS_BY_ID = Object.fromEntries(words.map((w) => [w.id, w]));
 export const LEVELS = topicsData.levels; // { "1": "קל", ... }
-export const TOPICS = topicsData.topics; // { emotion: "רגשות ואופי", ... }
+export const TOPICS = { ...topicsData.topics, mine: 'המילים שלי' }; // { emotion: "רגשות ואופי", ... }
+
+/** "To Abandon " → { en: 'abandon', isVerb: true }. אנגלית תמיד באותיות קטנות. */
+export function normalizeEn(text) {
+  let en = String(text || '').trim().toLowerCase().replace(/\s+/g, ' ');
+  let isVerb = false;
+  if (en.startsWith('to ')) {
+    en = en.slice(3).trim();
+    isVerb = true;
+  }
+  return { en, isVerb };
+}
+
+/** "לנטוש, לזנוח ;לעזוב" → ['לנטוש', 'לזנוח', 'לעזוב'] */
+export function parseMeanings(text) {
+  return [...new Set(String(text || '').split(/[,;،\n]/).map((m) => m.trim()).filter(Boolean))];
+}
+
+/** מזהה למילה אישית – עם קידומת, כדי שלא יתנגש במילה מהוורד */
+export function customId(en) {
+  return `my-${en}`;
+}
+
+/**
+ * הרשימה המלאה: מילים מהוורד (עם פירושים נוספים שהמשתמש הוסיף) + המילים האישיות.
+ * extra = הפירושים שנוספו (כדי לסמן אותם ולאפשר למחוק).
+ */
+export function buildWords(customWords = {}, extraMeanings = {}) {
+  const withExtra = (w) => {
+    const extra = (extraMeanings[w.id]?.he || []).filter((m) => !w.he.includes(m));
+    return extra.length ? { ...w, he: [...w.he, ...extra], extra } : w;
+  };
+  const mine = Object.values(customWords)
+    .filter((w) => !w.deleted)
+    .map((w) => withExtra({ id: w.id, en: w.en, isVerb: Boolean(w.isVerb), he: w.he, custom: true }));
+  const base = words.map(withExtra);
+  if (!mine.length) return base;
+  return [...base, ...mine].sort((a, b) => a.en.localeCompare(b.en));
+}
+
+/** מחפש מילה קיימת לפי האנגלית (מתעלם מ-"to" ומאותיות גדולות) */
+export function findWord(list, text) {
+  const { en } = normalizeEn(text);
+  return en ? list.find((w) => w.en === en) || null : null;
+}
+
+/** מילים דומות (מתחילות באותן אותיות) – כדי לשים לב ל-abandoned מול abandon */
+export function similarWords(list, text, max = 3) {
+  const { en } = normalizeEn(text);
+  if (en.length < 3) return [];
+  return list
+    .filter((w) => w.en !== en && (w.en.startsWith(en) || (en.startsWith(w.en) && w.en.length >= 4)))
+    .slice(0, max);
+}
 
 /** "to abandon" לפעלים שסומנו ב-[to] */
 export function displayEn(word) {
@@ -16,7 +70,14 @@ export function displayEn(word) {
 
 /** התגים של מילה, כשהתיקון של המשתמש גובר על התיוג המקורי */
 export function getTags(id, tagOverrides = {}) {
-  return { ...tags[id], ...stripMeta(tagOverrides[id]) };
+  // מילה אישית: ברירת מחדל "בינוני" + "המילים שלי"
+  const base = tags[id] || { level: 2, topic: 'mine' };
+  return { ...base, ...stripMeta(tagOverrides[id]) };
+}
+
+/** התיוג המקורי (לפני תיקונים) */
+export function originalTags(id) {
+  return tags[id] || { level: 2, topic: 'mine' };
 }
 
 function stripMeta(o) {

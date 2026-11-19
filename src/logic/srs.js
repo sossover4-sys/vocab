@@ -40,6 +40,16 @@ export function demote(state, day, now = Date.now()) {
   return rate(state, next, day, now);
 }
 
+/**
+ * טעות במשחק (התאמה / השלמת משפט): הצבע לא משתנה – אותו קובע רק המשתמש.
+ * המילה רק חוזרת לחזרה כבר מחר (אם היא הייתה אמורה לחזור מאוחר יותר).
+ */
+export function reviewSoon(state, day, now = Date.now()) {
+  const tomorrow = addDays(day, 1);
+  if (!state || (state.due && state.due <= tomorrow)) return state;
+  return { ...state, due: tomorrow, updatedAt: now };
+}
+
 /** כמה מילים חדשות כבר נלמדו היום */
 export function newToday(wordStates, day) {
   return Object.values(wordStates).filter((s) => s.firstSeen === day).length;

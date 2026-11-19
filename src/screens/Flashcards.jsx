@@ -3,15 +3,19 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useApp } from '../AppContext.jsx';
-import { WORDS, WORDS_BY_ID, LEVELS, TOPICS, displayEn, filterWords } from '../logic/words.js';
+import { LEVELS, TOPICS, displayEn, filterWords } from '../logic/words.js';
 import { pickRound, summarize, newToday } from '../logic/srs.js';
 import { pickMatch } from '../logic/match.js';
 import { streakDays } from '../logic/streak.js';
 import { today } from '../logic/dates.js';
 import SpeakButton from '../components/SpeakButton.jsx';
-import ColorButtons from '../components/ColorButtons.jsx';
+import ColorButtons, { COLOR_LABELS } from '../components/ColorButtons.jsx';
 import Stepper from '../components/Stepper.jsx';
+import ThemeToggle from '../components/ThemeToggle.jsx';
+import Icon from '../components/Icon.jsx';
 import Match, { matchMeaning } from './Match.jsx';
+import Sentence from './Sentence.jsx';
+import { pickSentences, sentenceIds } from '../logic/sentences.js';
 
 const RANK = { red: 0, yellow: 1, green: 2 };
 
@@ -21,6 +25,8 @@ const MODES = [
   { id: 'mixed', label: 'מעורבב', hint: 'מכל המילים, כולל ירוקות' },
 ];
 
+const NO_SCOPE = { level: '', topic: '', color: '' };
+
 function greeting(hour) {
   if (hour >= 5 && hour < 12) return 'בוקר טוב';
   if (hour >= 12 && hour < 17) return 'צהריים טובים';
@@ -29,14 +35,16 @@ function greeting(hour) {
 }
 
 export default function Flashcards() {
-  const { progress, updateSettings } = useApp();
+  const { progress, words, wordsById, updateSettings } = useApp();
   const [round, setRound] = useState(null); // סבב כרטיסיות פעיל
   const [match, setMatch] = useState(null); // משחק התאמה פעיל: רשימת מילים
-  const [scope, setScope] = useState({ level: '', topic: '' });
+  const [sentences, setSentences] = useState(null); // משחק השלמת משפט פעיל
+  const [scope, setScope] = useState(NO_SCOPE);
+  const scoped = Boolean(scope.topic || scope.level || scope.color);
   const s = progress.settings;
 
   const day = today();
-  const poolIds = useMemo(() => filterWords(WORDS, scope, progress).map((w) => w.id), [scope, progress]);
+  const poolIds = useMemo(() => filterWords(words, scope, progress).map((w) => w.id), [words, scope, progress]);
 
   const startCards = () => {
     const ids = pickRound(poolIds, progress.words, { size: s.roundSize, dailyNew: s.dailyNew, mode: s.wordMode }, day);
@@ -51,11 +59,20 @@ export default function Flashcards() {
 
   const startMatch = () => {
     const ids = pickMatch(poolIds, progress.words, { n: s.matchPairs, mode: s.wordMode }, day, (id) =>
-      matchMeaning(WORDS_BY_ID[id]),
+      matchMeaning(wordsById[id]),
     );
     setMatch({ ids, key: Date.now() });
   };
 
+  const sentencePool = sentenceIds(poolIds);
+  const startSentences = () => {
+    const ids = pickSentences(poolIds, progress.words, { n: s.sentenceCount, dailyNew: s.dailyNew, mode: s.wordMode }, day);
+    setSentences({ ids, key: Date.now() });
+  };
+
+  if (sentences) {
+    return <Sentence key={sentences.key} ids={sentences.ids} onAgain={startSentences} onDone={() => setSentences(null)} />;
+  }
   if (match) {
     return <Match key={match.key} ids={match.ids} onAgain={startMatch} onDone={() => setMatch(null)} />;
   }
@@ -74,9 +91,14 @@ export default function Flashcards() {
   const streak = streakDays(progress.activity, day);
   const goalPct = Math.min(100, Math.round((doneToday / s.dailyGoal) * 100));
   const mode = MODES.find((m) => m.id === s.wordMode) || MODES[0];
+  const reversed = s.direction === 'he-en';
 
   return (
     <div className="practice">
+      <div className="topbar">
+        <span className="brand">אוצר מילים</span>
+        <ThemeToggle />
+      </div>
       <header className="hello">
         <div>
           <h1>{greeting(new Date().getHours())} 👋</h1>
@@ -132,6 +154,15 @@ export default function Flashcards() {
             <span><strong>{newLeft}</strong> חדשות להיום</span>
           </div>
         )}
+        <button
+          type="button"
+          className="ex-toggle"
+          onClick={() => updateSettings({ direction: reversed ? 'en-he' : 'he-en' })}
+          aria-label="החלפת כיוון הכרטיסיות"
+        >
+          <Icon name="swap" />
+          {reversed ? 'עברית ← אנגלית' : 'אנגלית ← עברית'}
+        </button>
         <div className="ex-actions">
           <Stepper label="כמה מילים" value={s.roundSize} min={4} max={20} onChange={(v) => updateSettings({ roundSize: v })} />
           <button type="button" className="btn ex-start" onClick={startCards} disabled={!canStart}>
@@ -161,11 +192,27 @@ export default function Flashcards() {
         </div>
       </section>
 
-      <details className="scope" open={Boolean(scope.topic || scope.level)}>
+      <section className="exercise sentence-ex">
+        <div className="ex-head">
+          <span className="ex-icon" aria-hidden="true">📝</span>
+          <div>
+            <h2>השלמת משפט</h2>
+            <p>משפט עם מילה חסרה ו-4 אפשרויות</p>
+          </div>
+        </div>
+        <div className="ex-actions">
+          <Stepper label="כמה משפטים" value={s.sentenceCount} min={5} max={20} onChange={(v) => updateSettings({ sentenceCount: v })} />
+          <button type="button" className="btn ex-start" onClick={startSentences} disabled={sentencePool.length === 0}>
+            שחק ←
+          </button>
+        </div>
+      </section>
+
+      <details className="scope" open={scoped}>
         <summary>
-          🎯 לפי נושא או רמה {(scope.topic || scope.level) && <span className="muted">· {poolIds.length} מילים</span>}
+          🎯 לפי נושא, רמה או צבע {scoped && <span className="muted">· {poolIds.length} מילים</span>}
         </summary>
-        <div className="tag-edit">
+        <div className="scope-filters">
           <select value={scope.topic} onChange={(e) => setScope((x) => ({ ...x, topic: e.target.value }))} aria-label="נושא">
             <option value="">כל הנושאים</option>
             {Object.entries(TOPICS).map(([k, v]) => (
@@ -178,17 +225,29 @@ export default function Flashcards() {
               <option key={k} value={k}>{v}</option>
             ))}
           </select>
+          <select value={scope.color} onChange={(e) => setScope((x) => ({ ...x, color: e.target.value }))} aria-label="צבע">
+            <option value="">כל הצבעים</option>
+            {['new', 'red', 'yellow', 'green'].map((c) => (
+              <option key={c} value={c}>{COLOR_LABELS[c]}</option>
+            ))}
+          </select>
         </div>
+        {scoped && (
+          <button type="button" className="link-btn" onClick={() => setScope(NO_SCOPE)}>
+            נקה סינון
+          </button>
+        )}
       </details>
     </div>
   );
 }
 
 function Round({ round, setRound, onQuit }) {
-  const { rateWord } = useApp();
+  const { rateWord, progress, wordsById } = useApp();
+  const reversed = progress.settings.direction === 'he-en';
   const [flipped, setFlipped] = useState(false);
   const id = round.queue[round.index];
-  const word = WORDS_BY_ID[id];
+  const word = wordsById[id];
 
   const answer = useCallback(
     (color) => {
@@ -230,7 +289,7 @@ function Round({ round, setRound, onQuit }) {
         <button type="button" className="link-btn" onClick={onQuit}>
           ✕ יציאה
         </button>
-        <span className="muted">
+        <span className="round-count" dir="ltr">
           {round.index + 1} / {total}
         </span>
       </div>
@@ -247,22 +306,41 @@ function Round({ round, setRound, onQuit }) {
         tabIndex={0}
         aria-label="הפוך כרטיס"
       >
-        <div className="flashcard-inner">
-          <div className="face front">
-            <span className="fc-en" dir="ltr" lang="en">{displayEn(word)}</span>
-            <SpeakButton text={displayEn(word)} lang="en" />
-            <span className="muted fc-hint">לחץ כדי לראות פירוש</span>
+        {reversed ? (
+          // כיוון הפוך: רואים עברית, צריך להיזכר באנגלית
+          <div className="flashcard-inner">
+            <div className="face front">
+              <ul className="fc-meanings big">
+                {word.he.map((m) => (
+                  <li key={m}>{m}</li>
+                ))}
+              </ul>
+              <span className="muted fc-hint">איך אומרים את זה באנגלית?</span>
+            </div>
+            <div className="face back">
+              <span className="fc-en" dir="ltr" lang="en">{displayEn(word)}</span>
+              <SpeakButton text={displayEn(word)} lang="en" />
+              <span className="fc-en-small">{word.he.join(', ')}</span>
+            </div>
           </div>
-          <div className="face back">
-            <span className="fc-en-small" dir="ltr" lang="en">{displayEn(word)}</span>
-            <ul className="fc-meanings">
-              {word.he.map((m) => (
-                <li key={m}>{m}</li>
-              ))}
-            </ul>
-            <SpeakButton text={word.he.join(', ')} lang="he" />
+        ) : (
+          <div className="flashcard-inner">
+            <div className="face front">
+              <span className="fc-en" dir="ltr" lang="en">{displayEn(word)}</span>
+              <SpeakButton text={displayEn(word)} lang="en" />
+              <span className="muted fc-hint">לחץ כדי לראות פירוש</span>
+            </div>
+            <div className="face back">
+              <span className="fc-en-small" dir="ltr" lang="en">{displayEn(word)}</span>
+              <ul className="fc-meanings">
+                {word.he.map((m) => (
+                  <li key={m}>{m}</li>
+                ))}
+              </ul>
+              <SpeakButton text={word.he.join(', ')} lang="he" />
+            </div>
           </div>
-        </div>
+        )}
       </div>
 
       <div className={`answer-area ${flipped ? 'show' : ''}`}>
@@ -270,7 +348,7 @@ function Round({ round, setRound, onQuit }) {
           <ColorButtons onPick={answer} />
         ) : (
           <button type="button" className="btn big" onClick={() => setFlipped(true)}>
-            הצג פירוש
+            {reversed ? 'הצג באנגלית' : 'הצג פירוש'}
           </button>
         )}
       </div>
@@ -279,6 +357,7 @@ function Round({ round, setRound, onQuit }) {
 }
 
 function Summary({ round, onAgain, onDone }) {
+  const { wordsById } = useApp();
   const results = Object.entries(round.results);
   const count = (c) => results.filter(([, r]) => r === c).length;
   const improved = results.filter(([id, r]) => round.before[id] !== 'new' && RANK[r] > RANK[round.before[id]]).length;
@@ -298,8 +377,8 @@ function Summary({ round, onAgain, onDone }) {
         {results.map(([id, r]) => (
           <li key={id}>
             <span className={`dot ${r}`} />
-            <span dir="ltr" lang="en">{displayEn(WORDS_BY_ID[id])}</span>
-            <span className="muted">{WORDS_BY_ID[id].he[0]}</span>
+            <span dir="ltr" lang="en">{displayEn(wordsById[id])}</span>
+            <span className="muted">{wordsById[id].he[0]}</span>
           </li>
         ))}
       </ul>

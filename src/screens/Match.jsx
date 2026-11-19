@@ -3,7 +3,7 @@
 
 import { useMemo, useRef, useState } from 'react';
 import { useApp } from '../AppContext.jsx';
-import { WORDS_BY_ID, displayEn } from '../logic/words.js';
+import { displayEn } from '../logic/words.js';
 import { newMatchRound, checkPairs } from '../logic/match.js';
 
 /** הפירוש שמוצג במשחק: הראשון בלבד, כדי שייכנס בכפתור בטלפון */
@@ -12,7 +12,7 @@ export function matchMeaning(word) {
 }
 
 export default function Match({ ids, onAgain, onDone }) {
-  const { matchResult } = useApp();
+  const { matchResult, celebrate, wordsById } = useApp();
   const columns = useMemo(() => newMatchRound(ids), [ids]);
   const [selected, setSelected] = useState(null); // { side: 'en' | 'he', id }
   const [pairs, setPairs] = useState([]); // [{ en, he }] לפי סדר יצירה – המספר והצבע של כל זוג
@@ -46,6 +46,7 @@ export default function Match({ ids, onAgain, onDone }) {
     if (!reported.current) {
       reported.current = true;
       matchResult(ids.length, r.wrong);
+      if (r.wrong.length === 0) celebrate('perfect');
     }
   };
 
@@ -78,10 +79,10 @@ export default function Match({ ids, onAgain, onDone }) {
             return (
               <button key={id} type="button" className={`match-item ${st.cls}`} onClick={() => tap('en', id)}>
                 {st.num && <span className="pair-num">{st.num}</span>}
-                <span className="match-text">{displayEn(WORDS_BY_ID[id])}</span>
+                <span className="match-text">{displayEn(wordsById[id])}</span>
                 {result && st.cls === 'wrong' && (
                   <span className="correct-answer" dir="rtl" lang="he">
-                    ✓ {matchMeaning(WORDS_BY_ID[id])}
+                    ✓ {matchMeaning(wordsById[id])}
                   </span>
                 )}
               </button>
@@ -94,7 +95,7 @@ export default function Match({ ids, onAgain, onDone }) {
             return (
               <button key={id} type="button" className={`match-item ${st.cls}`} onClick={() => tap('he', id)}>
                 {st.num && <span className="pair-num">{st.num}</span>}
-                <span className="match-text">{matchMeaning(WORDS_BY_ID[id])}</span>
+                <span className="match-text">{matchMeaning(wordsById[id])}</span>
               </button>
             );
           })}
@@ -108,7 +109,7 @@ export default function Match({ ids, onAgain, onDone }) {
             {result.correct.length} מתוך {ids.length} נכון
           </p>
           {result.wrong.length > 0 && (
-            <p className="muted hint">המילים שטעית בהן ירדו צבע אחד ויחזרו אליך מוקדם יותר.</p>
+            <p className="muted hint">המילים שטעית בהן יחזרו לחזרה מחר. הצבע לא משתנה – אותו אתה קובע בכרטיסיות.</p>
           )}
           <button type="button" className="btn primary big" onClick={onAgain}>
             משחק נוסף

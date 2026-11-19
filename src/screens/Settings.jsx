@@ -7,6 +7,13 @@ import { speak, isSupported } from '../logic/speech.js';
 import { useVoices } from '../logic/useVoices.js';
 import { today } from '../logic/dates.js';
 import Stepper from '../components/Stepper.jsx';
+import { playSound } from '../logic/sound.js';
+
+const THEMES = [
+  { id: 'auto', label: 'אוטומטי' },
+  { id: 'light', label: '☀️ בהיר' },
+  { id: 'dark', label: '🌙 כהה' },
+];
 
 export default function Settings() {
   const { progress, updateSettings, importBackup, markBackedUp, resetAll } = useApp();
@@ -63,10 +70,44 @@ export default function Settings() {
     <>
       <h1>הגדרות</h1>
 
+      <h2>מראה</h2>
+      <div className="card settings-card">
+        <div className="segmented" role="radiogroup" aria-label="מצב תצוגה">
+          {THEMES.map((t) => (
+            <button
+              key={t.id}
+              type="button"
+              role="radio"
+              aria-checked={s.theme === t.id}
+              className={s.theme === t.id ? 'on' : ''}
+              onClick={() => updateSettings({ theme: t.id })}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+        <label className="setting-row switch-row">
+          <span>
+            צלילים (חגיגות ותשובות)
+            <small className="muted"> (מתג השקט באייפון משתיק אותם)</small>
+          </span>
+          <input
+            type="checkbox"
+            className="switch"
+            checked={s.sound}
+            onChange={(e) => {
+              updateSettings({ sound: e.target.checked });
+              if (e.target.checked) playSound('perfect');
+            }}
+          />
+        </label>
+      </div>
+
       <h2>לימוד</h2>
       <div className="card settings-card">
         <SettingStepper label="מילים בכל סבב כרטיסיות" value={s.roundSize} min={4} max={20} onChange={(v) => updateSettings({ roundSize: v })} />
         <SettingStepper label="זוגות במשחק התאמה" value={s.matchPairs} min={4} max={10} onChange={(v) => updateSettings({ matchPairs: v })} />
+        <SettingStepper label="משפטים במשחק השלמת משפט" value={s.sentenceCount} min={5} max={20} onChange={(v) => updateSettings({ sentenceCount: v })} />
         <SettingStepper label="מילים חדשות ביום" value={s.dailyNew} min={0} max={50} step={5} onChange={(v) => updateSettings({ dailyNew: v })} />
         <SettingStepper label="יעד יומי (תרגולים)" value={s.dailyGoal} min={10} max={100} step={5} onChange={(v) => updateSettings({ dailyGoal: v })} />
       </div>

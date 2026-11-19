@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { AppProvider } from './AppContext.jsx';
 import BottomNav from './components/BottomNav.jsx';
 import WordSheet from './components/WordSheet.jsx';
+import Celebrate from './components/Celebrate.jsx';
 import Flashcards from './screens/Flashcards.jsx';
 import Words from './screens/Words.jsx';
 import Progress from './screens/Progress.jsx';
@@ -33,11 +34,12 @@ export default function App() {
 
   return (
     <AppProvider>
-      <main className="screen">
+      <main className="screen" key={tab}>
         <Screen onNavigate={changeTab} />
       </main>
       <BottomNav tab={tab} onChange={changeTab} />
       <WordSheet />
+      <Celebrate />
     </AppProvider>
   );
 }

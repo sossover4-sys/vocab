@@ -1,8 +1,10 @@
+import Icon from './Icon.jsx';
+
 export const TABS = [
-  { id: 'cards', label: 'תרגול', icon: '🎯' },
-  { id: 'words', label: 'מילים', icon: '📖' },
-  { id: 'progress', label: 'התקדמות', icon: '📊' },
-  { id: 'settings', label: 'הגדרות', icon: '⚙️' },
+  { id: 'cards', label: 'תרגול', icon: 'practice' },
+  { id: 'words', label: 'מילים', icon: 'words' },
+  { id: 'progress', label: 'התקדמות', icon: 'progress' },
+  { id: 'settings', label: 'הגדרות', icon: 'settings' },
 ];
 
 export default function BottomNav({ tab, onChange }) {
@@ -16,7 +18,7 @@ export default function BottomNav({ tab, onChange }) {
           aria-current={tab === t.id ? 'page' : undefined}
           onClick={() => onChange(t.id)}
         >
-          <span className="nav-icon" aria-hidden="true">{t.icon}</span>
+          <Icon name={t.icon} className="nav-icon" />
           <span>{t.label}</span>
         </button>
       ))}

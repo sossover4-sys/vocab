@@ -2,7 +2,6 @@
 
 import { useMemo, useState } from 'react';
 import { useApp } from '../AppContext.jsx';
-import { WORDS } from '../logic/words.js';
 import { summarize } from '../logic/srs.js';
 import { streakDays, lastDays } from '../logic/streak.js';
 import { today, daysBetween, addDays } from '../logic/dates.js';
@@ -14,13 +13,14 @@ const DAY_NAMES = ['א׳', 'ב׳', 'ג׳', 'ד׳', 'ה׳', 'ו׳', 'ש׳'];
 const fmt = (n) => n.toLocaleString('he-IL');
 
 export default function Progress({ onNavigate }) {
-  const { progress, openWord } = useApp();
+  const { progress, words, openWord } = useApp();
   const [color, setColor] = useState('red');
+  const [info, setInfo] = useState(false);
   const day = today();
-  const ids = useMemo(() => WORDS.map((w) => w.id), []);
+  const ids = useMemo(() => words.map((w) => w.id), [words]);
   const counts = summarize(ids, progress.words, day);
   const dueTomorrow = summarize(ids, progress.words, addDays(day, 1)).due;
-  const total = WORDS.length;
+  const total = words.length;
   const learned = total - counts.new;
   const greenPct = Math.round((counts.green / total) * 100);
   const streak = streakDays(progress.activity, day);
@@ -37,8 +37,8 @@ export default function Progress({ onNavigate }) {
   }).join(', ');
 
   const list = useMemo(
-    () => WORDS.filter((w) => (progress.words[w.id]?.color || 'new') === color),
-    [progress.words, color],
+    () => words.filter((w) => (progress.words[w.id]?.color || 'new') === color),
+    [words, progress.words, color],
   );
 
   const needsBackup =
@@ -86,12 +86,18 @@ export default function Progress({ onNavigate }) {
           <strong>{progress.activity?.[day] || 0}</strong>
           <small>תרגולים היום</small>
         </div>
-        <div className="mini">
+        <button type="button" className="mini" onClick={() => setInfo((v) => !v)} aria-expanded={info}>
           <span aria-hidden="true">📅</span>
           <strong>{dueTomorrow}</strong>
-          <small>לחזרה מחר</small>
-        </div>
+          <small>מילים יחזרו מחר ⓘ</small>
+        </button>
       </div>
+      {info && (
+        <p className="mini-info">
+          כל מילה שסימנת חוזרת אליך אחרי זמן מסוים: אדומה – מחר, צהובה – בעוד יומיים, ירוקה – בעוד 4
+          ימים ויותר (וכל פעם שוב ירוק – הזמן מתארך). זה המספר של המילים שיגיעו לחזרה מחר בתרגול ה"חכם".
+        </p>
+      )}
 
       <div className="card week">
         <h2>7 הימים האחרונים</h2>

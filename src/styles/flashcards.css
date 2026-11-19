@@ -2,7 +2,24 @@
 .practice {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -6px;
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  background: var(--grad);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 .hello {
@@ -14,6 +31,7 @@
 
 .hello h1 {
   margin: 0;
+  font-size: 1.9rem;
 }
 
 .hello p {
@@ -29,28 +47,29 @@
 .goal-ring {
   --pct: 0;
   flex: none;
-  width: 72px;
-  height: 72px;
+  width: 78px;
+  height: 78px;
   border-radius: 50%;
   background: conic-gradient(var(--green) calc(var(--pct) * 1%), var(--surface-2) 0);
   display: grid;
   place-items: center;
+  box-shadow: var(--shadow);
 }
 
 .goal-ring > div {
-  width: 56px;
-  height: 56px;
+  width: 62px;
+  height: 62px;
   border-radius: 50%;
-  background: var(--bg);
+  background: var(--surface-solid);
   display: flex;
   align-items: baseline;
   justify-content: center;
-  padding-top: 15px;
+  padding-top: 18px;
   direction: ltr;
 }
 
 .goal-ring strong {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
 }
 
 .goal-ring span {
@@ -59,7 +78,7 @@
 }
 
 .goal-done {
-  margin: -8px 0 0;
+  margin: -10px 0 0;
   font-weight: 700;
   color: var(--green);
 }
@@ -69,46 +88,58 @@
   margin: 0 0 8px;
 }
 
-.segmented {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 4px;
-  padding: 4px;
-  background: var(--surface-2);
-  border-radius: 16px;
-}
-
-.segmented button {
-  min-height: 44px;
-  border: none;
-  border-radius: 12px;
-  background: none;
-  font-weight: 600;
-  color: var(--muted);
-  transition: background 0.15s, color 0.15s;
-}
-
-.segmented button.on {
-  background: var(--surface);
-  color: var(--text);
-  box-shadow: var(--shadow);
-}
-
-/* כרטיסי התרגילים */
+/* כרטיסי התרגילים – גרדיאנט, זוהר ועיגולי רקע */
 .exercise {
-  --ex: #5b5bd6; /* קבוע גם במצב כהה, כדי שהטקסט הלבן יהיה קריא */
-  border-radius: 22px;
-  padding: 18px;
+  --ex: var(--grad-cards);
+  --ex-solid: #6d5dfc;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border-radius: 26px;
+  padding: 20px;
   color: #fff;
   background: var(--ex);
-  box-shadow: 0 6px 20px color-mix(in srgb, var(--ex) 35%, transparent);
+  box-shadow: 0 10px 30px color-mix(in srgb, var(--ex-solid) 40%, transparent);
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
+  animation: rise 0.4s ease-out backwards;
+}
+
+.exercise::before,
+.exercise::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 0.12);
+}
+
+.exercise::before {
+  width: 180px;
+  height: 180px;
+  inset-inline-start: -60px;
+  top: -70px;
+}
+
+.exercise::after {
+  width: 110px;
+  height: 110px;
+  inset-inline-end: -30px;
+  bottom: -50px;
+  background: rgb(255 255 255 / 0.08);
 }
 
 .match-ex {
-  --ex: #0f8a7e;
+  --ex: var(--grad-match);
+  --ex-solid: #0ea5a0;
+  animation-delay: 0.06s;
+}
+
+.sentence-ex {
+  --ex: var(--grad-sentence);
+  --ex-solid: #f76b15;
+  animation-delay: 0.12s;
 }
 
 .ex-head {
@@ -120,21 +151,25 @@
 .ex-head h2 {
   margin: 0;
   color: inherit;
-  font-size: 1.3rem;
+  font-size: 1.35rem;
+  font-weight: 800;
 }
 
 .ex-head p {
   margin: 2px 0 0;
   font-size: 0.9rem;
-  opacity: 0.9;
+  opacity: 0.92;
 }
 
 .ex-icon {
   flex: none;
-  width: 54px;
-  height: 54px;
-  border-radius: 16px;
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
   background: rgb(255 255 255 / 0.2);
+  border: 1px solid rgb(255 255 255 / 0.3);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
   display: grid;
   place-items: center;
   font-size: 1.8rem;
@@ -149,6 +184,7 @@
 
 .ex-stats span {
   background: rgb(255 255 255 / 0.18);
+  border: 1px solid rgb(255 255 255 / 0.2);
   border-radius: 999px;
   padding: 4px 12px;
 }
@@ -176,18 +212,37 @@
   min-height: 52px;
   border: none;
   background: #fff;
-  color: var(--ex);
+  color: var(--ex-solid);
   font-size: 1.1rem;
   font-weight: 800;
-  transition: transform 0.12s;
+  box-shadow: 0 6px 16px rgb(0 0 0 / 0.15);
 }
 
-.btn.ex-start:active {
-  transform: scale(0.96);
+/* מתג קטן בתוך כרטיס תרגיל (למשל כיוון אנגלית/עברית) */
+.ex-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  min-height: 44px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgb(255 255 255 / 0.35);
+  background: rgb(255 255 255 / 0.16);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.92rem;
+}
+
+.ex-toggle svg {
+  width: 18px;
+  height: 18px;
 }
 
 .scope {
   background: var(--surface);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 4px 14px;
@@ -203,18 +258,24 @@
 }
 
 .scope[open] {
-  padding-bottom: 14px;
+  padding-bottom: 10px;
 }
 
-@keyframes flicker {
-  50% {
-    transform: scale(1.15) rotate(-6deg);
-  }
+.scope-filters {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.scope-filters select {
+  min-width: 0;
+  font-size: 0.85rem;
+  color: var(--text);
 }
 
 .hint {
   font-size: 0.9rem;
-  margin: 4px 0 0;
+  margin: 6px 0 0;
 }
 
 /* סבב */
@@ -224,18 +285,28 @@
   align-items: center;
 }
 
+.round-count {
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 2px 12px;
+}
+
 .round-progress {
-  height: 6px;
+  height: 8px;
   background: var(--surface-2);
   border-radius: 999px;
   overflow: hidden;
-  margin: 4px 0 16px;
+  margin: 6px 0 18px;
 }
 
 .round-progress div {
   height: 100%;
-  background: var(--accent);
-  transition: width 0.3s;
+  background: var(--grad);
+  border-radius: 999px;
+  transition: width 0.35s ease;
 }
 
 /* כרטיס שמסתובב (תלת-ממד) */
@@ -244,13 +315,14 @@
   height: min(52vh, 380px);
   cursor: pointer;
   outline: none;
+  animation: card-in 0.3s ease-out;
 }
 
 .flashcard-inner {
   position: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.45s cubic-bezier(0.2, 0.7, 0.3, 1);
+  transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.3, 1);
   transform-style: preserve-3d;
 }
 
@@ -263,10 +335,10 @@
   inset: 0;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  background: var(--surface);
+  background: var(--surface-solid);
   border: 1px solid var(--border);
-  border-radius: 20px;
-  box-shadow: var(--shadow);
+  border-radius: 28px;
+  box-shadow: var(--shadow-lg);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -274,16 +346,26 @@
   gap: 16px;
   padding: 20px;
   text-align: center;
+  overflow: hidden;
+}
+
+/* פס צבעוני דק בראש הכרטיס */
+.face::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  inset-inline: 0;
+  height: 5px;
+  background: var(--grad);
 }
 
 .face.back {
   transform: rotateY(180deg);
-  background: var(--surface);
 }
 
 .fc-en {
-  font-size: clamp(1.8rem, 9vw, 2.6rem);
-  font-weight: 700;
+  font-size: clamp(1.9rem, 9vw, 2.7rem);
+  font-weight: 800;
   overflow-wrap: anywhere;
 }
 
@@ -309,14 +391,21 @@
 }
 
 .fc-meanings li {
-  background: var(--surface-2);
+  background: var(--accent-soft);
   border-radius: 999px;
   padding: 6px 14px;
   font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* כרטיס הפוך: הצד הקדמי מציג עברית גדולה */
+.fc-meanings.big li {
+  font-size: 1.35rem;
+  font-weight: 700;
 }
 
 .answer-area {
-  margin-top: 16px;
+  margin-top: 18px;
 }
 
 /* סיכום */
@@ -328,8 +417,8 @@
 }
 
 .summary-emoji {
-  font-size: 3.5rem;
-  animation: pop 0.4s ease-out;
+  font-size: 3.8rem;
+  animation: pop 0.45s ease-out;
 }
 
 .summary h1 {
@@ -345,8 +434,8 @@
 
 .pill {
   border-radius: 999px;
-  padding: 4px 14px;
-  font-weight: 600;
+  padding: 5px 14px;
+  font-weight: 700;
 }
 
 .pill.green {
@@ -365,15 +454,18 @@
   margin: 8px 0;
   text-align: start;
   background: var(--surface);
+  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(16px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  overflow: hidden;
 }
 
 .summary-list li {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 8px 14px;
+  padding: 10px 14px;
 }
 
 .summary-list li + li {
@@ -387,6 +479,26 @@
 
 .btn.ghost {
   background: none;
+}
+
+@keyframes flicker {
+  50% {
+    transform: scale(1.15) rotate(-6deg);
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.98);
+  }
+}
+
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.97);
+  }
 }
 
 @keyframes pop {
