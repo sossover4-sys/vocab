@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import { useApp } from '../AppContext.jsx';
 import { summarize } from '../logic/srs.js';
 import { streakDays, lastDays } from '../logic/streak.js';
-import { today, daysBetween, addDays } from '../logic/dates.js';
+import { today, addDays } from '../logic/dates.js';
 import { COLOR_LABELS } from '../components/ColorButtons.jsx';
 import { WordList } from './Words.jsx';
 
@@ -12,7 +12,7 @@ const ORDER = ['green', 'yellow', 'red', 'new'];
 const DAY_NAMES = ['א׳', 'ב׳', 'ג׳', 'ד׳', 'ה׳', 'ו׳', 'ש׳'];
 const fmt = (n) => n.toLocaleString('he-IL');
 
-export default function Progress({ onNavigate }) {
+export default function Progress() {
   const { progress, words, openWord } = useApp();
   const [color, setColor] = useState('red');
   const [info, setInfo] = useState(false);
@@ -21,7 +21,6 @@ export default function Progress({ onNavigate }) {
   const counts = summarize(ids, progress.words, day);
   const dueTomorrow = summarize(ids, progress.words, addDays(day, 1)).due;
   const total = words.length;
-  const learned = total - counts.new;
   const greenPct = Math.round((counts.green / total) * 100);
   const streak = streakDays(progress.activity, day);
   const week = lastDays(progress.activity, day, 7);
@@ -41,21 +40,9 @@ export default function Progress({ onNavigate }) {
     [words, progress.words, color],
   );
 
-  const needsBackup =
-    learned > 0 && (!progress.lastBackup || daysBetween(progress.lastBackup, day) >= 7);
-
   return (
     <>
       <h1>התקדמות</h1>
-
-      {needsBackup && (
-        <div className="banner">
-          <span>{progress.lastBackup ? 'עבר שבוע מהגיבוי האחרון.' : 'עוד לא גיבית את ההתקדמות.'}</span>
-          <button type="button" className="btn" onClick={() => onNavigate('settings')}>
-            לגיבוי
-          </button>
-        </div>
-      )}
 
       <div className="card hero">
         <div className="big-ring" style={{ background: `conic-gradient(${stops})` }} role="img"

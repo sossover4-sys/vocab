@@ -107,7 +107,7 @@ export default function Settings() {
       <div className="card settings-card">
         <SettingStepper label="מילים בכל סבב כרטיסיות" value={s.roundSize} min={4} max={20} onChange={(v) => updateSettings({ roundSize: v })} />
         <SettingStepper label="זוגות במשחק התאמה" value={s.matchPairs} min={4} max={10} onChange={(v) => updateSettings({ matchPairs: v })} />
-        <SettingStepper label="משפטים במשחק השלמת משפט" value={s.sentenceCount} min={5} max={20} onChange={(v) => updateSettings({ sentenceCount: v })} />
+        <SettingStepper label="משפטים במשחק השלמת משפטים" value={s.sentenceCount} min={5} max={20} onChange={(v) => updateSettings({ sentenceCount: v })} />
         <SettingStepper label="מילים חדשות ביום" value={s.dailyNew} min={0} max={50} step={5} onChange={(v) => updateSettings({ dailyNew: v })} />
         <SettingStepper label="יעד יומי (תרגולים)" value={s.dailyGoal} min={10} max={100} step={5} onChange={(v) => updateSettings({ dailyGoal: v })} />
       </div>

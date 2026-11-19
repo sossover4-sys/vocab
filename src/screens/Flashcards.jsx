@@ -196,7 +196,7 @@ export default function Flashcards() {
         <div className="ex-head">
           <span className="ex-icon" aria-hidden="true">📝</span>
           <div>
-            <h2>השלמת משפט</h2>
+            <h2>השלמת משפטים</h2>
             <p>משפט עם מילה חסרה ו-4 אפשרויות</p>
           </div>
         </div>
