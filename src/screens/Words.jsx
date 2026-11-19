@@ -5,6 +5,7 @@ import { useApp } from '../AppContext.jsx';
 import { LEVELS, TOPICS, displayEn, filterWords } from '../logic/words.js';
 import { COLOR_LABELS } from '../components/ColorButtons.jsx';
 import AddWord from '../components/AddWord.jsx';
+import Icon from '../components/Icon.jsx';
 import { speak } from '../logic/speech.js';
 import { useVoices } from '../logic/useVoices.js';
 
@@ -113,7 +114,7 @@ export function WordList({ words, progress, onOpen }) {
                 aria-label={`השמע ${displayEn(w)}`}
                 onClick={() => speak(displayEn(w), 'en', { rate: speechRate, voiceName: voiceEn })}
               >
-                🔊
+                <Icon name="speaker" />
               </button>
             )}
             <button type="button" className="word-row" onClick={() => onOpen(w.id)}>

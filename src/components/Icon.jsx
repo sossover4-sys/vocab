@@ -37,6 +37,16 @@ const PATHS = {
     </>
   ),
   moon: <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />,
+  plus: <path d="M12 5v14M5 12h14" />,
+  minus: <path d="M5 12h14" />,
+  close: <path d="M6 6l12 12M18 6 6 18" />,
+  // רמקול עם גלי קול – במקום האמוג'י 🔊, שבאייפון לא יושב באמצע
+  speaker: (
+    <>
+      <path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor" />
+      <path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" />
+    </>
+  ),
   swap: (
     <>
       <path d="M7 4 3 8l4 4M3 8h14" />

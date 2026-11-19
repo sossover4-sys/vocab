@@ -3,6 +3,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useApp } from '../AppContext.jsx';
+import Icon from './Icon.jsx';
 import { displayEn, findWord, normalizeEn, parseMeanings, similarWords } from '../logic/words.js';
 
 const HEBREW = /[֐-׿]/;
@@ -49,7 +50,7 @@ export default function AddWord({ initial = '', onClose, onOpenWord }) {
     <div className="sheet-backdrop" onClick={onClose}>
       <form className="sheet add-word" role="dialog" aria-modal="true" aria-label="הוספת מילה" onClick={(e) => e.stopPropagation()} onSubmit={save}>
         <button type="button" className="sheet-close" aria-label="סגור" onClick={onClose}>
-          ✕
+          <Icon name="close" />
         </button>
         <h2>הוספת מילה</h2>
         <p className="muted small">ראית מילה שאין באפליקציה? הוסף אותה – היא תיכנס לתרגול כמו כל מילה אחרת.</p>

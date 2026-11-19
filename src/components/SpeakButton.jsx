@@ -1,6 +1,7 @@
 import { speak } from '../logic/speech.js';
 import { useVoices } from '../logic/useVoices.js';
 import { useApp } from '../AppContext.jsx';
+import Icon from './Icon.jsx';
 
 /** כפתור רמקול. אם אין במכשיר קול לשפה – לא מוצג בכלל. */
 export default function SpeakButton({ text, lang, className = '' }) {
@@ -19,7 +20,7 @@ export default function SpeakButton({ text, lang, className = '' }) {
         speak(text, lang, { rate: speechRate, voiceName: lang === 'he' ? voiceHe : voiceEn });
       }}
     >
-      🔊
+      <Icon name="speaker" />
     </button>
   );
 }

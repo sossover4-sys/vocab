@@ -334,13 +334,55 @@ textarea:focus {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  font-size: 1.15rem;
   flex: none;
   transition: transform 0.12s;
 }
 
 .speak-btn:active {
   transform: scale(0.92);
+}
+
+/* כפתורים עגולים עם אייקון: באייפון ספארי מוסיף ריפוד ועיצוב משלו שמזיז את התוכן הצידה.
+   מאפסים הכול וממרכזים בעזרת grid – כך האייקון יושב בדיוק באמצע בכל מכשיר. */
+.speak-btn,
+.icon-btn,
+.stepper button,
+.row-speak,
+.sheet-close,
+.chip-x {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  line-height: 1;
+  color: inherit;
+}
+
+.speak-btn {
+  color: var(--accent);
+}
+
+.speak-btn svg,
+.row-speak svg {
+  width: 20px;
+  height: 20px;
+}
+
+.stepper button svg {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2.4;
+}
+
+.sheet-close svg {
+  width: 18px;
+  height: 18px;
+}
+
+.chip-x svg {
+  width: 12px;
+  height: 12px;
 }
 
 /* סרגל תחתון – "גלולה" צפה מזכוכית */

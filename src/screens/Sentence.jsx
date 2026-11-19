@@ -6,6 +6,7 @@ import { useApp } from '../AppContext.jsx';
 import { makeQuestion, splitSentence } from '../logic/sentences.js';
 import { displayEn } from '../logic/words.js';
 import SpeakButton from '../components/SpeakButton.jsx';
+import Icon from '../components/Icon.jsx';
 import { speakWithGap } from '../logic/speech.js';
 import { playSound } from '../logic/sound.js';
 import { useVoices } from '../logic/useVoices.js';
@@ -105,7 +106,7 @@ export default function Sentence({ ids, onAgain, onDone }) {
               aria-label="השמע את המשפט"
               onClick={() => speakWithGap(before, after, { rate: speechRate, voiceName: voiceEn }, () => playSound('gap'))}
             >
-              🔊
+              <Icon name="speaker" />
             </button>
           )
         )}

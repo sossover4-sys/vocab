@@ -159,10 +159,15 @@
 .speak-btn.mini-speak {
   width: 32px;
   height: 32px;
-  font-size: 0.85rem;
   margin: -6px -4px -6px 0;
   background: none;
   border-color: transparent;
+  color: var(--accent);
+}
+
+.speak-btn.mini-speak svg {
+  width: 16px;
+  height: 16px;
 }
 
 .option:disabled {

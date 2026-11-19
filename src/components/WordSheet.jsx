@@ -5,6 +5,7 @@ import { useApp } from '../AppContext.jsx';
 import { LEVELS, TOPICS, displayEn, getTags, originalTags, parseMeanings } from '../logic/words.js';
 import SpeakButton from './SpeakButton.jsx';
 import ColorButtons from './ColorButtons.jsx';
+import Icon from './Icon.jsx';
 
 const HEBREW = /[֐-׿]/;
 
@@ -54,7 +55,7 @@ export default function WordSheet() {
     <div className="sheet-backdrop" onClick={() => openWord(null)}>
       <div className="sheet" role="dialog" aria-modal="true" onClick={(e) => e.stopPropagation()}>
         <button type="button" className="sheet-close" aria-label="סגור" onClick={() => openWord(null)}>
-          ✕
+          <Icon name="close" />
         </button>
 
         <div className="sheet-en">
@@ -69,7 +70,7 @@ export default function WordSheet() {
               {m}
               {extra.includes(m) && (
                 <button type="button" className="chip-x" aria-label={`מחק את הפירוש ${m}`} onClick={() => removeMeaning(word.id, m)}>
-                  ✕
+                  <Icon name="close" />
                 </button>
               )}
             </li>

@@ -7,6 +7,7 @@ import { speak, isSupported } from '../logic/speech.js';
 import { useVoices } from '../logic/useVoices.js';
 import { today } from '../logic/dates.js';
 import Stepper from '../components/Stepper.jsx';
+import Icon from '../components/Icon.jsx';
 import { playSound } from '../logic/sound.js';
 
 const THEMES = [
@@ -196,7 +197,7 @@ function VoicePicker({ label, voices, value, onChange, onTest, emptyText = 'אי
         ))}
       </select>
       <button type="button" className="speak-btn" aria-label={`בדיקת ${label}`} onClick={onTest}>
-        🔊
+        <Icon name="speaker" />
       </button>
     </div>
   );
